@@ -1,0 +1,106 @@
+[
+    {
+        "norwegian": "en familie",
+        "english": "a family"
+    },
+    {
+        "norwegian": "et barn ",
+        "english": "a child"
+    },
+    {
+        "norwegian": "ei mor ",
+        "english": "a mother"
+    },
+    {
+        "norwegian": "en far ",
+        "english": "a father"
+    },
+    {
+        "norwegian": "foreldre ",
+        "english": "parents"
+    },
+    {
+        "norwegian": "ei datter",
+        "english": "a daughter"
+    },
+    {
+        "norwegian": "en sønn",
+        "english": "a son"
+    },
+    {
+        "norwegian": "ei søster ",
+        "english": "a sister"
+    },
+    {
+        "norwegian": "en bror ",
+        "english": "a brother"
+    },
+    {
+        "norwegian": "søsken",
+        "english": "siblings"
+    },
+    {
+        "norwegian": "et enebarn",
+        "english": "an only child"
+    },
+    {
+        "norwegian": "ei tante ",
+        "english": "an aunt"
+    },
+    {
+        "norwegian": "en onkel",
+        "english": "an uncle"
+    },
+    {
+        "norwegian": "ei kusine",
+        "english": "a cousin (female)"
+    },
+    {
+        "norwegian": "en fetter ",
+        "english": "a cousin (male)"
+    },
+    {
+        "norwegian": "et søskenbarn ",
+        "english": "a cousin (m. or f.)"
+    },
+    {
+        "norwegian": "en nevø ",
+        "english": "a nephew"
+    },
+    {
+        "norwegian": "ei niese",
+        "english": "a niece"
+    },
+    {
+        "norwegian": "ei bestemor",
+        "english": "a grandmother"
+    },
+    {
+        "norwegian": "ei farmor ",
+        "english": "a paternal grandmother"
+    },
+    {
+        "norwegian": "ei mormor",
+        "english": "a maternal grandmother"
+    },
+    {
+        "norwegian": "en bestefar",
+        "english": "a grandfather"
+    },
+    {
+        "norwegian": "en farfar ",
+        "english": "a paternal grandfather"
+    },
+    {
+        "norwegian": "en morfar",
+        "english": "a maternal grandfather"
+    },
+    {
+        "norwegian": "besteforeldre ",
+        "english": "grandparents"
+    },
+    {
+        "norwegian": "et barnebarn",
+        "english": "a grandchild"
+    }
+]

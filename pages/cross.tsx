@@ -1,30 +1,16 @@
 import * as React from 'react'
-import { Container, Box, Text, Button, VStack, HStack, Tooltip, Tag, Flex, useToast, Wrap, Spacer} from '@chakra-ui/react'
-import Header from './components/header'
-import { useStateWithLocalStorage } from './lib/hooks'
-import { SessionContext, SetSessionContext } from './lib/contexts'
-import Head from 'next/head'
+import { Container, Box, Text, Button, VStack, HStack, Tooltip, Tag, Flex, useToast, Wrap, Spacer } from '@chakra-ui/react'
+import { useStateWithLocalStorage } from '../lib/hooks'
+import { SessionContext, SetSessionContext } from '../lib/contexts'
+import Word from '@/type/word'
 
-const all_chapter = [
-  "chapter1.json",
-  "chapter2.json",
-  "chapter3.json",
-  "chapter4.json",
-  "family.json",
-  "ordinal.json",
-  "time.json",
-]
-
-type Word = {
-  norwegian: string
-  english: string
-  counter: number
-}
+import Link from 'next/link'
 
 export default function Home() {
   const toast = useToast()
   const session = React.useContext(SessionContext)
   const setSession = React.useContext(SetSessionContext)
+  const descRef = React.useRef<HTMLDivElement>(null)
 
   const [toggleWord, setToggleWord] = React.useState<boolean>(false)
   const [wordsLoaded, setWordsLoaded] = React.useState<boolean>(false)
@@ -36,56 +22,21 @@ export default function Home() {
 
   const [chapter, setChapter] = useStateWithLocalStorage<string[]>("chapters", ["chapter1.json"])
 
-  const [leftSelectedWord, setLeftSelectedWord] = React.useState<Word>({norwegian: '', english: '', counter: 0})
+  const [leftSelectedWord, setLeftSelectedWord] = React.useState<Word>({ a: '', b: '', counter: 0 })
   const [leftSelectedPos, setLeftSelectedPos] = React.useState<number>(0)
-  const [rightSelectedWord, setRightSelectedWord] = React.useState<Word>({norwegian: '', english: '', counter: 0})
+  const [rightSelectedWord, setRightSelectedWord] = React.useState<Word>({ a: '', b: '', counter: 0 })
   const [rightSelectedPos, setRightSelectedPos] = React.useState<number>(0)
-
-  const [counter, setCounter] = React.useState<number>(0)
 
 
   React.useEffect(() => {
-    const loadOneFile = async (file: string) => {
-      fetch(`vocabulary/${file}`)
-        .then(res => res.json())
-        .then(data => {
-          // recreate the data structure to add the counter default to 0
-          data = data.map((word: Word) => {
-            return {
-              norwegian: word.norwegian,
-              english: word.english,
-              counter: 0
-            }
-          })
-
-          // Shuffle the words
-          data = data.sort(() => 0.5 - Math.random())
-
-          // add the words to the allWords array
-          setAllWords((allWords: any) => [...allWords, ...data])
-        })
-    }
-
+    
     if (!wordsLoaded) {
-      // empty the allWords array
       setAllWords([])
-
-      chapter.forEach((file) => {
-        loadOneFile(file)
-      })
+      setAllWords(session.allWords)
       setWordsLoaded(true)
-
-      toast({
-        title: "Words loaded",
-        description: "Words loaded",
-        status: "success",
-        duration: 2000,
-        isClosable: true,
-      })
     }
 
     if (wordsLoaded) {
-      console.log('words loaded')
 
       // Select 5 random words, the lower the counter the higher the chance of being selected, random
       let randomWords = allWords.sort((a: Word, b: Word) => a.counter - b.counter).slice(0, 5)
@@ -116,7 +67,6 @@ export default function Home() {
 
       const leftWordsRandom = leftWords.sort(() => 0.5 - Math.random())
       const rightWordsRandom = rightWords.sort(() => 0.5 - Math.random())
-      
 
       setLeftWords(leftWordsRandom)
       setRightWords(rightWordsRandom)
@@ -125,21 +75,34 @@ export default function Home() {
   }, [allWords, wordsLoaded, toggleWord])
 
 
+  const [startTime, setStartTime] = React.useState<number>(0)
   React.useEffect(() => {
-    console.log('checking')
-    // wait 250ms before clearing the selected words
-    const timer = setTimeout(() => {
-      if (leftSelectedWord.norwegian  && rightSelectedWord.english) {
+    setTimeout(() => {
+      // Can't update the context in two different useEffect, because they are not
+      // thread safe, so we need to do it in one useEffect
+      let nbGoodAnswers = session.nbGoodAnswers
+      let nbBadAnswers = session.nbBadAnswers
+      const _a = leftSelectedWord
+      const _b = rightSelectedWord
+
+      // The user have just selected the left word
+      if ((_a.b && !_b.b) || (_a.b && _b.b)) {
+        setStartTime(performance.now())
+      }
+
+      if (leftSelectedWord.a && rightSelectedWord.b) {
+
+        const endTime = performance.now()
+        const responseTime = endTime - startTime
 
         // check if the words match
-        if (leftSelectedWord.english === rightSelectedWord.english) {
-          console.log('match')
-          setCounter(counter + 1)
+        if (leftSelectedWord.b === rightSelectedWord.b) {
+          nbGoodAnswers += 1
           setToggleWord(!toggleWord)
 
           // update the counter for the word
           const updatedWords = allWords.map((word: Word) => {
-            if (word.norwegian === leftSelectedWord.norwegian) {
+            if (word.a === leftSelectedWord.a) {
               word.counter += 1
             }
             return word
@@ -147,8 +110,7 @@ export default function Home() {
           setAllWords(updatedWords)
 
         } else {
-          console.log('no match')
-          setCounter(counter - 1)
+          nbBadAnswers += 1
           setToggleWord(!toggleWord)
 
           //  Shake the div with id = "global-2-column"
@@ -158,162 +120,121 @@ export default function Home() {
             setTimeout(() => {
               body.classList.remove('shake')
             }
-            , 500)
+              , 500)
           }
         }
 
         setLeftSelectedWord({} as Word)
-        setLeftSelectedPos(-1)
+        setLeftSelectedPos(0)
         setRightSelectedWord({} as Word)
-        setRightSelectedPos(-1)
+        setRightSelectedPos(0)
         setOrder(Math.random() > 0.5)
+
+        // make so that no words are focus
+        descRef.current?.focus()
+
+        // update the session
+        setSession({
+          ...session,
+          nbGoodAnswers: nbGoodAnswers,
+          nbBadAnswers: nbBadAnswers,
+          responseTime: [...session.responseTime, responseTime]
+        })
       }
     }, 250)
-
   }, [leftSelectedWord, rightSelectedWord])
 
   return (
     // build the left and right columns
     <Box bg={'gray.700'} height='100vh'>
-    <Container maxW={['xl']} mx='auto' p={8}>
+      <Container maxW={['xl']} mx='auto' p={8}>
 
-      <VStack id="global-2-column" w='full'>
-        <Flex w='full' borderBottom={'1px solid #fff'} pb={4}>
-          <Text color='white' my='auto' fontWeight={'bold'} fontSize={'1.5em'}>Vocab</Text>
-          <Spacer />
-          <Header>
-            <Wrap>
-              {all_chapter.map((ch, index) => {
-                return (
-                  <ChapterDisplay
-                    key={index}
-                    ch={ch}
-                    setChapter={() => setSession({loadedChapters: [...session.loadedChapters, ch]})}
-                    setWordsLoaded={setWordsLoaded}
-                  />
-                )
-              })}
-            </Wrap>
-          </Header>
-        </Flex>
+        <VStack id="global-2-column" w='full'>
+          <Flex w='full' pb={4}>
+            <Text
+              color='white'
+              my='auto'
+              fontWeight={'bold'}
+              fontSize={'1.5em'}
+            >
+              Vocab
+            </Text>
+            <Spacer />
+            <Link href="/session">
+              <Button colorScheme="red" variant="outline">
+                Finish
+              </Button>
+            </Link>
+          </Flex>
 
-        {/* 50% to inverse order of column */}
-        {order
-        ? (
-          <HStack spacing={4}>
-            <Column 
-              words={leftWords}
-              lang={'norwegian'}
-              selectedWord={leftSelectedWord}
-              selectedPos={leftSelectedPos}
-              setSelectedWord={setLeftSelectedWord} 
-              setSelectedPos={setLeftSelectedPos} 
-            />
-            <Column 
-              words={rightWords}
-              lang={'english'}
-              selectedWord={rightSelectedWord}
-              selectedPos={rightSelectedPos}
-              setSelectedWord={setRightSelectedWord}
-              setSelectedPos={setRightSelectedPos}
-            />
-          </HStack>
-          ) 
-        : (
-          <HStack spacing={4}>
-            <Column 
-              words={rightWords}
-              lang={'english'}
-              selectedWord={rightSelectedWord}
-              selectedPos={rightSelectedPos}
-              setSelectedWord={setRightSelectedWord}
-              setSelectedPos={setRightSelectedPos}
-            />
-            <Column 
-              words={leftWords}
-              lang={'norwegian'}
-              selectedWord={leftSelectedWord}
-              selectedPos={leftSelectedPos}
-              setSelectedWord={setLeftSelectedWord} 
-              setSelectedPos={setLeftSelectedPos} 
-            />
-        </HStack>
-        )
-      }
+          {/* 50% to inverse order of column */}
+          {order
+            ? (
+              <HStack spacing={4}>
+                <Column
+                  words={leftWords}
+                  lang={'norwegian'}
+                  selectedWord={leftSelectedWord}
+                  selectedPos={leftSelectedPos}
+                  setSelectedWord={setLeftSelectedWord}
+                  setSelectedPos={setLeftSelectedPos}
+                />
+                <Column
+                  words={rightWords}
+                  lang={'english'}
+                  selectedWord={rightSelectedWord}
+                  selectedPos={rightSelectedPos}
+                  setSelectedWord={setRightSelectedWord}
+                  setSelectedPos={setRightSelectedPos}
+                />
+              </HStack>
+            )
+            : (
+              <HStack spacing={4}>
+                <Column
+                  words={rightWords}
+                  lang={'english'}
+                  selectedWord={rightSelectedWord}
+                  selectedPos={rightSelectedPos}
+                  setSelectedWord={setRightSelectedWord}
+                  setSelectedPos={setRightSelectedPos}
+                />
+                <Column
+                  words={leftWords}
+                  lang={'norwegian'}
+                  selectedWord={leftSelectedWord}
+                  selectedPos={leftSelectedPos}
+                  setSelectedWord={setLeftSelectedWord}
+                  setSelectedPos={setLeftSelectedPos}
+                />
+              </HStack>
+            )
+          }
 
-      <Counter val={counter} />
-      {leftSelectedWord.norwegian && <Reveal leftSelectedWord={leftSelectedWord}/>}
-      </VStack>
-    </Container>
+          <Box ref={descRef}>
+            {leftSelectedWord.a && <Reveal leftSelectedWord={leftSelectedWord} />}
+          </Box>
+        </VStack>
+
+        <StatCard />
+      </Container>
     </Box>
   )
 }
 
-interface ChapterDisplayProps {
-  ch: string
-  setChapter: React.Dispatch<React.SetStateAction<string[]>>
-  setWordsLoaded: React.Dispatch<React.SetStateAction<boolean>>
-}
 
-const ChapterDisplay: React.FC<ChapterDisplayProps> = ({ch, isActive, setChapter, setWordsLoaded}) => {
-  const [isLocalActive, setIsLocalActive] = React.useState<boolean>(false)
-
-  const onClick = () => {
-    // if the chapter is already active, remove it from the list
-    if (isActive) {
-      setChapter((prev) => {
-        return prev.filter((c) => c !== ch)
-      })
-      setIsLocalActive(false)
-    } else {
-      setChapter((prev) => {
-        return [...prev, ch]
-      })
-      setIsLocalActive(true)
-    }
-
-    setWordsLoaded(false)
-  }
-
-  return (
-    <Tag
-      size="lg"
-      colorScheme={(isLocalActive || isActive) ? 'green' : 'red'}
-      mr={2}
-      onClick={onClick}
-    >
-      {ch}
-    </Tag>
-  )
-}
-
-
-const Counter: React.FC<{val: number}> = ({val}) => {
-  const color =  val > 0 ? 'green.500' : 'red.500'
-
-  return (
-      <Text my={'auto'} color={color} fontSize={24} fontWeight="bold"
-        bg='white' borderRadius={8} p={4}
-      >{val}</Text>
-  )
-}
-
-
-const Reveal: React.FC<{leftSelectedWord: Word}> = ({leftSelectedWord}) => {
+const Reveal: React.FC<{ leftSelectedWord: Word }> = ({ leftSelectedWord }) => {
   const [val, setVal] = React.useState<string>('')
   const [timer, setTimer] = React.useState<any>(null)
   const [isLoading, setIsLoading] = React.useState<boolean>(false)
 
   React.useEffect(() => {
-    console.log('leftSelectedWord', leftSelectedWord)
-    console.log('timer', timer)
-
     if (timer !== null)
       clearTimeout(timer)
 
     setIsLoading(true)
     let _timer = setTimeout(() => {
-      setVal(leftSelectedWord.english)
+      setVal(leftSelectedWord.b)
       setIsLoading(false)
     }, 5000)
 
@@ -323,7 +244,7 @@ const Reveal: React.FC<{leftSelectedWord: Word}> = ({leftSelectedWord}) => {
       clearTimeout(_timer)
       setTimer(null)
     }
-    
+
   }, [leftSelectedWord])
 
   return (
@@ -353,7 +274,7 @@ interface ColumnProps {
 
 const Column: React.FC<ColumnProps> = (props) => {
 
-  const {words, selectedWord, selectedPos, setSelectedWord, setSelectedPos} = props
+  const { words, selectedWord, selectedPos, setSelectedWord, setSelectedPos } = props
 
   return (
     <VStack maxW={['xl']} spacing={4}>
@@ -389,7 +310,7 @@ interface WordBoxProps {
 }
 
 const WordBox: React.FC<WordBoxProps> = (
-  {word, pos, selectedWord, selectedPos, setSelectedWord, setSelectedPos, lang}
+  { word, pos, selectedWord, selectedPos, setSelectedWord, setSelectedPos, lang }
 ) => {
 
   const bgColor = selectedPos === pos ? 'gray.600' : 'gray.700'
@@ -399,35 +320,87 @@ const WordBox: React.FC<WordBoxProps> = (
   return (
     // animate the box when selected
     <Tooltip
-      label={lang === 'norwegian' ? word.english : word.norwegian}
+      label={lang === 'norwegian' ? word.b : word.a}
       aria-label="A tooltip"
       placement="top"
       hasArrow
       openDelay={1500}
     >
-    <Box
-      _hover={{
-        bg: 'gray.600',
-      }}
-      borderWidth={borderWidth}
-      borderRadius={8}
-      borderColor={borderColor}
-      bg={bgColor}
-      width={'150px'}
-      mx="auto"
-      p={4}
-      boxShadow="md"
-      onClick={() => {
-        setSelectedWord(word)
-        setSelectedPos(pos)
-      }}
-      cursor="pointer"
-      transition="all 0.2s ease-in-out"
-    >
-      <Text color='gray.100'>{
-        lang === 'norwegian' ? word.norwegian : word.english
-      }</Text>
-    </Box>
+      <Box
+        _hover={{
+          bg: 'gray.600',
+        }}
+        borderWidth={borderWidth}
+        borderRadius={8}
+        borderColor={borderColor}
+        bg={bgColor}
+        width={'150px'}
+        mx="auto"
+        p={4}
+        boxShadow="md"
+        onClick={() => {
+          setSelectedWord(word)
+          setSelectedPos(pos)
+        }}
+        cursor="pointer"
+        transition="all 0.2s ease-in-out"
+      >
+        <Text color='gray.100'>{
+          lang === 'norwegian' ? word.a : word.b
+        }</Text>
+      </Box>
     </Tooltip>
+  )
+}
+
+
+const StatRow: React.FC<{ label: string, val: string }> = ({ label, val }) => {
+  return (
+    <Flex w='full'>
+      <Text>{label}</Text>
+      <Spacer />
+      <Text>{val}</Text>
+    </Flex>
+  )
+}
+
+const StatCard: React.FC = () => {
+  const session = React.useContext(SessionContext)
+
+  const nbga = session.nbGoodAnswers
+  const nbba = session.nbBadAnswers
+  const nbt = nbga + nbba
+  const acc = nbt > 0 ? Math.round((nbga / nbt) * 100) : 0
+  const totalResponseTime = session.responseTime.reduce((summed, a) => summed + a, 0)
+  const averageResponseTime = Math.round(totalResponseTime / nbt)
+
+  // display the average response time with the following format ss.ms
+  const timeString = (ms: number) => {
+    const s = Math.floor(ms / 1000)
+    const ms_ = ms % 1000
+
+    // Round the ms to 2 digits
+    const ms__ = Math.round(ms_ / 10)
+    return `${s}.${ms__}s`
+  }
+
+  return (
+    <Box
+      m={8}
+      p={4}
+      shadow="md"
+      color='white'
+    >
+      <VStack>
+        <StatRow label='Nb Good answer:' val={nbga.toString()} />
+        <StatRow label='Nb Bad answer:' val={nbba.toString()} />
+        <StatRow label='Nb Total answer:' val={nbt.toString()} />
+        <StatRow label='Accuracy:' val={acc.toString() + '%'} />
+        <StatRow label='Average answer time:' val={
+          nbt > 0 ? timeString(averageResponseTime) : '0s'
+        } />
+      </VStack>
+
+    </Box>
   )
 }

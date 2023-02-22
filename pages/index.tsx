@@ -1,7 +1,9 @@
 import * as React from 'react'
 import { Container, Box, Input, Text, Button, VStack } from '@chakra-ui/react'
+import { useRouter } from 'next/router'
 
 export default function Home() {
+  const router = useRouter()
   const [currentWord, setCurrentWord] = React.useState<string>('')
   const [currentTranslation, setCurrentTranslation] = React.useState<string>('')
   const [userTranslation, setUserTranslation] = React.useState<string>('')
@@ -11,6 +13,7 @@ export default function Home() {
   const [allWords, setAllWords] = React.useState<any>([])
 
   React.useEffect(() => {
+    router.push('/session')
     if (!wordsLoaded) {
       fetch('/vocab.json')
         .then(res => res.json())
