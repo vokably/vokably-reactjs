@@ -184,7 +184,7 @@ export async function getStaticProps() {
 
   console.log(base_id)
   console.log(access_token)
-  console.log(`https://api.airtable.com/v0/{${base_id}}/{list-table}`)  
+  console.log(`https://api.airtable.com/v0/${base_id}/list-table`)  
 
   const res = await fetch(
     `https://api.airtable.com/v0/${base_id}/list-table`,
@@ -198,6 +198,15 @@ export async function getStaticProps() {
     }
   )
   let data = await res.json()
+
+  if (!data.records) {
+    console.error(`Error: ${data.error}`)
+    return {
+      props: {
+        all_languages: [],
+      },
+    }
+  }
 
   // filter the data to get only the table names
   const all_languages = data.records.map((r: any) => {return {
@@ -213,6 +222,6 @@ export async function getStaticProps() {
     props: {
       all_languages: all_languages,
     },
-    revalidate: 60,
+    revalidate: process.env.NODE_ENV === 'development' ? 1 : 60,
   }
 }

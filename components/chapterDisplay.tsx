@@ -25,6 +25,7 @@ export const ChapterDisplay: React.FC<ChapterDisplayProps> = ({ ch, onClick }) =
       size="lg"
       colorScheme={(isLocalActive) ? 'green' : 'red'}
       mr={2}
+      _hover={{ cursor: 'pointer' }}
       onClick={() => {
         _onClick()
         onClick()
