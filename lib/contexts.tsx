@@ -4,6 +4,7 @@ import TableInfo from "../type/tableInfo";
 
 export type SessionContextType = {
     loadedChapters: TableInfo[];
+    activeWords: Word[];
     allWords: Word[];
     nbGoodAnswers: number;
     nbBadAnswers: number;
@@ -13,6 +14,7 @@ export type SessionContextType = {
 
 export const defaultSessionValue: SessionContextType = {
     loadedChapters: [],
+    activeWords: [],
     allWords: [],
     nbGoodAnswers: 0,
     nbBadAnswers: 0,

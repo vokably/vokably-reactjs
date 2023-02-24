@@ -29,7 +29,7 @@ export default function Home() {
     
     if (!wordsLoaded) {
       setAllWords([])
-      setAllWords(session.allWords)
+      setAllWords(session.activeWords)
       setWordsLoaded(true)
     }
 
