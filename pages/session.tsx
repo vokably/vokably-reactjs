@@ -12,8 +12,8 @@ import {
 import TableInfo from '@/type/tableInfo'
 import { ChapterDisplay } from '../components/chapterDisplay'
 import { SessionContext, SetSessionContext, defaultSessionValue } from '../lib/contexts'
-import Link from 'next/link'
 import { useRouter } from 'next/router'
+import Word from '@/type/word'
 
 
 export default function Home(props: any) {
@@ -48,7 +48,10 @@ export default function Home(props: any) {
 
 
   const loadWords = async () => {
-    const ch2load = session.loadedChapters.map((ch) => ch.tableName);
+    let ch2load = session.loadedChapters.map((ch) => ch.table);
+
+    // remove duplicates from ch2load
+    ch2load = ch2load.filter((v, i, a) => a.indexOf(v) === i)
     const nb2load = ch2load.length;
 
     setIsLoading(true)
@@ -61,6 +64,7 @@ export default function Home(props: any) {
         method: 'GET',
         mode: 'same-origin',
         cache: 'default',
+        next: {revalidate: 60*15},
         headers: {
           Content_Type: 'application/json',
         },
@@ -72,21 +76,19 @@ export default function Home(props: any) {
       }
 
       const data = await res.json()
+      const chapterToKeep = session.loadedChapters.map((ch) => ch.displayName)
 
-      // Create the Word object and add the counter = 0
-      const words = data.map((r: any) => {
-        return {
-          a: r.a,
-          b: r.b,
-          counter: 0,
-        }
+      // Keep only the words whose "chapter" field is in the list of loaded chapters
+      const filteredWords = data.filter((w: Word) => {
+        return chapterToKeep.includes(w.chapter)
       })
-
+      
       // Add the words to the session
       setSession({
         ...session,
-        allWords: [...session.allWords, ...words],
+        allWords: [...session.allWords, ...filteredWords],
       })
+
 
       // update UI
       setLoadingPercent((counter / nb2load * 100).toFixed(0))
@@ -182,10 +184,6 @@ export async function getStaticProps() {
   const base_id = process.env.AIRTABLE_BASE_ID
   const access_token = process.env.AIRTABLE_ACCESS_TOKEN
 
-  console.log(base_id)
-  console.log(access_token)
-  console.log(`https://api.airtable.com/v0/${base_id}/list-table`)  
-
   const res = await fetch(
     `https://api.airtable.com/v0/${base_id}/list-table`,
     {
@@ -210,10 +208,11 @@ export async function getStaticProps() {
 
   // filter the data to get only the table names
   const all_languages = data.records.map((r: any) => {return {
-    "tableName": r.fields['name'],
+    "tableName": r.fields['tableName'],
     "displayName": r.fields['displayName'],
     "nbWord": r.fields['nbWord'],
     "order": r.fields['order'],
+    "table": r.fields['table'],
   }})
 
   all_languages.sort((a: any, b: any) => (a.order > b.order) ? 1 : -1)

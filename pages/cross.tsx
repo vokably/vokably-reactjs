@@ -15,16 +15,13 @@ export default function Home() {
   const [toggleWord, setToggleWord] = React.useState<boolean>(false)
   const [wordsLoaded, setWordsLoaded] = React.useState<boolean>(false)
   const [allWords, setAllWords] = React.useState<any>([])
-  const [selectedWords, setSelectedWords] = React.useState<any>([])
   const [leftWords, setLeftWords] = React.useState<any>([])
   const [rightWords, setRightWords] = React.useState<any>([])
   const [order, setOrder] = React.useState<boolean>(true)
 
-  const [chapter, setChapter] = useStateWithLocalStorage<string[]>("chapters", ["chapter1.json"])
-
-  const [leftSelectedWord, setLeftSelectedWord] = React.useState<Word>({ a: '', b: '', counter: 0 })
+  const [leftSelectedWord, setLeftSelectedWord] = React.useState<Word>({ a: '', b: '', chapter: '', counter: 0 })
   const [leftSelectedPos, setLeftSelectedPos] = React.useState<number>(0)
-  const [rightSelectedWord, setRightSelectedWord] = React.useState<Word>({ a: '', b: '', counter: 0 })
+  const [rightSelectedWord, setRightSelectedWord] = React.useState<Word>({ a: '', b: '', chapter: '', counter: 0 })
   const [rightSelectedPos, setRightSelectedPos] = React.useState<number>(0)
 
 
@@ -41,7 +38,6 @@ export default function Home() {
       // Select 5 random words, the lower the counter the higher the chance of being selected, random
       let randomWords = allWords.sort((a: Word, b: Word) => a.counter - b.counter).slice(0, 5)
       randomWords = randomWords.sort(() => 0.5 - Math.random())
-      setSelectedWords(randomWords)
 
       // Randomize the position of the words for left and right columns
       let posLeft = [1, 2, 3, 4, 5]
@@ -319,13 +315,13 @@ const WordBox: React.FC<WordBoxProps> = (
 
   return (
     // animate the box when selected
-    <Tooltip
-      label={lang === 'norwegian' ? word.b : word.a}
-      aria-label="A tooltip"
-      placement="top"
-      hasArrow
-      openDelay={1500}
-    >
+    // <Tooltip
+    //   label={lang === 'norwegian' ? word.b : word.a}
+    //   aria-label="A tooltip"
+    //   placement="top"
+    //   hasArrow
+    //   openDelay={1500}
+    // >
       <Box
         _hover={{
           bg: 'gray.600',
@@ -349,7 +345,7 @@ const WordBox: React.FC<WordBoxProps> = (
           lang === 'norwegian' ? word.a : word.b
         }</Text>
       </Box>
-    </Tooltip>
+    // </Tooltip>
   )
 }
 
