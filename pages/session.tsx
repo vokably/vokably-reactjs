@@ -22,8 +22,8 @@ export default function Home(props: any) {
   const router = useRouter()
   const { isOpen, onOpen, onClose } = useDisclosure()
   const [nbWords, setNbWords] = React.useState<number>(0)
-  const [loadingPercent, setLoadingPercent] = React.useState<string>('')
   const [isLoading, setIsLoading] = React.useState<boolean>(false)
+  const [allWords, setAllWords] = React.useState<Word[]>(session.allWords)
 
   const all_languages = props.all_languages
 
@@ -46,7 +46,6 @@ export default function Home(props: any) {
     }
   }
 
-
   const loadWords = async () => {
     let ch2load = session.loadedChapters.map((ch) => ch.table);
 
@@ -55,53 +54,56 @@ export default function Home(props: any) {
     const nb2load = ch2load.length;
 
     setIsLoading(true)
-    setLoadingPercent("0")
-    let counter = 1
 
-    for (const tn of ch2load) {
-      // fetch from the /table endpoint, using cache first
-      const res = await fetch(`api/table?tableName=${tn}`, {
-        method: 'GET',
-        mode: 'same-origin',
-        cache: 'default',
-        next: {revalidate: 60*15},
-        headers: {
-          Content_Type: 'application/json',
-        },
-      })
+    // Check if the words are already in the session, if not, fetch them
+    let _allWords: Word[] = allWords
+    if (allWords.length == 0) {
+      console.log('fetching')
 
-      if (res.status !== 200) {
-        console.error(`Error: ${res.status}`)
-        return
+      for (const tn of ch2load) {
+        // fetch from the /table endpoint, using cache first
+        const res = await fetch(`api/table?tableName=${tn}`, {
+          method: 'GET',
+          mode: 'same-origin',
+          cache: 'default',
+          next: {revalidate: 60*15},
+          headers: {
+            Content_Type: 'application/json',
+          },
+        })
+
+        if (res.status !== 200) {
+          console.error(`Error: ${res.status}`)
+          return
+        }
+
+        const data = await res.json()
+        _allWords = [..._allWords, ...data]
       }
-
-      const data = await res.json()
-      const chapterToKeep = session.loadedChapters.map((ch) => ch.displayName)
-
-      // Keep only the words whose "chapter" field is in the list of loaded chapters
-      const filteredWords = data.filter((w: Word) => {
-        return chapterToKeep.includes(w.chapter)
-      })
-      
-      // Add the words to the session
-      setSession({
-        ...session,
-        allWords: [...session.allWords, ...filteredWords],
-      })
-
-
-      // update UI
-      setLoadingPercent((counter / nb2load * 100).toFixed(0))
     }
 
+    const chapterToKeep = session.loadedChapters.map((ch) => ch.displayName)
+
+    // Keep only the words whose "chapter" field is in the list of loaded chapters
+    const filteredWords = _allWords.filter((w: Word) => {
+      return chapterToKeep.includes(w.chapter)
+    })
+    
+    // Add the words to the session
+    setSession({
+      ...session,
+      activeWords: filteredWords,
+      allWords: _allWords,
+    })
+    setAllWords(_allWords)
     setIsLoading(false)
   }
 
 
   const startSession = async () => {
     await loadWords()
-    onClose()
     router.push("/cross")
+    onClose()
   }
 
   return (
@@ -148,17 +150,12 @@ export default function Home(props: any) {
                 </Wrap>
 
                 <VStack spacing={4}>
-                <Text>
-                  You have selected {session.loadedChapters.length} chapters.
-                </Text>
-                <Text>
-                  You will be training on {nbWords} words.
-                </Text>
-                {loadingPercent !== '' &&
                   <Text>
-                    {loadingPercent} / 100 %
+                    You have selected {session.loadedChapters.length} chapters.
                   </Text>
-                }
+                  <Text>
+                    You will be training on {nbWords} words.
+                  </Text>
                 </VStack>
 
                 <Button
