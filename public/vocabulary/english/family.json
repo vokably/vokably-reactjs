@@ -1,106 +1,132 @@
 [
     {
         "norwegian": "en familie",
-        "english": "a family"
+        "english": "a family",
+        "chapter": "family"
     },
     {
         "norwegian": "et barn ",
-        "english": "a child"
+        "english": "a child",
+        "chapter": "family"
     },
     {
         "norwegian": "ei mor ",
-        "english": "a mother"
+        "english": "a mother",
+        "chapter": "family"
     },
     {
         "norwegian": "en far ",
-        "english": "a father"
+        "english": "a father",
+        "chapter": "family"
     },
     {
         "norwegian": "foreldre ",
-        "english": "parents"
+        "english": "parents",
+        "chapter": "family"
     },
     {
         "norwegian": "ei datter",
-        "english": "a daughter"
+        "english": "a daughter",
+        "chapter": "family"
     },
     {
         "norwegian": "en sønn",
-        "english": "a son"
+        "english": "a son",
+        "chapter": "family"
     },
     {
         "norwegian": "ei søster ",
-        "english": "a sister"
+        "english": "a sister",
+        "chapter": "family"
     },
     {
         "norwegian": "en bror ",
-        "english": "a brother"
+        "english": "a brother",
+        "chapter": "family"
     },
     {
         "norwegian": "søsken",
-        "english": "siblings"
+        "english": "siblings",
+        "chapter": "family"
     },
     {
         "norwegian": "et enebarn",
-        "english": "an only child"
+        "english": "an only child",
+        "chapter": "family"
     },
     {
         "norwegian": "ei tante ",
-        "english": "an aunt"
+        "english": "an aunt",
+        "chapter": "family"
     },
     {
         "norwegian": "en onkel",
-        "english": "an uncle"
+        "english": "an uncle",
+        "chapter": "family"
     },
     {
         "norwegian": "ei kusine",
-        "english": "a cousin (female)"
+        "english": "a cousin (female)",
+        "chapter": "family"
     },
     {
         "norwegian": "en fetter ",
-        "english": "a cousin (male)"
+        "english": "a cousin (male)",
+        "chapter": "family"
     },
     {
         "norwegian": "et søskenbarn ",
-        "english": "a cousin (m. or f.)"
+        "english": "a cousin (m. or f.)",
+        "chapter": "family"
     },
     {
         "norwegian": "en nevø ",
-        "english": "a nephew"
+        "english": "a nephew",
+        "chapter": "family"
     },
     {
         "norwegian": "ei niese",
-        "english": "a niece"
+        "english": "a niece",
+        "chapter": "family"
     },
     {
         "norwegian": "ei bestemor",
-        "english": "a grandmother"
+        "english": "a grandmother",
+        "chapter": "family"
     },
     {
         "norwegian": "ei farmor ",
-        "english": "a paternal grandmother"
+        "english": "a paternal grandmother",
+        "chapter": "family"
     },
     {
         "norwegian": "ei mormor",
-        "english": "a maternal grandmother"
+        "english": "a maternal grandmother",
+        "chapter": "family"
     },
     {
         "norwegian": "en bestefar",
-        "english": "a grandfather"
+        "english": "a grandfather",
+        "chapter": "family"
     },
     {
         "norwegian": "en farfar ",
-        "english": "a paternal grandfather"
+        "english": "a paternal grandfather",
+        "chapter": "family"
     },
     {
         "norwegian": "en morfar",
-        "english": "a maternal grandfather"
+        "english": "a maternal grandfather",
+        "chapter": "family"
     },
     {
         "norwegian": "besteforeldre ",
-        "english": "grandparents"
+        "english": "grandparents",
+        "chapter": "family"
     },
     {
         "norwegian": "et barnebarn",
-        "english": "a grandchild"
+        "english": "a grandchild",
+        "chapter": "family"
     }
 ]

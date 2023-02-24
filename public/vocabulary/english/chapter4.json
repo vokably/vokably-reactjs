@@ -1,442 +1,552 @@
 [
     {
         "norwegian": "gir (å gi)",
-        "english": "gives"
+        "english": "gives",
+        "chapter": "4"
     },
     {
         "norwegian": "ingen",
-        "english": "no"
+        "english": "no",
+        "chapter": "4"
     },
     {
         "norwegian": "et minutt",
-        "english": "a minute"
+        "english": "a minute",
+        "chapter": "4"
     },
     {
         "norwegian": "sant (cf. sann)",
-        "english": "true"
+        "english": "true",
+        "chapter": "4"
     },
     {
         "norwegian": "ti",
-        "english": "ten"
+        "english": "ten",
+        "chapter": "4"
     },
     {
         "norwegian": "å spille",
-        "english": "to play"
+        "english": "to play",
+        "chapter": "4"
     },
     {
         "norwegian": "en klem",
-        "english": "a hug"
+        "english": "a hug",
+        "chapter": "4"
     },
     {
         "norwegian": "å begynne",
-        "english": "to begin"
+        "english": "to begin",
+        "chapter": "4"
     },
     {
         "norwegian": "gøy",
-        "english": "fun"
+        "english": "fun",
+        "chapter": "4"
     },
     {
         "norwegian": "en is",
-        "english": "an ice cream, ice"
+        "english": "an ice cream, ice",
+        "chapter": "4"
     },
     {
         "norwegian": "en kaffe",
-        "english": "a coffee"
+        "english": "a coffee",
+        "chapter": "4"
     },
     {
         "norwegian": "hver",
-        "english": "every, each"
+        "english": "every, each",
+        "chapter": "4"
     },
     {
         "norwegian": "en fotball",
-        "english": "a football"
+        "english": "a football",
+        "chapter": "4"
     },
     {
         "norwegian": "ham",
-        "english": "him"
+        "english": "him",
+        "chapter": "4"
     },
     {
         "norwegian": "en brus",
-        "english": "a (bottle of) soda pop"
+        "english": "a (bottle of) soda pop",
+        "chapter": "4"
     },
     {
         "norwegian": "sann",
-        "english": "true"
+        "english": "true",
+        "chapter": "4"
     },
     {
         "norwegian": "å drikke",
-        "english": "to drink"
+        "english": "to drink",
+        "chapter": "4"
     },
     {
         "norwegian": "en butikk",
-        "english": "a shop"
+        "english": "a shop",
+        "chapter": "4"
     },
     {
         "norwegian": "hos",
-        "english": "at"
+        "english": "at",
+        "chapter": "4"
     },
     {
         "norwegian": "å gi",
-        "english": "to give"
+        "english": "to give",
+        "chapter": "4"
     },
     {
         "norwegian": "opp",
-        "english": "up"
+        "english": "up",
+        "chapter": "4"
     },
     {
         "norwegian": "å løfte",
-        "english": "to lift"
+        "english": "to lift",
+        "chapter": "4"
     },
     {
         "norwegian": "koselig",
-        "english": "cosy, nice"
+        "english": "cosy, nice",
+        "chapter": "4"
     },
     {
         "norwegian": "hvilken",
-        "english": "which, what"
+        "english": "which, what",
+        "chapter": "4"
     },
     {
         "norwegian": "å takke",
-        "english": "to thank"
+        "english": "to thank",
+        "chapter": "4"
     },
     {
         "norwegian": "ei mor",
-        "english": "a mother"
+        "english": "a mother",
+        "chapter": "4"
     },
     {
         "norwegian": "siden",
-        "english": "since"
+        "english": "since",
+        "chapter": "4"
     },
     {
         "norwegian": "på vei",
-        "english": "on the way"
+        "english": "on the way",
+        "chapter": "4"
     },
     {
         "norwegian": "et lyskryss",
-        "english": "a traffic light"
+        "english": "a traffic light",
+        "chapter": "4"
     },
     {
         "norwegian": "en retning",
-        "english": "a direction"
+        "english": "a direction",
+        "chapter": "4"
     },
     {
         "norwegian": "en pakke",
-        "english": "a package"
+        "english": "a package",
+        "chapter": "4"
     },
     {
         "norwegian": "tiende",
-        "english": "tenth"
+        "english": "tenth",
+        "chapter": "4"
     },
     {
         "norwegian": "ei matbu",
-        "english": "local general store"
+        "english": "local general store",
+        "chapter": "4"
     },
     {
         "norwegian": "straks",
-        "english": "immediately"
+        "english": "immediately",
+        "chapter": "4"
     },
     {
         "norwegian": "samme",
-        "english": "same"
+        "english": "same",
+        "chapter": "4"
     },
     {
         "norwegian": "å mene",
-        "english": "to think"
+        "english": "to think",
+        "chapter": "4"
     },
     {
         "norwegian": "en gave",
-        "english": "a gift, present"
+        "english": "a gift, present",
+        "chapter": "4"
     },
     {
         "norwegian": "en hjelp",
-        "english": "a help"
+        "english": "a help",
+        "chapter": "4"
     },
     {
         "norwegian": "et veikryss",
-        "english": "an intersection"
+        "english": "an intersection",
+        "chapter": "4"
     },
     {
         "norwegian": "en tur",
-        "english": "a trip"
+        "english": "a trip",
+        "chapter": "4"
     },
     {
         "norwegian": "august",
-        "english": "August"
+        "english": "August",
+        "chapter": "4"
     },
     {
         "norwegian": "gjerne",
-        "english": "rather, would like"
+        "english": "rather, would like",
+        "chapter": "4"
     },
     {
         "norwegian": "å sende",
-        "english": "to send"
+        "english": "to send",
+        "chapter": "4"
     },
     {
         "norwegian": "et postkontor",
-        "english": "a post office"
+        "english": "a post office",
+        "chapter": "4"
     },
     {
         "norwegian": "hvilket",
-        "english": "which"
+        "english": "which",
+        "chapter": "4"
     },
     {
         "norwegian": "et kryss",
-        "english": "a junction, crossroads"
+        "english": "a junction, crossroads",
+        "chapter": "4"
     },
     {
         "norwegian": "en fødselsdag",
-        "english": "a birthday"
+        "english": "a birthday",
+        "chapter": "4"
     },
     {
         "norwegian": "ved siden av",
-        "english": "beside"
+        "english": "beside",
+        "chapter": "4"
     },
     {
         "norwegian": "å åpne",
-        "english": "to open"
+        "english": "to open",
+        "chapter": "4"
     },
     {
         "norwegian": "en bensinstasjon",
-        "english": "a petrol station"
+        "english": "a petrol station",
+        "chapter": "4"
     },
     {
         "norwegian": "rett",
-        "english": "straight, directly"
+        "english": "straight, directly",
+        "chapter": "4"
     },
     {
         "norwegian": "en vei",
-        "english": "a road"
+        "english": "a road",
+        "chapter": "4"
     },
     {
         "norwegian": "i nærheten",
-        "english": "near, nearby"
+        "english": "near, nearby",
+        "chapter": "4"
     },
     {
         "norwegian": "å få",
-        "english": "to get, receive"
+        "english": "to get, receive",
+        "chapter": "4"
     },
     {
         "norwegian": "en post (et postkontor)",
-        "english": "a post office"
+        "english": "a post office",
+        "chapter": "4"
     },
     {
         "norwegian": "henne",
-        "english": "her"
+        "english": "her",
+        "chapter": "4"
     },
     {
         "norwegian": "tusen",
-        "english": "thousand"
+        "english": "thousand",
+        "chapter": "4"
     },
     {
         "norwegian": "sein",
-        "english": "late"
+        "english": "late",
+        "chapter": "4"
     },
     {
         "norwegian": "kvart",
-        "english": "quarter"
+        "english": "quarter",
+        "chapter": "4"
     },
     {
         "norwegian": "sist",
-        "english": "last"
+        "english": "last",
+        "chapter": "4"
     },
     {
         "norwegian": "å vekke",
-        "english": "to awaken"
+        "english": "to awaken",
+        "chapter": "4"
     },
     {
         "norwegian": "et nabolag",
-        "english": "a neighbourhood"
+        "english": "a neighbourhood",
+        "chapter": "4"
     },
     {
         "norwegian": "åtte",
-        "english": "eight"
+        "english": "eight",
+        "chapter": "4"
     },
     {
         "norwegian": "å treffe",
-        "english": "to meet"
+        "english": "to meet",
+        "chapter": "4"
     },
     {
         "norwegian": "hans",
-        "english": "his"
+        "english": "his",
+        "chapter": "4"
     },
     {
         "norwegian": "fin",
-        "english": "fine"
+        "english": "fine",
+        "chapter": "4"
     },
     {
         "norwegian": "et barn",
-        "english": "a child"
+        "english": "a child",
+        "chapter": "4"
     },
     {
         "norwegian": "å dusje",
-        "english": "to take a shower"
+        "english": "to take a shower",
+        "chapter": "4"
     },
     {
         "norwegian": "en jobb",
-        "english": "a job"
+        "english": "a job",
+        "chapter": "4"
     },
     {
         "norwegian": "over",
-        "english": "of, over"
+        "english": "of, over",
+        "chapter": "4"
     },
     {
         "norwegian": "allerede",
-        "english": "already"
+        "english": "already",
+        "chapter": "4"
     },
     {
         "norwegian": "en nærhet",
-        "english": "a vicinity, nearness"
+        "english": "a vicinity, nearness",
+        "chapter": "4"
     },
     {
         "norwegian": "klokka",
-        "english": "at ___ (o'clock)"
+        "english": "at ___ (o'clock)",
+        "chapter": "4"
     },
     {
         "norwegian": "halv",
-        "english": "half"
+        "english": "half",
+        "chapter": "4"
     },
     {
         "norwegian": "et kontor",
-        "english": "an office"
+        "english": "an office",
+        "chapter": "4"
     },
     {
         "norwegian": "nær",
-        "english": "near"
+        "english": "near",
+        "chapter": "4"
     },
     {
         "norwegian": "å lage",
-        "english": "to make"
+        "english": "to make",
+        "chapter": "4"
     },
     {
         "norwegian": "et sykehus",
-        "english": "a hospital"
+        "english": "a hospital",
+        "chapter": "4"
     },
     {
         "norwegian": "like i nærheten",
-        "english": "close, nearby"
+        "english": "close, nearby",
+        "chapter": "4"
     },
     {
         "norwegian": "sju",
-        "english": "seven"
+        "english": "seven",
+        "chapter": "4"
     },
     {
         "norwegian": "en ungdomsskole",
-        "english": "a middle school"
+        "english": "a middle school",
+        "chapter": "4"
     },
     {
         "norwegian": "først",
-        "english": "first"
+        "english": "first",
+        "chapter": "4"
     },
     {
         "norwegian": "høyre",
-        "english": "right"
+        "english": "right",
+        "chapter": "4"
     },
     {
         "norwegian": "ingenting",
-        "english": "nothing"
+        "english": "nothing",
+        "chapter": "4"
     },
     {
         "norwegian": "å lære",
-        "english": "to learn"
+        "english": "to learn",
+        "chapter": "4"
     },
     {
         "norwegian": "en kilometer",
-        "english": "a kilometre"
+        "english": "a kilometre",
+        "chapter": "4"
     },
     {
         "norwegian": "å tegne",
-        "english": "to draw"
+        "english": "to draw",
+        "chapter": "4"
     },
     {
         "norwegian": "cirka (ca.)",
-        "english": "ca"
+        "english": "ca",
+        "chapter": "4"
     },
     {
         "norwegian": "et kart",
-        "english": "a map"
+        "english": "a map",
+        "chapter": "4"
     },
     {
         "norwegian": "vel",
-        "english": "well"
+        "english": "well",
+        "chapter": "4"
     },
     {
         "norwegian": "foreldre (en forelder)",
-        "english": "parents"
+        "english": "parents",
+        "chapter": "4"
     },
     {
         "norwegian": "å vise",
-        "english": "to show"
+        "english": "to show",
+        "chapter": "4"
     },
     {
         "norwegian": "en meter",
-        "english": "a metre"
+        "english": "a metre",
+        "chapter": "4"
     },
     {
         "norwegian": "å lese",
-        "english": "to read"
+        "english": "to read",
+        "chapter": "4"
     },
     {
         "norwegian": "kjær",
-        "english": "dear"
+        "english": "dear",
+        "chapter": "4"
     },
     {
         "norwegian": "da",
-        "english": "then"
+        "english": "then",
+        "chapter": "4"
     },
     {
         "norwegian": "eller",
-        "english": "or"
+        "english": "or",
+        "chapter": "4"
     },
     {
         "norwegian": "niende",
-        "english": "ninth"
+        "english": "ninth",
+        "chapter": "4"
     },
     {
         "norwegian": "å legge",
-        "english": "to lay, put"
+        "english": "to lay, put",
+        "chapter": "4"
     },
     {
         "norwegian": "andre",
-        "english": "second, other"
+        "english": "second, other",
+        "chapter": "4"
     },
     {
         "norwegian": "hm",
-        "english": "hm (for hesitation/doubt)"
+        "english": "hm (for hesitation/doubt)",
+        "chapter": "4"
     },
     {
         "norwegian": "å forklare",
-        "english": "to explain"
+        "english": "to explain",
+        "chapter": "4"
     },
     {
         "norwegian": "en klasse",
-        "english": "a class"
+        "english": "a class",
+        "chapter": "4"
     },
     {
         "norwegian": "fram",
-        "english": "ahead, on"
+        "english": "ahead, on",
+        "chapter": "4"
     },
     {
         "norwegian": "å forstå",
-        "english": "to understand"
+        "english": "to understand",
+        "chapter": "4"
     },
     {
         "norwegian": "hundre",
-        "english": "hundred"
+        "english": "hundred",
+        "chapter": "4"
     },
     {
         "norwegian": "en forelder",
-        "english": "a parent"
+        "english": "a parent",
+        "chapter": "4"
     },
     {
         "norwegian": "en onsdag",
-        "english": "a Wednesday"
+        "english": "a Wednesday",
+        "chapter": "4"
     },
     {
         "norwegian": "ei lomme",
-        "english": "a pocket"
+        "english": "a pocket",
+        "chapter": "4"
     },
     {
         "norwegian": "venstre",
-        "english": "left"
+        "english": "left",
+        "chapter": "4"
     }
 ]

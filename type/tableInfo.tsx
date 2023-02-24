@@ -1,8 +1,9 @@
 type TableInfo = {
-    tableName: string,
-    displayName: string,
-    nbWord: number,
-    order: number
-  }
+  chapter: string,
+  displayName: string,
+  nbWord: number,
+  order: number
+  table: string,
+}
 
 export default TableInfo

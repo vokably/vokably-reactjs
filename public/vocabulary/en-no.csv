@@ -1,0 +1,772 @@
+a,b,chapter
+en bluse,a blouse,chothes
+ei bukse,(a pair of) trousers,chothes
+en dress,a suit,chothes
+en frakk,a men's coat,chothes
+en genser,a sweater,chothes
+ei jakke,a jacket,chothes
+en kjole,a dress,chothes
+ei kåpe,a women's coat,chothes
+ei skjorte,a shirt,chothes
+en shorts,(a pair of) shorts,chothes
+et skjørt,a skirt,chothes
+"en hanske, hansker","a glove, gloves",chothes
+"en vott, votter","a mitten, mittens",chothes
+en hatt,a hat,chothes
+ei lue,a (winter) cap,chothes
+et slips,a tie,chothes
+et skjerf,a scarf,chothes
+et skaut,a head scarf,chothes
+ei veske,a hand bag,chothes
+"ei sko, sko","a shoe, shoes",chothes
+"en sokk, sokker","a sock, socks",chothes
+"en støvel, støvler","a boot, boots",chothes
+en familie,a family,family
+et barn ,a child,family
+ei mor ,a mother,family
+en far ,a father,family
+foreldre ,parents,family
+ei datter,a daughter,family
+en sønn,a son,family
+ei søster ,a sister,family
+en bror ,a brother,family
+søsken,siblings,family
+et enebarn,an only child,family
+ei tante ,an aunt,family
+en onkel,an uncle,family
+ei kusine,a cousin (female),family
+en fetter ,a cousin (male),family
+et søskenbarn ,a cousin (m. or f.),family
+en nevø ,a nephew,family
+ei niese,a niece,family
+ei bestemor,a grandmother,family
+ei farmor ,a paternal grandmother,family
+ei mormor,a maternal grandmother,family
+en bestefar,a grandfather,family
+en farfar ,a paternal grandfather,family
+en morfar,a maternal grandfather,family
+besteforeldre ,grandparents,family
+et barnebarn,a grandchild,family
+på badet,in the bathroom,bathroom
+et badekar,a tub,bathroom
+en barberhøvel,a razor,bathroom
+et barberskum,shaving foam,bathroom
+en bodylotion,body lotion,bathroom
+en hårbørste,a hair brush,bathroom
+en hårføner,a hair dryer,bathroom
+en sjampo,a shampoo,bathroom
+ei såpe,a soap,bathroom
+en tannbørste,a tooth brush,bathroom
+en tannkrem,tooth paste,bathroom
+en vask,a sink,bathroom
+en do/et toalett,a toilet,bathroom
+et dopapir,toilet paper,bathroom
+en dusj,a shower,bathroom
+ei dusjsåpe,a shower gel,bathroom
+et håndkle,a towel,bathroom
+fem,five,2
+å vente,to wait,2
+i,"in, at, on",2
+å reise,to travel,2
+gammel,old,2
+han,"he, him",2
+oss,us,2
+sammen,together,2
+et år,a year,2
+ei dame,a lady,2
+med,with,2
+hun,she,2
+å komme,to come,2
+å snakke,to speak,2
+et fly,a plane,2
+ei,"a, an, one (feminine)",2
+bor (å bo),live(s),2
+til,to,2
+en mamma,a mummy,2
+en pappa,a daddy,2
+vi,we,2
+og,and,2
+ledig,vacant,2
+ei jente,a girl,2
+så,so,2
+å være,"to be, exist",2
+en takk,a thank you,2
+en gutt,a boy,2
+vær (å være),be,2
+like,"like, same",2
+vær så god,you're welcome! please! here you are!,2
+her,here,2
+ei lufthavn,an airport,2
+å ha,to have,2
+deg,you (singular),2
+ja,yes,2
+en måte,a way,2
+en,"a, an, one",2
+de,they,2
+fransk,French,2
+også,"too, also",2
+en kafé,a café,2
+unnskyld,excuse me,2
+nå,now,2
+førti,forty,2
+gift,married,2
+å sitte,to sit,2
+det,"it, that, the",2
+et,"a, an",2
+takk,thank you,2
+alt (all),"all, everything",2
+å kontrollere,"to control, check",2
+ha det!,bye!,2
+fjorten,fourteen,2
+en orden,an order,2
+en passkontroll,a passport control,2
+OK,"okay, all right",2
+ha det bra!,goodbye!,2
+bra,"fine, good, well",2
+men,but,2
+å flytte,to move,2
+ikke,not,2
+et pass,a passport,2
+dere,you (plural),2
+alt i orden,all right (everything in order),2
+en mann,a man,2
+nei,no,2
+trettiåtte,thirty-eight,2
+å kjøre,to drive,2
+velkommen,welcome,2
+å se,to see,2
+å dra,to leave,2
+lang,long,2
+en time,an hour,2
+å gå,"to walk, go",2
+hjem,home,2
+å ta,to take,2
+hvordan,how,2
+igjen,again,2
+et hjem,a home,2
+bare bra!,just fine!,2
+å stå,to stand,2
+bare,"just, only",2
+trøtt,tired,2
+det går bra!,I'm fine!,2
+å rope,"to call, cry, shout",2
+en lørdag,a Saturday,6
+en tomat,a tomato,6
+snill,kind,6
+en hud,a skin,6
+en tallerken,a plate,6
+å barbere seg,to shave,6
+en jus (juice),a juice,6
+å tørke,to dry,6
+vann,water,6
+tidlig,early,6
+å kle på seg,to dress,6
+glad,"happy, glad",6
+en kniv,a knife,6
+et grovbrød,a brown bread,6
+denne,this,6
+selv,self,6
+et smør,a butter,6
+et smil,a smile,6
+kort,short,6
+å skjære,to cut,6
+hvit,white,6
+å dekke,"to set, cover",6
+å koke,to boil,6
+seg selv,oneself,6
+seinere,later,6
+å gjette,to guess,6
+etterpå,afterwards,6
+et kjøpesenter,a shopping centre,6
+å tørke seg,to dry oneself,6
+en by,a city,6
+å sove,to sleep,6
+ned,down,6
+å pusse,to brush,6
+disse,these,6
+et sentrum,a (town) centre,6
+brun,brown,6
+å ha lyst til å …,"want to, would like to",6
+dit,"there, yonder",6
+ei gate,a street,6
+forskjellig,"different, various",6
+et torg,a (town) square,6
+et apotek,a pharmacy,6
+kjempekoselig,really cosy,6
+små (liten),small,6
+en bank,a bank,6
+å parkere,to park,6
+et salg,a sale,6
+en barne-TV,a children's TV,6
+ei gågate,a pedestrian area,6
+lyst til (å ha lyst til å ...),wanting to do something,6
+liten,small,6
+moderne,modern,6
+å se på,to watch,6
+ei kirke,a church,6
+en parkeringsplass,a parking lot,6
+lite (liten),small,6
+høy,"loud, high, tall",6
+lenge,long,6
+plutselig,suddenly,6
+å koste,to cost,6
+en ekspeditør,a shop assistent,6
+annen,other,6
+elegant,elegant,6
+svart,black,6
+nydelig,"very nice, lovely",6
+billig,"inexpensive, cheap",6
+lav,low,6
+en skobutikk,a shoe store,6
+å passe,"to fit, suit",6
+et par,a couple,6
+klær,clothes,6
+tilbake,back,6
+en femhundrelapp,a five hundred note,6
+naturligvis,naturally,6
+akkurat,"exactly, precisely",6
+interessant,interesting,6
+ei kåpe,a coat,6
+ei vinterjakke,a winter jacket,6
+lys,"bright, light, blonde",6
+helt,completely,6
+en prosent (%),a percent (%),6
+å synes,to think,6
+en sjiraff,a giraffe,6
+en bokstav,a letter,6
+en lekebutikk,a toy store,6
+en rabatt,a discount,6
+vet (å vite),to know,6
+å anbefale,to recommend,6
+når,when,6
+en kjole,a dress,6
+et tilbud,"a offer, sale",6
+lita (liten),"little, small",6
+et øyeblikk,a moment,6
+ei lue,a winter hat,6
+sikkert,here: probably. Also: certainly,6
+en kvittering,a receipt,6
+et eksempel,an example,6
+vanlig,"usual, customary",6
+elleve,eleven,6
+en pris,a price,6
+å møtes,to meet up,6
+inne,"in, inside",6
+grønn,green,6
+lysebrun,light brown,6
+en klesbutikk,a clothing store,6
+penger,money,6
+tørst,thirsty,6
+ei eplekake,an apple tart,6
+annet (cf. annen),other,6
+ei flaske,a bottle,6
+lenger,"more, anymore",6
+syttito,seventy-two,6
+hvorfor,why,6
+et sted,a place,6
+nok,enough,6
+en tast,a key,6
+et kort,a card,6
+en idé,an idea,6
+en disk,a counter,6
+et stykke,a piece,6
+for å,(in order) to,6
+en tohundrelapp,a two hundred note,6
+en kaffe latte,a coffee latte,6
+ei kake,a cake,6
+sulten,hungry,6
+å bestille,to order,6
+en cola,a coke,6
+en kino,a cinema,6
+et bibliotek,a library,6
+takk skal du ha,thank you,6
+et kakestykke,a piece of cake,6
+en kode,a code,6
+ei sjokoladekake,a chocolate cake,6
+kjempegod,very good,6
+ja visst,"surely, certainly",6
+gir (å gi),gives,4
+ingen,no,4
+et minutt,a minute,4
+sant (cf. sann),true,4
+ti,ten,4
+å spille,to play,4
+en klem,a hug,4
+å begynne,to begin,4
+gøy,fun,4
+en is,"an ice cream, ice",4
+en kaffe,a coffee,4
+hver,"every, each",4
+en fotball,a football,4
+ham,him,4
+en brus,a (bottle of) soda pop,4
+sann,true,4
+å drikke,to drink,4
+en butikk,a shop,4
+hos,at,4
+å gi,to give,4
+opp,up,4
+å løfte,to lift,4
+koselig,"cosy, nice",4
+hvilken,"which, what",4
+å takke,to thank,4
+ei mor,a mother,4
+siden,since,4
+på vei,on the way,4
+et lyskryss,a traffic light,4
+en retning,a direction,4
+en pakke,a package,4
+tiende,tenth,4
+ei matbu,local general store,4
+straks,immediately,4
+samme,same,4
+å mene,to think,4
+en gave,"a gift, present",4
+en hjelp,a help,4
+et veikryss,an intersection,4
+en tur,a trip,4
+august,August,4
+gjerne,"rather, would like",4
+å sende,to send,4
+et postkontor,a post office,4
+hvilket,which,4
+et kryss,"a junction, crossroads",4
+en fødselsdag,a birthday,4
+ved siden av,beside,4
+å åpne,to open,4
+en bensinstasjon,a petrol station,4
+rett,"straight, directly",4
+en vei,a road,4
+i nærheten,"near, nearby",4
+å få,"to get, receive",4
+en post (et postkontor),a post office,4
+henne,her,4
+tusen,thousand,4
+sein,late,4
+kvart,quarter,4
+sist,last,4
+å vekke,to awaken,4
+et nabolag,a neighbourhood,4
+åtte,eight,4
+å treffe,to meet,4
+hans,his,4
+fin,fine,4
+et barn,a child,4
+å dusje,to take a shower,4
+en jobb,a job,4
+over,"of, over",4
+allerede,already,4
+en nærhet,"a vicinity, nearness",4
+klokka,at ___ (o'clock),4
+halv,half,4
+et kontor,an office,4
+nær,near,4
+å lage,to make,4
+et sykehus,a hospital,4
+like i nærheten,"close, nearby",4
+sju,seven,4
+en ungdomsskole,a middle school,4
+først,first,4
+høyre,right,4
+ingenting,nothing,4
+å lære,to learn,4
+en kilometer,a kilometre,4
+å tegne,to draw,4
+cirka (ca.),ca,4
+et kart,a map,4
+vel,well,4
+foreldre (en forelder),parents,4
+å vise,to show,4
+en meter,a metre,4
+å lese,to read,4
+kjær,dear,4
+da,then,4
+eller,or,4
+niende,ninth,4
+å legge,"to lay, put",4
+andre,"second, other",4
+hm,hm (for hesitation/doubt),4
+å forklare,to explain,4
+en klasse,a class,4
+fram,"ahead, on",4
+å forstå,to understand,4
+hundre,hundred,4
+en forelder,a parent,4
+en onsdag,a Wednesday,4
+ei lomme,a pocket,4
+venstre,left,4
+"å gå på kafé, kino, teater","to go to a café, the cinema, the theatre",expression
+å handle / å shoppe,to go shopping,expression
+å slappe av,to relax,expression
+å trene / å drive med sport,to exercise/do sports,expression
+"å spille fotball, basketball","to play football, basketball",expression
+"å sykle, jogge, danse","to cycle, jog, dance",expression
+å svømme,to swim,expression
+å gå på tur,"to go for a walk, go hiking",expression
+"å gå på ski, å gå på skøyter ","to go skiing, to go skating",expression
+å se på TV,to watch TV,expression
+å lese bøker,to read books,expression
+"å spille piano, gitar","to play the piano, guitar",expression
+å synge,to sing,expression
+å høre på musikk,to listen to music,expression
+å skrive e-post,to write e-mails,expression
+"å prate, å surfe på internett","to chat, to surf on the internet",expression
+"å spille kort, å spille spill","to play cards, to play games",expression
+å fotografere / å ta bilder,to take pictures,expression
+å lage mat ,to cook,expression
+å gjøre husarbeid,to do house work,expression
+"å vaske, å vaske gulvet","to clean, to clean the floor",expression
+å vaske opp ,to do the dishes,expression
+å rydde ,to tidy (up),expression
+å støvsuge,to hoover/vacuum clean,expression
+jeg,I,1
+hva,what,1
+du,you,1
+heter (å hete),am/is/are named,1
+hei,hi,1
+på,"on, at",1
+hyggelig å hilse på deg!,nice to meet you,1
+å hilse,to greet,1
+en dag,a day,1
+å (infinitive marker),to,1
+hyggelig,"nice, pleasant",1
+å hete,to be named,1
+god,good,1
+hallo,hello,1
+norsk,norwegian,1
+er (å være),"am, are, is",1
+fra,from,1
+kommer (å komme),come(s),1
+hvor,where,1
+ei skive,a slice,5
+en kopp,a cup,5
+søt,sweet,5
+en katt,a cat,5
+mett,full,5
+en skinke,a ham,5
+melk,milk,5
+å klappe,to pet,5
+vår,our,5
+ja da,"«Sure», «Not to worry»",5
+ei brødskive,a slice of bread,5
+te,tea,5
+et glass,a glass,5
+et brød,a loaf of bread,5
+ute,"out, outside",5
+gul,yellow,5
+en ost,a cheese,5
+mat,food,5
+om,about,5
+ei sol,a sun,5
+en terrasse,a terrace,5
+en himmel,a sky,5
+veldig,very,5
+ung,young,5
+å glede seg,to look forward to,5
+spansk,Spanish,5
+gjennom,through,5
+én,one,5
+engelsk,English,5
+hvilke,which,5
+å diskutere,to discuss,5
+vær,weather,5
+fersk,fresh,5
+et lag,a team,5
+å skinne,to shine,5
+et eple,an apple,5
+å vinne,to win,5
+svensk,Swedish,5
+en fotballspiller,a soccer player,5
+en etasje,"a storey, floor",5
+nr,no.,5
+et mål,a goal,5
+noen,"some, somebody, any, anybody",5
+mange,many,5
+et rundstykke,a roll,5
+en spiller,a player,5
+klar,"bright, clear",5
+en kollega,a colleague,5
+dessverre,unfortunately,5
+mot,"towards, against",5
+mens,while,5
+tolv,twelve,5
+spesiell,special,5
+et nummer,a number,5
+ei kantine,a canteen,5
+rød,red,5
+en lunsj,a lunch,5
+dyr,expensive,5
+selvfølgelig,of course,5
+flink,"good, clever",5
+en verden,a world,5
+klokka er …,the time is…,5
+alltid,always,5
+alle,all,5
+et pålegg,a spread,5
+kanskje,"perhaps, maybe",5
+en grønnsak,a vegetable,5
+en pose,a bag,5
+en paprika,a pepper,5
+grov,"rough, coarse",5
+et syltetøy,a jam,5
+litt,a little,5
+ei gulrot,a carrot,5
+å fortsette,to continue,5
+en middag,a dinner,5
+et kilo,a kilogram,5
+å trenge,to need,5
+en potet,a potato,5
+en sykepleier,a nurse,5
+en kylling,a chicken,5
+en laks,a salmon,5
+en fisk,a fish,5
+ferdig,"finished, ready, also slang; exhausted",5
+mer,more,5
+en liter,a litre,5
+å betale,to pay,5
+ei kasse,a box,5
+atten,eighteen,5
+en loff,a white bread,5
+en frukt,a fruit,5
+å arbeide,to work,5
+ei krone,a crown,5
+å handle,to shop,5
+et kjøtt,a meat,5
+en administrasjon,"an adminstration, management",5
+en salami,a salami,5
+ei bestemor,a grandmother,5
+å sette seg,to sit down,5
+lyst på (å ha lyst på noe),wanting something,5
+en lyst,"a wish, desire, inclination",5
+å ha lyst på,to want,5
+å skynde seg,to hurry (up),5
+seg,"himself, herself, itself, oneself, themselves",5
+en banan,a banana,5
+ny,new,5
+å elske,to love,5
+å prate,to talk,5
+å kose seg,"to have a good time, snuggle up",5
+nysgjerrig,curious,5
+en CD,a CD,5
+å prøve,to try,5
+blå,blue,5
+ei venninne,a (female) friend,5
+sakte,slowly,5
+oi,excl.: «Oh!»,5
+så fint!,how nice!,5
+å sette,"to put, place, set",5
+en appelsin,an orange,5
+en flyttebil,a moving truck/lorry,3
+en venn,a friend,3
+inn,"in, inside, into",3
+i dag,today,3
+en skole,a school,3
+å ligge,to lie,3
+å gjøre,"to do, make",3
+morsom,funny,3
+å bo,to live,3
+våken,awake,3
+en frokost,a breakfast,3
+å le,to laugh,3
+å smile,to smile,3
+å tenke,to think,3
+en madrass,a mattress,3
+å si,to say,3
+å jobbe,to work,3
+et bord,a table,3
+å måtte,"have to, must",3
+en morgen,a morning,3
+å spise,to eat,3
+hjemme,at home,3
+noe (noen),something,3
+å finne,to find,3
+en barnehage,a kindergarten,3
+skal (å skulle),"will, shall, is going to",3
+å skulle,"will, shall",3
+må (å måtte),"must, has to",3
+å kjenne,"to feel, know",3
+å våkne,to wake up,3
+en mandag,a Monday,3
+rundt,"round, about",3
+min,"my, mine",3
+en formiddag,a morning,3
+av,"off, of, by, from",3
+ett,one,3
+å hjelpe,to help,3
+et møbel,a piece of furniture,3
+et flyttebyrå,a moving company,3
+å møte,to meet,3
+to,two,3
+en familie,a family,3
+utenfor,outside,3
+riktig,"correct, right",3
+en stol,a chair,3
+din,"your, yours (singular)",3
+meg,me,3
+en sjåfør,a driver,3
+å kalle,to call,3
+et kvarter,a quarter of an hour,3
+et hus,"a house, building",3
+en lastebil,a truck,3
+en bil,a car,3
+et nabohus,a neighbouring house,3
+kan (å kunne),"can, be able to",3
+å stoppe,to stop,3
+å bære,to carry,3
+ei adresse,an adress,3
+fire,four,3
+ut,out,3
+å kunne,"(the infinitive of) can, be able to",3
+en nabo,a neighbour,3
+dette,this,3
+ei kone,a wife,3
+etter,after,3
+seks,six,3
+der borte,over there,3
+å hoppe,to jump,3
+å løpe,to run,3
+å ringe,"to ring, call",3
+ei stue,a living room,3
+å vaske,"to wash, clean",3
+en sofa,"a sofa, couch",3
+en garasje,a garage,3
+et kjøleskap,a refrigerator,3
+en balkong,a balcony,3
+å ville,"wants to, will",3
+ei mormor,a (maternal) grandmother,3
+et soverom,a bedroom,3
+stor,big,3
+snart,soon,3
+en komfyr,a stove,3
+en plass,a space,3
+en vaskemaskin,a washing machine,3
+å spørre,to ask,3
+et bad,a bath,3
+tre,three,3
+en gang,a time,3
+grei,all right,3
+en morfar,a (maternal) grandfather,3
+en leilighet,an apartment,3
+den,it,3
+en telefon,a telephone,3
+ei trapp,"a staircase, stairs",3
+en ettermiddag,an afternoon,3
+der,there,3
+en lenestol,an armchair,3
+et spisebord,a dining table,3
+å like,to like,3
+dem,them,3
+et hjørne,corner,3
+å kjøpe,to buy,3
+et besøk,a visit,3
+vil (å ville),"wants to, will",3
+et kjøkken,a kitchen,3
+å besøke,to visit,3
+en dusj,a shower,3
+en benk,"a kitchen counter, bench",3
+en TV,a TV,3
+borte,"away, off, over",3
+en oppvaskmaskin,a dishwasher,3
+et salongbord,a coffee table,3
+en tirsdag,a Tuesday,3
+et skap,a cupboard,3
+å ordne,"to fix, organise",3
+et skjørt,a skirt,3
+å bli,"to become, will be, turn out",3
+mellom,between,3
+et hår,a hair,3
+å synge,to sing,3
+et skrivebord,a desk,3
+et bilde,a picture,3
+å bytte,"to change, exchange",3
+en kommode,a dresser,3
+en sminke,a makeup,3
+ei jakke,a jacket,3
+ei bukse,a pair of trousers,3
+et vindu,a window,3
+å høre,to hear,3
+et speil,a mirror,3
+en musikk,music,3
+en vegg,a wall,3
+ei hylle,a shelf,3
+ved,"at, by, near, on, to",3
+et klesskap,a closet,3
+å hente,"to fetch, pick up",3
+et kamera,a camera,3
+et undertøy,an underwear,3
+ei seng,a bed,3
+så,then,3
+en sko,a shoe,3
+ei dør,a door,3
+foran,in front of,3
+for,"for, because",3
+kjempefint,"very nice, terrific",3
+ei bluse,a blouse,3
+alene,alone,3
+ei T-skjorte,a T-shirt,3
+et rom,a room,3
+en kveld,"an evening, night",3
+første,1.,ordinal
+andre,2.,ordinal
+tredje,3.,ordinal
+fjerde,4.,ordinal
+femte,5.,ordinal
+sjette,6.,ordinal
+sjuende / syvende,7.,ordinal
+åttende,8.,ordinal
+niende,9.,ordinal
+tiende,10.,ordinal
+ellevte,11.,ordinal
+tolvte,12.,ordinal
+trettende,13.,ordinal
+fjortende,14.,ordinal
+femtende,15.,ordinal
+sekstende,16.,ordinal
+syttende,17.,ordinal
+attende,18.,ordinal
+nittende,19.,ordinal
+tjuende / tyvende,20.,ordinal
+tjueførste,21.,ordinal
+tjueandre,22.,ordinal
+tjuetredje,23.,ordinal
+tjuefjerde,24.,ordinal
+tjuefemte,25.,ordinal
+tjuesjette,26.,ordinal
+tjuesjuende,27.,ordinal
+tjueåttende,28.,ordinal
+tjueniende,29.,ordinal
+trettiende / tredevte,30.,ordinal
+et apotek,a pharmacy,shopping-center
+en minibank,an ATM (machine),shopping-center
+en blomsterforretning,(a/the) florist's,shopping-center
+en bokhandel,a book store,shopping-center
+en CD-butikk,a music store,shopping-center
+en frisør,a hair dresser,shopping-center
+en kafé,a café,shopping-center
+en kiosk,a newsagent / newsagent's,shopping-center
+en klesbutikk,a clothing store,shopping-center
+en lekebutikk,a toy store,shopping-center
+en matbutikk,(a) grocery/grocery shop,shopping-center
+et parfymeri,a perfume shop,shopping-center
+en restaurant,a restaurant,shopping-center
+en skobutikk,a shoe shop,shopping-center
+en sportsbutikk,a sports store,shopping-center
+en veskebutikk,a bag store,shopping-center
+et vinmonopol,a wine monopoly ,shopping-center
+ett,13.00,time
+over ett,13.15,time
+to,13.30,time
+på to,13.45,time
+tolv,12.00,time
+fem over tolv,12.05,time
+ti over tolv,12.10,time
+kvart over tolv,12.15,time
+ti på halv ett,12.20,time
+fem på halv ett,12.25,time
+halv ett,12.30,time
+fem over halv ett,12.35,time
+ti over halv ett,12.40,time
+kvart på ett,12.45,time
+ti på ett,12.50,time
+fem på ett,12.55,time
+ett,13.00,time

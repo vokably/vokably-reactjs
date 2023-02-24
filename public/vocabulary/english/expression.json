@@ -1,98 +1,122 @@
 [
     {
         "norwegian": "å gå på kafé, kino, teater",
-        "english": "to go to a café, the cinema, the theatre"
+        "english": "to go to a café, the cinema, the theatre",
+        "chapter": "expression"
     },
     {
         "norwegian": "å handle / å shoppe",
-        "english": "to go shopping"
+        "english": "to go shopping",
+        "chapter": "expression"
     },
     {
         "norwegian": "å slappe av",
-        "english": "to relax"
+        "english": "to relax",
+        "chapter": "expression"
     },
     {
         "norwegian": "å trene / å drive med sport",
-        "english": "to exercise/do sports"
+        "english": "to exercise/do sports",
+        "chapter": "expression"
     },
     {
         "norwegian": "å spille fotball, basketball",
-        "english": "to play football, basketball"
+        "english": "to play football, basketball",
+        "chapter": "expression"
     },
     {
         "norwegian": "å sykle, jogge, danse",
-        "english": "to cycle, jog, dance"
+        "english": "to cycle, jog, dance",
+        "chapter": "expression"
     },
     {
         "norwegian": "å svømme",
-        "english": "to swim"
+        "english": "to swim",
+        "chapter": "expression"
     },
     {
         "norwegian": "å gå på tur",
-        "english": "to go for a walk, go hiking"
+        "english": "to go for a walk, go hiking",
+        "chapter": "expression"
     },
     {
         "norwegian": "å gå på ski, å gå på skøyter ",
-        "english": "to go skiing, to go skating"
+        "english": "to go skiing, to go skating",
+        "chapter": "expression"
     },
     {
         "norwegian": "å se på TV",
-        "english": "to watch TV"
+        "english": "to watch TV",
+        "chapter": "expression"
     },
     {
         "norwegian": "å lese bøker",
-        "english": "to read books"
+        "english": "to read books",
+        "chapter": "expression"
     },
     {
         "norwegian": "å spille piano, gitar",
-        "english": "to play the piano, guitar"
+        "english": "to play the piano, guitar",
+        "chapter": "expression"
     },
     {
         "norwegian": "å synge",
-        "english": "to sing"
+        "english": "to sing",
+        "chapter": "expression"
     },
     {
         "norwegian": "å høre på musikk",
-        "english": "to listen to music"
+        "english": "to listen to music",
+        "chapter": "expression"
     },
     {
         "norwegian": "å skrive e-post",
-        "english": "to write e-mails"
+        "english": "to write e-mails",
+        "chapter": "expression"
     },
     {
         "norwegian": "å prate, å surfe på internett",
-        "english": "to chat, to surf on the internet"
+        "english": "to chat, to surf on the internet",
+        "chapter": "expression"
     },
     {
         "norwegian": "å spille kort, å spille spill",
-        "english": "to play cards, to play games"
+        "english": "to play cards, to play games",
+        "chapter": "expression"
     },
     {
         "norwegian": "å fotografere / å ta bilder",
-        "english": "to take pictures"
+        "english": "to take pictures",
+        "chapter": "expression"
     },
     {
         "norwegian": "å lage mat ",
-        "english": "to cook"
+        "english": "to cook",
+        "chapter": "expression"
     },
     {
         "norwegian": "å gjøre husarbeid",
-        "english": "to do house work"
+        "english": "to do house work",
+        "chapter": "expression"
     },
     {
         "norwegian": "å vaske, å vaske gulvet",
-        "english": "to clean, to clean the floor"
+        "english": "to clean, to clean the floor",
+        "chapter": "expression"
     },
     {
         "norwegian": "å vaske opp ",
-        "english": "to do the dishes"
+        "english": "to do the dishes",
+        "chapter": "expression"
     },
     {
         "norwegian": "å rydde ",
-        "english": "to tidy (up)"
+        "english": "to tidy (up)",
+        "chapter": "expression"
     },
     {
         "norwegian": "å støvsuge",
-        "english": "to hoover/vacuum clean"
+        "english": "to hoover/vacuum clean",
+        "chapter": "expression"
     }
 ]

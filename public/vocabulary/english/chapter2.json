@@ -1,346 +1,432 @@
 [
     {
         "norwegian": "fem",
-        "english": "five"
+        "english": "five",
+        "chapter": "2"
     },
     {
         "norwegian": "å vente",
-        "english": "to wait"
+        "english": "to wait",
+        "chapter": "2"
     },
     {
         "norwegian": "i",
-        "english": "in, at, on"
+        "english": "in, at, on",
+        "chapter": "2"
     },
     {
         "norwegian": "å reise",
-        "english": "to travel"
+        "english": "to travel",
+        "chapter": "2"
     },
     {
         "norwegian": "gammel",
-        "english": "old"
+        "english": "old",
+        "chapter": "2"
     },
     {
         "norwegian": "han",
-        "english": "he, him"
+        "english": "he, him",
+        "chapter": "2"
     },
     {
         "norwegian": "oss",
-        "english": "us"
+        "english": "us",
+        "chapter": "2"
     },
     {
         "norwegian": "sammen",
-        "english": "together"
+        "english": "together",
+        "chapter": "2"
     },
     {
         "norwegian": "et år",
-        "english": "a year"
+        "english": "a year",
+        "chapter": "2"
     },
     {
         "norwegian": "ei dame",
-        "english": "a lady"
+        "english": "a lady",
+        "chapter": "2"
     },
     {
         "norwegian": "med",
-        "english": "with"
+        "english": "with",
+        "chapter": "2"
     },
     {
         "norwegian": "hun",
-        "english": "she"
+        "english": "she",
+        "chapter": "2"
     },
     {
         "norwegian": "å komme",
-        "english": "to come"
+        "english": "to come",
+        "chapter": "2"
     },
     {
         "norwegian": "å snakke",
-        "english": "to speak"
+        "english": "to speak",
+        "chapter": "2"
     },
     {
         "norwegian": "et fly",
-        "english": "a plane"
+        "english": "a plane",
+        "chapter": "2"
     },
     {
         "norwegian": "ei",
-        "english": "a, an, one (feminine)"
+        "english": "a, an, one (feminine)",
+        "chapter": "2"
     },
     {
         "norwegian": "bor (å bo)",
-        "english": "live(s)"
+        "english": "live(s)",
+        "chapter": "2"
     },
     {
         "norwegian": "til",
-        "english": "to"
+        "english": "to",
+        "chapter": "2"
     },
     {
         "norwegian": "en mamma",
-        "english": "a mummy"
+        "english": "a mummy",
+        "chapter": "2"
     },
     {
         "norwegian": "en pappa",
-        "english": "a daddy"
+        "english": "a daddy",
+        "chapter": "2"
     },
     {
         "norwegian": "vi",
-        "english": "we"
+        "english": "we",
+        "chapter": "2"
     },
     {
         "norwegian": "og",
-        "english": "and"
+        "english": "and",
+        "chapter": "2"
     },
     {
         "norwegian": "ledig",
-        "english": "vacant"
+        "english": "vacant",
+        "chapter": "2"
     },
     {
         "norwegian": "ei jente",
-        "english": "a girl"
+        "english": "a girl",
+        "chapter": "2"
     },
     {
         "norwegian": "så",
-        "english": "so"
+        "english": "so",
+        "chapter": "2"
     },
     {
         "norwegian": "å være",
-        "english": "to be, exist"
+        "english": "to be, exist",
+        "chapter": "2"
     },
     {
         "norwegian": "en takk",
-        "english": "a thank you"
+        "english": "a thank you",
+        "chapter": "2"
     },
     {
         "norwegian": "en gutt",
-        "english": "a boy"
+        "english": "a boy",
+        "chapter": "2"
     },
     {
         "norwegian": "vær (å være)",
-        "english": "be"
+        "english": "be",
+        "chapter": "2"
     },
     {
         "norwegian": "like",
-        "english": "like, same"
+        "english": "like, same",
+        "chapter": "2"
     },
     {
         "norwegian": "vær så god",
-        "english": "you're welcome! please! here you are!"
+        "english": "you're welcome! please! here you are!",
+        "chapter": "2"
     },
     {
         "norwegian": "her",
-        "english": "here"
+        "english": "here",
+        "chapter": "2"
     },
     {
         "norwegian": "ei lufthavn",
-        "english": "an airport"
+        "english": "an airport",
+        "chapter": "2"
     },
     {
         "norwegian": "å ha",
-        "english": "to have"
+        "english": "to have",
+        "chapter": "2"
     },
     {
         "norwegian": "deg",
-        "english": "you (singular)"
+        "english": "you (singular)",
+        "chapter": "2"
     },
     {
         "norwegian": "ja",
-        "english": "yes"
+        "english": "yes",
+        "chapter": "2"
     },
     {
         "norwegian": "en måte",
-        "english": "a way"
+        "english": "a way",
+        "chapter": "2"
     },
     {
         "norwegian": "en",
-        "english": "a, an, one"
+        "english": "a, an, one",
+        "chapter": "2"
     },
     {
         "norwegian": "de",
-        "english": "they"
+        "english": "they",
+        "chapter": "2"
     },
     {
         "norwegian": "fransk",
-        "english": "French"
+        "english": "French",
+        "chapter": "2"
     },
     {
         "norwegian": "også",
-        "english": "too, also"
+        "english": "too, also",
+        "chapter": "2"
     },
     {
         "norwegian": "en kafé",
-        "english": "a café"
+        "english": "a café",
+        "chapter": "2"
     },
     {
         "norwegian": "unnskyld",
-        "english": "excuse me"
+        "english": "excuse me",
+        "chapter": "2"
     },
     {
         "norwegian": "nå",
-        "english": "now"
+        "english": "now",
+        "chapter": "2"
     },
     {
         "norwegian": "førti",
-        "english": "forty"
+        "english": "forty",
+        "chapter": "2"
     },
     {
         "norwegian": "gift",
-        "english": "married"
+        "english": "married",
+        "chapter": "2"
     },
     {
         "norwegian": "å sitte",
-        "english": "to sit"
+        "english": "to sit",
+        "chapter": "2"
     },
     {
         "norwegian": "det",
-        "english": "it, that, the"
+        "english": "it, that, the",
+        "chapter": "2"
     },
     {
         "norwegian": "et",
-        "english": "a, an"
+        "english": "a, an",
+        "chapter": "2"
     },
     {
         "norwegian": "takk",
-        "english": "thank you"
+        "english": "thank you",
+        "chapter": "2"
     },
     {
         "norwegian": "alt (all)",
-        "english": "all, everything"
+        "english": "all, everything",
+        "chapter": "2"
     },
     {
         "norwegian": "å kontrollere",
-        "english": "to control, check"
+        "english": "to control, check",
+        "chapter": "2"
     },
     {
         "norwegian": "ha det!",
-        "english": "bye!"
+        "english": "bye!",
+        "chapter": "2"
     },
     {
         "norwegian": "fjorten",
-        "english": "fourteen"
+        "english": "fourteen",
+        "chapter": "2"
     },
     {
         "norwegian": "en orden",
-        "english": "an order"
+        "english": "an order",
+        "chapter": "2"
     },
     {
         "norwegian": "en passkontroll",
-        "english": "a passport control"
+        "english": "a passport control",
+        "chapter": "2"
     },
     {
         "norwegian": "OK",
-        "english": "okay, all right"
+        "english": "okay, all right",
+        "chapter": "2"
     },
     {
         "norwegian": "ha det bra!",
-        "english": "goodbye!"
+        "english": "goodbye!",
+        "chapter": "2"
     },
     {
         "norwegian": "bra",
-        "english": "fine, good, well"
+        "english": "fine, good, well",
+        "chapter": "2"
     },
     {
         "norwegian": "men",
-        "english": "but"
+        "english": "but",
+        "chapter": "2"
     },
     {
         "norwegian": "å flytte",
-        "english": "to move"
+        "english": "to move",
+        "chapter": "2"
     },
     {
         "norwegian": "ikke",
-        "english": "not"
+        "english": "not",
+        "chapter": "2"
     },
     {
         "norwegian": "et pass",
-        "english": "a passport"
+        "english": "a passport",
+        "chapter": "2"
     },
     {
         "norwegian": "dere",
-        "english": "you (plural)"
+        "english": "you (plural)",
+        "chapter": "2"
     },
     {
         "norwegian": "alt i orden",
-        "english": "all right (everything in order)"
+        "english": "all right (everything in order)",
+        "chapter": "2"
     },
     {
         "norwegian": "en mann",
-        "english": "a man"
+        "english": "a man",
+        "chapter": "2"
     },
     {
         "norwegian": "nei",
-        "english": "no"
+        "english": "no",
+        "chapter": "2"
     },
     {
         "norwegian": "trettiåtte",
-        "english": "thirty-eight"
+        "english": "thirty-eight",
+        "chapter": "2"
     },
     {
         "norwegian": "å kjøre",
-        "english": "to drive"
+        "english": "to drive",
+        "chapter": "2"
     },
     {
         "norwegian": "velkommen",
-        "english": "welcome"
+        "english": "welcome",
+        "chapter": "2"
     },
     {
         "norwegian": "å se",
-        "english": "to see"
+        "english": "to see",
+        "chapter": "2"
     },
     {
         "norwegian": "å dra",
-        "english": "to leave"
+        "english": "to leave",
+        "chapter": "2"
     },
     {
         "norwegian": "lang",
-        "english": "long"
+        "english": "long",
+        "chapter": "2"
     },
     {
         "norwegian": "en time",
-        "english": "an hour"
+        "english": "an hour",
+        "chapter": "2"
     },
     {
         "norwegian": "å gå",
-        "english": "to walk, go"
+        "english": "to walk, go",
+        "chapter": "2"
     },
     {
         "norwegian": "hjem",
-        "english": "home"
+        "english": "home",
+        "chapter": "2"
     },
     {
         "norwegian": "å ta",
-        "english": "to take"
+        "english": "to take",
+        "chapter": "2"
     },
     {
         "norwegian": "hvordan",
-        "english": "how"
+        "english": "how",
+        "chapter": "2"
     },
     {
         "norwegian": "igjen",
-        "english": "again"
+        "english": "again",
+        "chapter": "2"
     },
     {
         "norwegian": "et hjem",
-        "english": "a home"
+        "english": "a home",
+        "chapter": "2"
     },
     {
         "norwegian": "bare bra!",
-        "english": "just fine!"
+        "english": "just fine!",
+        "chapter": "2"
     },
     {
         "norwegian": "å stå",
-        "english": "to stand"
+        "english": "to stand",
+        "chapter": "2"
     },
     {
         "norwegian": "bare",
-        "english": "just, only"
+        "english": "just, only",
+        "chapter": "2"
     },
     {
         "norwegian": "trøtt",
-        "english": "tired"
+        "english": "tired",
+        "chapter": "2"
     },
     {
         "norwegian": "det går bra!",
-        "english": "I'm fine!"
+        "english": "I'm fine!",
+        "chapter": "2"
     },
     {
         "norwegian": "å rope",
-        "english": "to call, cry, shout"
+        "english": "to call, cry, shout",
+        "chapter": "2"
     }
 ]

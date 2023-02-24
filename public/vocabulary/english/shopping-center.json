@@ -1,70 +1,87 @@
 [
     {
         "norwegian": "et apotek",
-        "english": "a pharmacy"
+        "english": "a pharmacy",
+        "chapter": "shopping-center"
     },
     {
         "norwegian": "en minibank",
-        "english": "an ATM (machine)"
+        "english": "an ATM (machine)",
+        "chapter": "shopping-center"
     },
     {
         "norwegian": "en blomsterforretning",
-        "english": "(a/the) florist's"
+        "english": "(a/the) florist's",
+        "chapter": "shopping-center"
     },
     {
         "norwegian": "en bokhandel",
-        "english": "a book store"
+        "english": "a book store",
+        "chapter": "shopping-center"
     },
     {
         "norwegian": "en CD-butikk",
-        "english": "a music store"
+        "english": "a music store",
+        "chapter": "shopping-center"
     },
     {
         "norwegian": "en frisør",
-        "english": "a hair dresser"
+        "english": "a hair dresser",
+        "chapter": "shopping-center"
     },
     {
         "norwegian": "en kafé",
-        "english": "a café"
+        "english": "a café",
+        "chapter": "shopping-center"
     },
     {
         "norwegian": "en kiosk",
-        "english": "a newsagent / newsagent's"
+        "english": "a newsagent / newsagent's",
+        "chapter": "shopping-center"
     },
     {
         "norwegian": "en klesbutikk",
-        "english": "a clothing store"
+        "english": "a clothing store",
+        "chapter": "shopping-center"
     },
     {
         "norwegian": "en lekebutikk",
-        "english": "a toy store"
+        "english": "a toy store",
+        "chapter": "shopping-center"
     },
     {
         "norwegian": "en matbutikk",
-        "english": "(a) grocery/grocery shop"
+        "english": "(a) grocery/grocery shop",
+        "chapter": "shopping-center"
     },
     {
         "norwegian": "et parfymeri",
-        "english": "a perfume shop"
+        "english": "a perfume shop",
+        "chapter": "shopping-center"
     },
     {
         "norwegian": "en restaurant",
-        "english": "a restaurant"
+        "english": "a restaurant",
+        "chapter": "shopping-center"
     },
     {
         "norwegian": "en skobutikk",
-        "english": "a shoe shop"
+        "english": "a shoe shop",
+        "chapter": "shopping-center"
     },
     {
         "norwegian": "en sportsbutikk",
-        "english": "a sports store"
+        "english": "a sports store",
+        "chapter": "shopping-center"
     },
     {
         "norwegian": "en veskebutikk",
-        "english": "a bag store"
+        "english": "a bag store",
+        "chapter": "shopping-center"
     },
     {
         "norwegian": "et vinmonopol",
-        "english": "a wine monopoly "
+        "english": "a wine monopoly ",
+        "chapter": "shopping-center"
     }
 ]

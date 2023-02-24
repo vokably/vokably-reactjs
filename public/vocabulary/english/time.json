@@ -1,70 +1,87 @@
 [
 	{
 		"english": "13.00",
-		"norwegian": "ett"
+		"norwegian": "ett",
+		"chapter": "time"
 	},
 	{
 		"english": "13.15",
-		"norwegian": "over ett"
+		"norwegian": "over ett",
+		"chapter": "time"
 	},
 	{
 		"english": "13.30",
-		"norwegian": "to"
+		"norwegian": "to",
+		"chapter": "time"
 	},
 	{
 		"english": "13.45",
-		"norwegian": "på to"
+		"norwegian": "på to",
+		"chapter": "time"
 	},
 	{
 		"english": "12.00",
-		"norwegian": "tolv"
+		"norwegian": "tolv",
+		"chapter": "time"
 	},
 	{
 		"english": "12.05",
-		"norwegian": "fem over tolv"
+		"norwegian": "fem over tolv",
+		"chapter": "time"
 	},
 	{
 		"english": "12.10",
-		"norwegian": "ti over tolv"
+		"norwegian": "ti over tolv",
+		"chapter": "time"
 	},
 	{
 		"english": "12.15",
-		"norwegian": "kvart over tolv"
+		"norwegian": "kvart over tolv",
+		"chapter": "time"
 	},
 	{
 		"english": "12.20",
-		"norwegian": "ti på halv ett"
+		"norwegian": "ti på halv ett",
+		"chapter": "time"
 	},
 	{
 		"english": "12.25",
-		"norwegian": "fem på halv ett"
+		"norwegian": "fem på halv ett",
+		"chapter": "time"
 	},
 	{
 		"english": "12.30",
-		"norwegian": "halv ett"
+		"norwegian": "halv ett",
+		"chapter": "time"
 	},
 	{
 		"english": "12.35",
-		"norwegian": "fem over halv ett"
+		"norwegian": "fem over halv ett",
+		"chapter": "time"
 	},
 	{
 		"english": "12.40",
-		"norwegian": "ti over halv ett"
+		"norwegian": "ti over halv ett",
+		"chapter": "time"
 	},
 	{
 		"english": "12.45",
-		"norwegian": "kvart på ett"
+		"norwegian": "kvart på ett",
+		"chapter": "time"
 	},
 	{
 		"english": "12.50",
-		"norwegian": "ti på ett"
+		"norwegian": "ti på ett",
+		"chapter": "time"
 	},
 	{
 		"english": "12.55",
-		"norwegian": "fem på ett"
+		"norwegian": "fem på ett",
+		"chapter": "time"
 	},
 	{
 		"english": "13.00",
-		"norwegian": "ett"
+		"norwegian": "ett",
+		"chapter": "time"
 	}
 ]

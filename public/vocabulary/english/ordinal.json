@@ -1,122 +1,152 @@
 [
 	{
 		"english": "1.",
-		"norwegian": "første"
+		"norwegian": "første",
+		"chapter": "ordinal"
 	},
 	{
 		"english": "2.",
-		"norwegian": "andre"
+		"norwegian": "andre",
+		"chapter": "ordinal"
 	},
 	{
 		"english": "3.",
-		"norwegian": "tredje"
+		"norwegian": "tredje",
+		"chapter": "ordinal"
 	},
 	{
 		"english": "4.",
-		"norwegian": "fjerde"
+		"norwegian": "fjerde",
+		"chapter": "ordinal"
 	},
 	{
 		"english": "5.",
-		"norwegian": "femte"
+		"norwegian": "femte",
+		"chapter": "ordinal"
 	},
 	{
 		"english": "6.",
-		"norwegian": "sjette"
+		"norwegian": "sjette",
+		"chapter": "ordinal"
 	},
 	{
 		"english": "7.",
-		"norwegian": "sjuende / syvende"
+		"norwegian": "sjuende / syvende",
+		"chapter": "ordinal"
 	},
 	{
 		"english": "8.",
-		"norwegian": "åttende"
+		"norwegian": "åttende",
+		"chapter": "ordinal"
 	},
 	{
 		"english": "9.",
-		"norwegian": "niende"
+		"norwegian": "niende",
+		"chapter": "ordinal"
 	},
 	{
 		"english": "10.",
-		"norwegian": "tiende"
+		"norwegian": "tiende",
+		"chapter": "ordinal"
 	},
 	{
 		"english": "11.",
-		"norwegian": "ellevte"
+		"norwegian": "ellevte",
+		"chapter": "ordinal"
 	},
 	{
 		"english": "12.",
-		"norwegian": "tolvte"
+		"norwegian": "tolvte",
+		"chapter": "ordinal"
 	},
 	{
 		"english": "13.",
-		"norwegian": "trettende"
+		"norwegian": "trettende",
+		"chapter": "ordinal"
 	},
 	{
 		"english": "14.",
-		"norwegian": "fjortende"
+		"norwegian": "fjortende",
+		"chapter": "ordinal"
 	},
 	{
 		"english": "15.",
-		"norwegian": "femtende"
+		"norwegian": "femtende",
+		"chapter": "ordinal"
 	},
 	{
 		"english": "16.",
-		"norwegian": "sekstende"
+		"norwegian": "sekstende",
+		"chapter": "ordinal"
 	},
 	{
 		"english": "17.",
-		"norwegian": "syttende"
+		"norwegian": "syttende",
+		"chapter": "ordinal"
 	},
 	{
 		"english": "18.",
-		"norwegian": "attende"
+		"norwegian": "attende",
+		"chapter": "ordinal"
 	},
 	{
 		"english": "19.",
-		"norwegian": "nittende"
+		"norwegian": "nittende",
+		"chapter": "ordinal"
 	},
 	{
 		"english": "20.",
-		"norwegian": "tjuende / tyvende"
+		"norwegian": "tjuende / tyvende",
+		"chapter": "ordinal"
 	},
 	{
 		"english": "21.",
-		"norwegian": "tjueførste"
+		"norwegian": "tjueførste",
+		"chapter": "ordinal"
 	},
 	{
 		"english": "22.",
-		"norwegian": "tjueandre"
+		"norwegian": "tjueandre",
+		"chapter": "ordinal"
 	},
 	{
 		"english": "23.",
-		"norwegian": "tjuetredje"
+		"norwegian": "tjuetredje",
+		"chapter": "ordinal"
 	},
 	{
 		"english": "24.",
-		"norwegian": "tjuefjerde"
+		"norwegian": "tjuefjerde",
+		"chapter": "ordinal"
 	},
 	{
 		"english": "25.",
-		"norwegian": "tjuefemte"
+		"norwegian": "tjuefemte",
+		"chapter": "ordinal"
 	},
 	{
 		"english": "26.",
-		"norwegian": "tjuesjette"
+		"norwegian": "tjuesjette",
+		"chapter": "ordinal"
 	},
 	{
 		"english": "27.",
-		"norwegian": "tjuesjuende"
+		"norwegian": "tjuesjuende",
+		"chapter": "ordinal"
 	},
 	{
 		"english": "28.",
-		"norwegian": "tjueåttende"
+		"norwegian": "tjueåttende",
+		"chapter": "ordinal"
 	},
 	{
 		"english": "29.",
-		"norwegian": "tjueniende"
+		"norwegian": "tjueniende",
+		"chapter": "ordinal"
 	},
 	{
 		"english": "30.",
-		"norwegian": "trettiende / tredevte"
+		"norwegian": "trettiende / tredevte",
+		"chapter": "ordinal"
 	}
 ]

@@ -1,602 +1,752 @@
 [
     {
         "norwegian": "en flyttebil",
-        "english": "a moving truck/lorry"
+        "english": "a moving truck/lorry",
+        "chapter": "3"
     },
     {
         "norwegian": "en venn",
-        "english": "a friend"
+        "english": "a friend",
+        "chapter": "3"
     },
     {
         "norwegian": "inn",
-        "english": "in, inside, into"
+        "english": "in, inside, into",
+        "chapter": "3"
     },
     {
         "norwegian": "i dag",
-        "english": "today"
+        "english": "today",
+        "chapter": "3"
     },
     {
         "norwegian": "en skole",
-        "english": "a school"
+        "english": "a school",
+        "chapter": "3"
     },
     {
         "norwegian": "å ligge",
-        "english": "to lie"
+        "english": "to lie",
+        "chapter": "3"
     },
     {
         "norwegian": "å gjøre",
-        "english": "to do, make"
+        "english": "to do, make",
+        "chapter": "3"
     },
     {
         "norwegian": "morsom",
-        "english": "funny"
+        "english": "funny",
+        "chapter": "3"
     },
     {
         "norwegian": "å bo",
-        "english": "to live"
+        "english": "to live",
+        "chapter": "3"
     },
     {
         "norwegian": "våken",
-        "english": "awake"
+        "english": "awake",
+        "chapter": "3"
     },
     {
         "norwegian": "en frokost",
-        "english": "a breakfast"
+        "english": "a breakfast",
+        "chapter": "3"
     },
     {
         "norwegian": "å le",
-        "english": "to laugh"
+        "english": "to laugh",
+        "chapter": "3"
     },
     {
         "norwegian": "å smile",
-        "english": "to smile"
+        "english": "to smile",
+        "chapter": "3"
     },
     {
         "norwegian": "å tenke",
-        "english": "to think"
+        "english": "to think",
+        "chapter": "3"
     },
     {
         "norwegian": "en madrass",
-        "english": "a mattress"
+        "english": "a mattress",
+        "chapter": "3"
     },
     {
         "norwegian": "å si",
-        "english": "to say"
+        "english": "to say",
+        "chapter": "3"
     },
     {
         "norwegian": "å jobbe",
-        "english": "to work"
+        "english": "to work",
+        "chapter": "3"
     },
     {
         "norwegian": "et bord",
-        "english": "a table"
+        "english": "a table",
+        "chapter": "3"
     },
     {
         "norwegian": "å måtte",
-        "english": "have to, must"
+        "english": "have to, must",
+        "chapter": "3"
     },
     {
         "norwegian": "en morgen",
-        "english": "a morning"
+        "english": "a morning",
+        "chapter": "3"
     },
     {
         "norwegian": "å spise",
-        "english": "to eat"
+        "english": "to eat",
+        "chapter": "3"
     },
     {
         "norwegian": "hjemme",
-        "english": "at home"
+        "english": "at home",
+        "chapter": "3"
     },
     {
         "norwegian": "noe (noen)",
-        "english": "something"
+        "english": "something",
+        "chapter": "3"
     },
     {
         "norwegian": "å finne",
-        "english": "to find"
+        "english": "to find",
+        "chapter": "3"
     },
     {
         "norwegian": "en barnehage",
-        "english": "a kindergarten"
+        "english": "a kindergarten",
+        "chapter": "3"
     },
     {
         "norwegian": "skal (å skulle)",
-        "english": "will, shall, is going to"
+        "english": "will, shall, is going to",
+        "chapter": "3"
     },
     {
         "norwegian": "å skulle",
-        "english": "will, shall"
+        "english": "will, shall",
+        "chapter": "3"
     },
     {
         "norwegian": "må (å måtte)",
-        "english": "must, has to"
+        "english": "must, has to",
+        "chapter": "3"
     },
     {
         "norwegian": "å kjenne",
-        "english": "to feel, know"
+        "english": "to feel, know",
+        "chapter": "3"
     },
     {
         "norwegian": "å våkne",
-        "english": "to wake up"
+        "english": "to wake up",
+        "chapter": "3"
     },
     {
         "norwegian": "en mandag",
-        "english": "a Monday"
+        "english": "a Monday",
+        "chapter": "3"
     },
     {
         "norwegian": "rundt",
-        "english": "round, about"
+        "english": "round, about",
+        "chapter": "3"
     },
     {
         "norwegian": "min",
-        "english": "my, mine"
+        "english": "my, mine",
+        "chapter": "3"
     },
     {
         "norwegian": "en formiddag",
-        "english": "a morning"
+        "english": "a morning",
+        "chapter": "3"
     },
     {
         "norwegian": "av",
-        "english": "off, of, by, from"
+        "english": "off, of, by, from",
+        "chapter": "3"
     },
     {
         "norwegian": "ett",
-        "english": "one"
+        "english": "one",
+        "chapter": "3"
     },
     {
         "norwegian": "å hjelpe",
-        "english": "to help"
+        "english": "to help",
+        "chapter": "3"
     },
     {
         "norwegian": "et møbel",
-        "english": "a piece of furniture"
+        "english": "a piece of furniture",
+        "chapter": "3"
     },
     {
         "norwegian": "et flyttebyrå",
-        "english": "a moving company"
+        "english": "a moving company",
+        "chapter": "3"
     },
     {
         "norwegian": "å møte",
-        "english": "to meet"
+        "english": "to meet",
+        "chapter": "3"
     },
     {
         "norwegian": "to",
-        "english": "two"
+        "english": "two",
+        "chapter": "3"
     },
     {
         "norwegian": "en familie",
-        "english": "a family"
+        "english": "a family",
+        "chapter": "3"
     },
     {
         "norwegian": "utenfor",
-        "english": "outside"
+        "english": "outside",
+        "chapter": "3"
     },
     {
         "norwegian": "riktig",
-        "english": "correct, right"
+        "english": "correct, right",
+        "chapter": "3"
     },
     {
         "norwegian": "en stol",
-        "english": "a chair"
+        "english": "a chair",
+        "chapter": "3"
     },
     {
         "norwegian": "din",
-        "english": "your, yours (singular)"
+        "english": "your, yours (singular)",
+        "chapter": "3"
     },
     {
         "norwegian": "meg",
-        "english": "me"
+        "english": "me",
+        "chapter": "3"
     },
     {
         "norwegian": "en sjåfør",
-        "english": "a driver"
+        "english": "a driver",
+        "chapter": "3"
     },
     {
         "norwegian": "å kalle",
-        "english": "to call"
+        "english": "to call",
+        "chapter": "3"
     },
     {
         "norwegian": "et kvarter",
-        "english": "a quarter of an hour"
+        "english": "a quarter of an hour",
+        "chapter": "3"
     },
     {
         "norwegian": "et hus",
-        "english": "a house, building"
+        "english": "a house, building",
+        "chapter": "3"
     },
     {
         "norwegian": "en lastebil",
-        "english": "a truck"
+        "english": "a truck",
+        "chapter": "3"
     },
     {
         "norwegian": "en bil",
-        "english": "a car"
+        "english": "a car",
+        "chapter": "3"
     },
     {
         "norwegian": "et nabohus",
-        "english": "a neighbouring house"
+        "english": "a neighbouring house",
+        "chapter": "3"
     },
     {
         "norwegian": "kan (å kunne)",
-        "english": "can, be able to"
+        "english": "can, be able to",
+        "chapter": "3"
     },
     {
         "norwegian": "å stoppe",
-        "english": "to stop"
+        "english": "to stop",
+        "chapter": "3"
     },
     {
         "norwegian": "å bære",
-        "english": "to carry"
+        "english": "to carry",
+        "chapter": "3"
     },
     {
         "norwegian": "ei adresse",
-        "english": "an adress"
+        "english": "an adress",
+        "chapter": "3"
     },
     {
         "norwegian": "fire",
-        "english": "four"
+        "english": "four",
+        "chapter": "3"
     },
     {
         "norwegian": "ut",
-        "english": "out"
+        "english": "out",
+        "chapter": "3"
     },
     {
         "norwegian": "å kunne",
-        "english": "(the infinitive of) can, be able to"
+        "english": "(the infinitive of) can, be able to",
+        "chapter": "3"
     },
     {
         "norwegian": "en nabo",
-        "english": "a neighbour"
+        "english": "a neighbour",
+        "chapter": "3"
     },
     {
         "norwegian": "dette",
-        "english": "this"
+        "english": "this",
+        "chapter": "3"
     },
     {
         "norwegian": "ei kone",
-        "english": "a wife"
+        "english": "a wife",
+        "chapter": "3"
     },
     {
         "norwegian": "etter",
-        "english": "after"
+        "english": "after",
+        "chapter": "3"
     },
     {
         "norwegian": "seks",
-        "english": "six"
+        "english": "six",
+        "chapter": "3"
     },
     {
         "norwegian": "der borte",
-        "english": "over there"
+        "english": "over there",
+        "chapter": "3"
     },
     {
         "norwegian": "å hoppe",
-        "english": "to jump"
+        "english": "to jump",
+        "chapter": "3"
     },
     {
         "norwegian": "å løpe",
-        "english": "to run"
+        "english": "to run",
+        "chapter": "3"
     },
     {
         "norwegian": "å ringe",
-        "english": "to ring, call"
+        "english": "to ring, call",
+        "chapter": "3"
     },
     {
         "norwegian": "ei stue",
-        "english": "a living room"
+        "english": "a living room",
+        "chapter": "3"
     },
     {
         "norwegian": "å vaske",
-        "english": "to wash, clean"
+        "english": "to wash, clean",
+        "chapter": "3"
     },
     {
         "norwegian": "en sofa",
-        "english": "a sofa, couch"
+        "english": "a sofa, couch",
+        "chapter": "3"
     },
     {
         "norwegian": "en garasje",
-        "english": "a garage"
+        "english": "a garage",
+        "chapter": "3"
     },
     {
         "norwegian": "et kjøleskap",
-        "english": "a refrigerator"
+        "english": "a refrigerator",
+        "chapter": "3"
     },
     {
         "norwegian": "en balkong",
-        "english": "a balcony"
+        "english": "a balcony",
+        "chapter": "3"
     },
     {
         "norwegian": "å ville",
-        "english": "wants to, will"
+        "english": "wants to, will",
+        "chapter": "3"
     },
     {
         "norwegian": "ei mormor",
-        "english": "a (maternal) grandmother"
+        "english": "a (maternal) grandmother",
+        "chapter": "3"
     },
     {
         "norwegian": "et soverom",
-        "english": "a bedroom"
+        "english": "a bedroom",
+        "chapter": "3"
     },
     {
         "norwegian": "stor",
-        "english": "big"
+        "english": "big",
+        "chapter": "3"
     },
     {
         "norwegian": "snart",
-        "english": "soon"
+        "english": "soon",
+        "chapter": "3"
     },
     {
         "norwegian": "en komfyr",
-        "english": "a stove"
+        "english": "a stove",
+        "chapter": "3"
     },
     {
         "norwegian": "en plass",
-        "english": "a space"
+        "english": "a space",
+        "chapter": "3"
     },
     {
         "norwegian": "en vaskemaskin",
-        "english": "a washing machine"
+        "english": "a washing machine",
+        "chapter": "3"
     },
     {
         "norwegian": "å spørre",
-        "english": "to ask"
+        "english": "to ask",
+        "chapter": "3"
     },
     {
         "norwegian": "et bad",
-        "english": "a bath"
+        "english": "a bath",
+        "chapter": "3"
     },
     {
         "norwegian": "tre",
-        "english": "three"
+        "english": "three",
+        "chapter": "3"
     },
     {
         "norwegian": "en gang",
-        "english": "a time"
+        "english": "a time",
+        "chapter": "3"
     },
     {
         "norwegian": "grei",
-        "english": "all right"
+        "english": "all right",
+        "chapter": "3"
     },
     {
         "norwegian": "en morfar",
-        "english": "a (maternal) grandfather"
+        "english": "a (maternal) grandfather",
+        "chapter": "3"
     },
     {
         "norwegian": "en leilighet",
-        "english": "an apartment"
+        "english": "an apartment",
+        "chapter": "3"
     },
     {
         "norwegian": "den",
-        "english": "it"
+        "english": "it",
+        "chapter": "3"
     },
     {
         "norwegian": "en telefon",
-        "english": "a telephone"
+        "english": "a telephone",
+        "chapter": "3"
     },
     {
         "norwegian": "ei trapp",
-        "english": "a staircase, stairs"
+        "english": "a staircase, stairs",
+        "chapter": "3"
     },
     {
         "norwegian": "en ettermiddag",
-        "english": "an afternoon"
+        "english": "an afternoon",
+        "chapter": "3"
     },
     {
         "norwegian": "der",
-        "english": "there"
+        "english": "there",
+        "chapter": "3"
     },
     {
         "norwegian": "en lenestol",
-        "english": "an armchair"
+        "english": "an armchair",
+        "chapter": "3"
     },
     {
         "norwegian": "et spisebord",
-        "english": "a dining table"
+        "english": "a dining table",
+        "chapter": "3"
     },
     {
         "norwegian": "å like",
-        "english": "to like"
+        "english": "to like",
+        "chapter": "3"
     },
     {
         "norwegian": "dem",
-        "english": "them"
+        "english": "them",
+        "chapter": "3"
     },
     {
         "norwegian": "et hjørne",
-        "english": "corner"
+        "english": "corner",
+        "chapter": "3"
     },
     {
         "norwegian": "å kjøpe",
-        "english": "to buy"
+        "english": "to buy",
+        "chapter": "3"
     },
     {
         "norwegian": "et besøk",
-        "english": "a visit"
+        "english": "a visit",
+        "chapter": "3"
     },
     {
         "norwegian": "vil (å ville)",
-        "english": "wants to, will"
+        "english": "wants to, will",
+        "chapter": "3"
     },
     {
         "norwegian": "et kjøkken",
-        "english": "a kitchen"
+        "english": "a kitchen",
+        "chapter": "3"
     },
     {
         "norwegian": "å besøke",
-        "english": "to visit"
+        "english": "to visit",
+        "chapter": "3"
     },
     {
         "norwegian": "en dusj",
-        "english": "a shower"
+        "english": "a shower",
+        "chapter": "3"
     },
     {
         "norwegian": "en benk",
-        "english": "a kitchen counter, bench"
+        "english": "a kitchen counter, bench",
+        "chapter": "3"
     },
     {
         "norwegian": "en TV",
-        "english": "a TV"
+        "english": "a TV",
+        "chapter": "3"
     },
     {
         "norwegian": "borte",
-        "english": "away, off, over"
+        "english": "away, off, over",
+        "chapter": "3"
     },
     {
         "norwegian": "en oppvaskmaskin",
-        "english": "a dishwasher"
+        "english": "a dishwasher",
+        "chapter": "3"
     },
     {
         "norwegian": "et salongbord",
-        "english": "a coffee table"
+        "english": "a coffee table",
+        "chapter": "3"
     },
     {
         "norwegian": "en tirsdag",
-        "english": "a Tuesday"
+        "english": "a Tuesday",
+        "chapter": "3"
     },
     {
         "norwegian": "et skap",
-        "english": "a cupboard"
+        "english": "a cupboard",
+        "chapter": "3"
     },
     {
         "norwegian": "å ordne",
-        "english": "to fix, organise"
+        "english": "to fix, organise",
+        "chapter": "3"
     },
     {
         "norwegian": "et skjørt",
-        "english": "a skirt"
+        "english": "a skirt",
+        "chapter": "3"
     },
     {
         "norwegian": "å bli",
-        "english": "to become, will be, turn out"
+        "english": "to become, will be, turn out",
+        "chapter": "3"
     },
     {
         "norwegian": "mellom",
-        "english": "between"
+        "english": "between",
+        "chapter": "3"
     },
     {
         "norwegian": "et hår",
-        "english": "a hair"
+        "english": "a hair",
+        "chapter": "3"
     },
     {
         "norwegian": "å synge",
-        "english": "to sing"
+        "english": "to sing",
+        "chapter": "3"
     },
     {
         "norwegian": "et skrivebord",
-        "english": "a desk"
+        "english": "a desk",
+        "chapter": "3"
     },
     {
         "norwegian": "et bilde",
-        "english": "a picture"
+        "english": "a picture",
+        "chapter": "3"
     },
     {
         "norwegian": "å bytte",
-        "english": "to change, exchange"
+        "english": "to change, exchange",
+        "chapter": "3"
     },
     {
         "norwegian": "en kommode",
-        "english": "a dresser"
+        "english": "a dresser",
+        "chapter": "3"
     },
     {
         "norwegian": "en sminke",
-        "english": "a makeup"
+        "english": "a makeup",
+        "chapter": "3"
     },
     {
         "norwegian": "ei jakke",
-        "english": "a jacket"
+        "english": "a jacket",
+        "chapter": "3"
     },
     {
         "norwegian": "ei bukse",
-        "english": "a pair of trousers"
+        "english": "a pair of trousers",
+        "chapter": "3"
     },
     {
         "norwegian": "et vindu",
-        "english": "a window"
+        "english": "a window",
+        "chapter": "3"
     },
     {
         "norwegian": "å høre",
-        "english": "to hear"
+        "english": "to hear",
+        "chapter": "3"
     },
     {
         "norwegian": "et speil",
-        "english": "a mirror"
+        "english": "a mirror",
+        "chapter": "3"
     },
     {
         "norwegian": "en musikk",
-        "english": "music"
+        "english": "music",
+        "chapter": "3"
     },
     {
         "norwegian": "en vegg",
-        "english": "a wall"
+        "english": "a wall",
+        "chapter": "3"
     },
     {
         "norwegian": "ei hylle",
-        "english": "a shelf"
+        "english": "a shelf",
+        "chapter": "3"
     },
     {
         "norwegian": "ved",
-        "english": "at, by, near, on, to"
+        "english": "at, by, near, on, to",
+        "chapter": "3"
     },
     {
         "norwegian": "et klesskap",
-        "english": "a closet"
+        "english": "a closet",
+        "chapter": "3"
     },
     {
         "norwegian": "å hente",
-        "english": "to fetch, pick up"
+        "english": "to fetch, pick up",
+        "chapter": "3"
     },
     {
         "norwegian": "et kamera",
-        "english": "a camera"
+        "english": "a camera",
+        "chapter": "3"
     },
     {
         "norwegian": "et undertøy",
-        "english": "an underwear"
+        "english": "an underwear",
+        "chapter": "3"
     },
     {
         "norwegian": "ei seng",
-        "english": "a bed"
+        "english": "a bed",
+        "chapter": "3"
     },
     {
         "norwegian": "så",
-        "english": "then"
+        "english": "then",
+        "chapter": "3"
     },
     {
         "norwegian": "en sko",
-        "english": "a shoe"
+        "english": "a shoe",
+        "chapter": "3"
     },
     {
         "norwegian": "ei dør",
-        "english": "a door"
+        "english": "a door",
+        "chapter": "3"
     },
     {
         "norwegian": "foran",
-        "english": "in front of"
+        "english": "in front of",
+        "chapter": "3"
     },
     {
         "norwegian": "for",
-        "english": "for, because"
+        "english": "for, because",
+        "chapter": "3"
     },
     {
         "norwegian": "kjempefint",
-        "english": "very nice, terrific"
+        "english": "very nice, terrific",
+        "chapter": "3"
     },
     {
         "norwegian": "ei bluse",
-        "english": "a blouse"
+        "english": "a blouse",
+        "chapter": "3"
     },
     {
         "norwegian": "alene",
-        "english": "alone"
+        "english": "alone",
+        "chapter": "3"
     },
     {
         "norwegian": "ei T-skjorte",
-        "english": "a T-shirt"
+        "english": "a T-shirt",
+        "chapter": "3"
     },
     {
         "norwegian": "et rom",
-        "english": "a room"
+        "english": "a room",
+        "chapter": "3"
     },
     {
         "norwegian": "en kveld",
-        "english": "an evening, night"
+        "english": "an evening, night",
+        "chapter": "3"
     }
 ]

@@ -1,78 +1,97 @@
 [
     {
         "norwegian": "jeg",
-        "english": "I"
+        "english": "I",
+        "chapter": "1"
     },
     {
         "norwegian": "hva",
-        "english": "what"
+        "english": "what",
+        "chapter": "1"
     },
     {
         "norwegian": "du",
-        "english": "you"
+        "english": "you",
+        "chapter": "1"
     },
     {
         "norwegian": "heter (å hete)",
-        "english": "am/is/are named"
+        "english": "am/is/are named",
+        "chapter": "1"
     },
     {
         "norwegian": "hei",
-        "english": "hi"
+        "english": "hi",
+        "chapter": "1"
     },
     {
         "norwegian": "på",
-        "english": "on, at"
+        "english": "on, at",
+        "chapter": "1"
     },
     {
         "norwegian": "hyggelig å hilse på deg!",
-        "english": "nice to meet you"
+        "english": "nice to meet you",
+        "chapter": "1"
     },
     {
         "norwegian": "å hilse",
-        "english": "to greet"
+        "english": "to greet",
+        "chapter": "1"
     },
     {
         "norwegian": "en dag",
-        "english": "a day"
+        "english": "a day",
+        "chapter": "1"
     },
     {
         "norwegian": "å (infinitive marker)",
-        "english": "to"
+        "english": "to",
+        "chapter": "1"
     },
     {
         "norwegian": "hyggelig",
-        "english": "nice, pleasant"
+        "english": "nice, pleasant",
+        "chapter": "1"
     },
     {
         "norwegian": "å hete",
-        "english": "to be named"
+        "english": "to be named",
+        "chapter": "1"
     },
     {
         "norwegian": "god",
-        "english": "good"
+        "english": "good",
+        "chapter": "1"
     },
     {
         "norwegian": "hallo",
-        "english": "hello"
+        "english": "hello",
+        "chapter": "1"
     },
     {
         "norwegian": "norsk",
-        "english": "norwegian"
+        "english": "norwegian",
+        "chapter": "1"
     },
     {
         "norwegian": "er (å være)",
-        "english": "am, are, is"
+        "english": "am, are, is",
+        "chapter": "1"
     },
     {
         "norwegian": "fra",
-        "english": "from"
+        "english": "from",
+        "chapter": "1"
     },
     {
         "norwegian": "kommer (å komme)",
-        "english": "come(s)"
+        "english": "come(s)",
+        "chapter": "1"
     },
     {
         "norwegian": "hvor",
-        "english": "where"
+        "english": "where",
+        "chapter": "1"
     }
 ]
