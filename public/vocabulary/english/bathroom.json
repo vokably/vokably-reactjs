@@ -1,70 +1,87 @@
 [
     {
         "norwegian": "på badet",
-        "english": "in the bathroom"
+        "english": "in the bathroom",
+        "chapter": "bathroom"
     },
     {
         "norwegian": "et badekar",
-        "english": "a tub"
+        "english": "a tub",
+        "chapter": "bathroom"
     },
     {
         "norwegian": "en barberhøvel",
-        "english": "a razor"
+        "english": "a razor",
+        "chapter": "bathroom"
     },
     {
         "norwegian": "et barberskum",
-        "english": "shaving foam"
+        "english": "shaving foam",
+        "chapter": "bathroom"
     },
     {
         "norwegian": "en bodylotion",
-        "english": "body lotion"
+        "english": "body lotion",
+        "chapter": "bathroom"
     },
     {
         "norwegian": "en hårbørste",
-        "english": "a hair brush"
+        "english": "a hair brush",
+        "chapter": "bathroom"
     },
     {
         "norwegian": "en hårføner",
-        "english": "a hair dryer"
+        "english": "a hair dryer",
+        "chapter": "bathroom"
     },
     {
         "norwegian": "en sjampo",
-        "english": "a shampoo"
+        "english": "a shampoo",
+        "chapter": "bathroom"
     },
     {
         "norwegian": "ei såpe",
-        "english": "a soap"
+        "english": "a soap",
+        "chapter": "bathroom"
     },
     {
         "norwegian": "en tannbørste",
-        "english": "a tooth brush"
+        "english": "a tooth brush",
+        "chapter": "bathroom"
     },
     {
         "norwegian": "en tannkrem",
-        "english": "tooth paste"
+        "english": "tooth paste",
+        "chapter": "bathroom"
     },
     {
         "norwegian": "en vask",
-        "english": "a sink"
+        "english": "a sink",
+        "chapter": "bathroom"
     },
     {
         "norwegian": "en do/et toalett",
-        "english": "a toilet"
+        "english": "a toilet",
+        "chapter": "bathroom"
     },
     {
         "norwegian": "et dopapir",
-        "english": "toilet paper"
+        "english": "toilet paper",
+        "chapter": "bathroom"
     },
     {
         "norwegian": "en dusj",
-        "english": "a shower"
+        "english": "a shower",
+        "chapter": "bathroom"
     },
     {
         "norwegian": "ei dusjsåpe",
-        "english": "a shower gel"
+        "english": "a shower gel",
+        "chapter": "bathroom"
     },
     {
         "norwegian": "et håndkle",
-        "english": "a towel"
+        "english": "a towel",
+        "chapter": "bathroom"
     }
 ]

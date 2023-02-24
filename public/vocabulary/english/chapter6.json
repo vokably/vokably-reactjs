@@ -1,542 +1,677 @@
 [
     {
         "norwegian": "en lørdag",
-        "english": "a Saturday"
+        "english": "a Saturday",
+        "chapter": "6"
     },
     {
         "norwegian": "en tomat",
-        "english": "a tomato"
+        "english": "a tomato",
+        "chapter": "6"
     },
     {
         "norwegian": "snill",
-        "english": "kind"
+        "english": "kind",
+        "chapter": "6"
     },
     {
         "norwegian": "en hud",
-        "english": "a skin"
+        "english": "a skin",
+        "chapter": "6"
     },
     {
         "norwegian": "en tallerken",
-        "english": "a plate"
+        "english": "a plate",
+        "chapter": "6"
     },
     {
         "norwegian": "å barbere seg",
-        "english": "to shave"
+        "english": "to shave",
+        "chapter": "6"
     },
     {
         "norwegian": "en jus (juice)",
-        "english": "a juice"
+        "english": "a juice",
+        "chapter": "6"
     },
     {
         "norwegian": "å tørke",
-        "english": "to dry"
+        "english": "to dry",
+        "chapter": "6"
     },
     {
         "norwegian": "vann",
-        "english": "water"
+        "english": "water",
+        "chapter": "6"
     },
     {
         "norwegian": "tidlig",
-        "english": "early"
+        "english": "early",
+        "chapter": "6"
     },
     {
         "norwegian": "å kle på seg",
-        "english": "to dress"
+        "english": "to dress",
+        "chapter": "6"
     },
     {
         "norwegian": "glad",
-        "english": "happy, glad"
+        "english": "happy, glad",
+        "chapter": "6"
     },
     {
         "norwegian": "en kniv",
-        "english": "a knife"
+        "english": "a knife",
+        "chapter": "6"
     },
     {
         "norwegian": "et grovbrød",
-        "english": "a brown bread"
+        "english": "a brown bread",
+        "chapter": "6"
     },
     {
         "norwegian": "denne",
-        "english": "this"
+        "english": "this",
+        "chapter": "6"
     },
     {
         "norwegian": "selv",
-        "english": "self"
+        "english": "self",
+        "chapter": "6"
     },
     {
         "norwegian": "et smør",
-        "english": "a butter"
+        "english": "a butter",
+        "chapter": "6"
     },
     {
         "norwegian": "et smil",
-        "english": "a smile"
+        "english": "a smile",
+        "chapter": "6"
     },
     {
         "norwegian": "kort",
-        "english": "short"
+        "english": "short",
+        "chapter": "6"
     },
     {
         "norwegian": "å skjære",
-        "english": "to cut"
+        "english": "to cut",
+        "chapter": "6"
     },
     {
         "norwegian": "hvit",
-        "english": "white"
+        "english": "white",
+        "chapter": "6"
     },
     {
         "norwegian": "å dekke",
-        "english": "to set, cover"
+        "english": "to set, cover",
+        "chapter": "6"
     },
     {
         "norwegian": "å koke",
-        "english": "to boil"
+        "english": "to boil",
+        "chapter": "6"
     },
     {
         "norwegian": "seg selv",
-        "english": "oneself"
+        "english": "oneself",
+        "chapter": "6"
     },
     {
         "norwegian": "seinere",
-        "english": "later"
+        "english": "later",
+        "chapter": "6"
     },
     {
         "norwegian": "å gjette",
-        "english": "to guess"
+        "english": "to guess",
+        "chapter": "6"
     },
     {
         "norwegian": "etterpå",
-        "english": "afterwards"
+        "english": "afterwards",
+        "chapter": "6"
     },
     {
         "norwegian": "et kjøpesenter",
-        "english": "a shopping centre"
+        "english": "a shopping centre",
+        "chapter": "6"
     },
     {
         "norwegian": "å tørke seg",
-        "english": "to dry oneself"
+        "english": "to dry oneself",
+        "chapter": "6"
     },
     {
         "norwegian": "en by",
-        "english": "a city"
+        "english": "a city",
+        "chapter": "6"
     },
     {
         "norwegian": "å sove",
-        "english": "to sleep"
+        "english": "to sleep",
+        "chapter": "6"
     },
     {
         "norwegian": "ned",
-        "english": "down"
+        "english": "down",
+        "chapter": "6"
     },
     {
         "norwegian": "å pusse",
-        "english": "to brush"
+        "english": "to brush",
+        "chapter": "6"
     },
     {
         "norwegian": "disse",
-        "english": "these"
+        "english": "these",
+        "chapter": "6"
     },
     {
         "norwegian": "et sentrum",
-        "english": "a (town) centre"
+        "english": "a (town) centre",
+        "chapter": "6"
     },
     {
         "norwegian": "brun",
-        "english": "brown"
+        "english": "brown",
+        "chapter": "6"
     },
     {
         "norwegian": "å ha lyst til å …",
-        "english": "want to, would like to"
+        "english": "want to, would like to",
+        "chapter": "6"
     },
     {
         "norwegian": "dit",
-        "english": "there, yonder"
+        "english": "there, yonder",
+        "chapter": "6"
     },
     {
         "norwegian": "ei gate",
-        "english": "a street"
+        "english": "a street",
+        "chapter": "6"
     },
     {
         "norwegian": "forskjellig",
-        "english": "different, various"
+        "english": "different, various",
+        "chapter": "6"
     },
     {
         "norwegian": "et torg",
-        "english": "a (town) square"
+        "english": "a (town) square",
+        "chapter": "6"
     },
     {
         "norwegian": "et apotek",
-        "english": "a pharmacy"
+        "english": "a pharmacy",
+        "chapter": "6"
     },
     {
         "norwegian": "kjempekoselig",
-        "english": "really cosy"
+        "english": "really cosy",
+        "chapter": "6"
     },
     {
         "norwegian": "små (liten)",
-        "english": "small"
+        "english": "small",
+        "chapter": "6"
     },
     {
         "norwegian": "en bank",
-        "english": "a bank"
+        "english": "a bank",
+        "chapter": "6"
     },
     {
         "norwegian": "å parkere",
-        "english": "to park"
+        "english": "to park",
+        "chapter": "6"
     },
     {
         "norwegian": "et salg",
-        "english": "a sale"
+        "english": "a sale",
+        "chapter": "6"
     },
     {
         "norwegian": "en barne-TV",
-        "english": "a children's TV"
+        "english": "a children's TV",
+        "chapter": "6"
     },
     {
         "norwegian": "ei gågate",
-        "english": "a pedestrian area"
+        "english": "a pedestrian area",
+        "chapter": "6"
     },
     {
         "norwegian": "lyst til (å ha lyst til å ...)",
-        "english": "wanting to do something"
+        "english": "wanting to do something",
+        "chapter": "6"
     },
     {
         "norwegian": "liten",
-        "english": "small"
+        "english": "small",
+        "chapter": "6"
     },
     {
         "norwegian": "moderne",
-        "english": "modern"
+        "english": "modern",
+        "chapter": "6"
     },
     {
         "norwegian": "å se på",
-        "english": "to watch"
+        "english": "to watch",
+        "chapter": "6"
     },
     {
         "norwegian": "ei kirke",
-        "english": "a church"
+        "english": "a church",
+        "chapter": "6"
     },
     {
         "norwegian": "en parkeringsplass",
-        "english": "a parking lot"
+        "english": "a parking lot",
+        "chapter": "6"
     },
     {
         "norwegian": "lite (liten)",
-        "english": "small"
+        "english": "small",
+        "chapter": "6"
     },
     {
         "norwegian": "høy",
-        "english": "loud, high, tall"
+        "english": "loud, high, tall",
+        "chapter": "6"
     },
     {
         "norwegian": "lenge",
-        "english": "long"
+        "english": "long",
+        "chapter": "6"
     },
     {
         "norwegian": "plutselig",
-        "english": "suddenly"
+        "english": "suddenly",
+        "chapter": "6"
     },
     {
         "norwegian": "å koste",
-        "english": "to cost"
+        "english": "to cost",
+        "chapter": "6"
     },
     {
         "norwegian": "en ekspeditør",
-        "english": "a shop assistent"
+        "english": "a shop assistent",
+        "chapter": "6"
     },
     {
         "norwegian": "annen",
-        "english": "other"
+        "english": "other",
+        "chapter": "6"
     },
     {
         "norwegian": "elegant",
-        "english": "elegant"
+        "english": "elegant",
+        "chapter": "6"
     },
     {
         "norwegian": "svart",
-        "english": "black"
+        "english": "black",
+        "chapter": "6"
     },
     {
         "norwegian": "nydelig",
-        "english": "very nice, lovely"
+        "english": "very nice, lovely",
+        "chapter": "6"
     },
     {
         "norwegian": "billig",
-        "english": "inexpensive, cheap"
+        "english": "inexpensive, cheap",
+        "chapter": "6"
     },
     {
         "norwegian": "lav",
-        "english": "low"
+        "english": "low",
+        "chapter": "6"
     },
     {
         "norwegian": "en skobutikk",
-        "english": "a shoe store"
+        "english": "a shoe store",
+        "chapter": "6"
     },
     {
         "norwegian": "å passe",
-        "english": "to fit, suit"
+        "english": "to fit, suit",
+        "chapter": "6"
     },
     {
         "norwegian": "et par",
-        "english": "a couple"
+        "english": "a couple",
+        "chapter": "6"
     },
     {
         "norwegian": "klær",
-        "english": "clothes"
+        "english": "clothes",
+        "chapter": "6"
     },
     {
         "norwegian": "tilbake",
-        "english": "back"
+        "english": "back",
+        "chapter": "6"
     },
     {
         "norwegian": "en femhundrelapp",
-        "english": "a five hundred note"
+        "english": "a five hundred note",
+        "chapter": "6"
     },
     {
         "norwegian": "naturligvis",
-        "english": "naturally"
+        "english": "naturally",
+        "chapter": "6"
     },
     {
         "norwegian": "akkurat",
-        "english": "exactly, precisely"
+        "english": "exactly, precisely",
+        "chapter": "6"
     },
     {
         "norwegian": "interessant",
-        "english": "interesting"
+        "english": "interesting",
+        "chapter": "6"
     },
     {
         "norwegian": "ei kåpe",
-        "english": "a coat"
+        "english": "a coat",
+        "chapter": "6"
     },
     {
         "norwegian": "ei vinterjakke",
-        "english": "a winter jacket"
+        "english": "a winter jacket",
+        "chapter": "6"
     },
     {
         "norwegian": "lys",
-        "english": "bright, light, blonde"
+        "english": "bright, light, blonde",
+        "chapter": "6"
     },
     {
         "norwegian": "helt",
-        "english": "completely"
+        "english": "completely",
+        "chapter": "6"
     },
     {
         "norwegian": "en prosent (%)",
-        "english": "a percent (%)"
+        "english": "a percent (%)",
+        "chapter": "6"
     },
     {
         "norwegian": "å synes",
-        "english": "to think"
+        "english": "to think",
+        "chapter": "6"
     },
     {
         "norwegian": "en sjiraff",
-        "english": "a giraffe"
+        "english": "a giraffe",
+        "chapter": "6"
     },
     {
         "norwegian": "en bokstav",
-        "english": "a letter"
+        "english": "a letter",
+        "chapter": "6"
     },
     {
         "norwegian": "en lekebutikk",
-        "english": "a toy store"
+        "english": "a toy store",
+        "chapter": "6"
     },
     {
         "norwegian": "en rabatt",
-        "english": "a discount"
+        "english": "a discount",
+        "chapter": "6"
     },
     {
         "norwegian": "vet (å vite)",
-        "english": "to know"
+        "english": "to know",
+        "chapter": "6"
     },
     {
         "norwegian": "å anbefale",
-        "english": "to recommend"
+        "english": "to recommend",
+        "chapter": "6"
     },
     {
         "norwegian": "når",
-        "english": "when"
+        "english": "when",
+        "chapter": "6"
     },
     {
         "norwegian": "en kjole",
-        "english": "a dress"
+        "english": "a dress",
+        "chapter": "6"
     },
     {
         "norwegian": "et tilbud",
-        "english": "a offer, sale"
+        "english": "a offer, sale",
+        "chapter": "6"
     },
     {
         "norwegian": "lita (liten)",
-        "english": "little, small"
+        "english": "little, small",
+        "chapter": "6"
     },
     {
         "norwegian": "et øyeblikk",
-        "english": "a moment"
+        "english": "a moment",
+        "chapter": "6"
     },
     {
         "norwegian": "ei lue",
-        "english": "a winter hat"
+        "english": "a winter hat",
+        "chapter": "6"
     },
     {
         "norwegian": "sikkert",
-        "english": "here: probably. Also: certainly"
+        "english": "here: probably. Also: certainly",
+        "chapter": "6"
     },
     {
         "norwegian": "en kvittering",
-        "english": "a receipt"
+        "english": "a receipt",
+        "chapter": "6"
     },
     {
         "norwegian": "et eksempel",
-        "english": "an example"
+        "english": "an example",
+        "chapter": "6"
     },
     {
         "norwegian": "vanlig",
-        "english": "usual, customary"
+        "english": "usual, customary",
+        "chapter": "6"
     },
     {
         "norwegian": "elleve",
-        "english": "eleven"
+        "english": "eleven",
+        "chapter": "6"
     },
     {
         "norwegian": "en pris",
-        "english": "a price"
+        "english": "a price",
+        "chapter": "6"
     },
     {
         "norwegian": "å møtes",
-        "english": "to meet up"
+        "english": "to meet up",
+        "chapter": "6"
     },
     {
         "norwegian": "inne",
-        "english": "in, inside"
+        "english": "in, inside",
+        "chapter": "6"
     },
     {
         "norwegian": "grønn",
-        "english": "green"
+        "english": "green",
+        "chapter": "6"
     },
     {
         "norwegian": "lysebrun",
-        "english": "light brown"
+        "english": "light brown",
+        "chapter": "6"
     },
     {
         "norwegian": "en klesbutikk",
-        "english": "a clothing store"
+        "english": "a clothing store",
+        "chapter": "6"
     },
     {
         "norwegian": "penger",
-        "english": "money"
+        "english": "money",
+        "chapter": "6"
     },
     {
         "norwegian": "tørst",
-        "english": "thirsty"
+        "english": "thirsty",
+        "chapter": "6"
     },
     {
         "norwegian": "ei eplekake",
-        "english": "an apple tart"
+        "english": "an apple tart",
+        "chapter": "6"
     },
     {
         "norwegian": "annet (cf. annen)",
-        "english": "other"
+        "english": "other",
+        "chapter": "6"
     },
     {
         "norwegian": "ei flaske",
-        "english": "a bottle"
+        "english": "a bottle",
+        "chapter": "6"
     },
     {
         "norwegian": "lenger",
-        "english": "more, anymore"
+        "english": "more, anymore",
+        "chapter": "6"
     },
     {
         "norwegian": "syttito",
-        "english": "seventy-two"
+        "english": "seventy-two",
+        "chapter": "6"
     },
     {
         "norwegian": "hvorfor",
-        "english": "why"
+        "english": "why",
+        "chapter": "6"
     },
     {
         "norwegian": "et sted",
-        "english": "a place"
+        "english": "a place",
+        "chapter": "6"
     },
     {
         "norwegian": "nok",
-        "english": "enough"
+        "english": "enough",
+        "chapter": "6"
     },
     {
         "norwegian": "en tast",
-        "english": "a key"
+        "english": "a key",
+        "chapter": "6"
     },
     {
         "norwegian": "et kort",
-        "english": "a card"
+        "english": "a card",
+        "chapter": "6"
     },
     {
         "norwegian": "en idé",
-        "english": "an idea"
+        "english": "an idea",
+        "chapter": "6"
     },
     {
         "norwegian": "en disk",
-        "english": "a counter"
+        "english": "a counter",
+        "chapter": "6"
     },
     {
         "norwegian": "et stykke",
-        "english": "a piece"
+        "english": "a piece",
+        "chapter": "6"
     },
     {
         "norwegian": "for å",
-        "english": "(in order) to"
+        "english": "(in order) to",
+        "chapter": "6"
     },
     {
         "norwegian": "en tohundrelapp",
-        "english": "a two hundred note"
+        "english": "a two hundred note",
+        "chapter": "6"
     },
     {
         "norwegian": "en kaffe latte",
-        "english": "a coffee latte"
+        "english": "a coffee latte",
+        "chapter": "6"
     },
     {
         "norwegian": "ei kake",
-        "english": "a cake"
+        "english": "a cake",
+        "chapter": "6"
     },
     {
         "norwegian": "sulten",
-        "english": "hungry"
+        "english": "hungry",
+        "chapter": "6"
     },
     {
         "norwegian": "å bestille",
-        "english": "to order"
+        "english": "to order",
+        "chapter": "6"
     },
     {
         "norwegian": "en cola",
-        "english": "a coke"
+        "english": "a coke",
+        "chapter": "6"
     },
     {
         "norwegian": "en kino",
-        "english": "a cinema"
+        "english": "a cinema",
+        "chapter": "6"
     },
     {
         "norwegian": "et bibliotek",
-        "english": "a library"
+        "english": "a library",
+        "chapter": "6"
     },
     {
         "norwegian": "takk skal du ha",
-        "english": "thank you"
+        "english": "thank you",
+        "chapter": "6"
     },
     {
         "norwegian": "et kakestykke",
-        "english": "a piece of cake"
+        "english": "a piece of cake",
+        "chapter": "6"
     },
     {
         "norwegian": "en kode",
-        "english": "a code"
+        "english": "a code",
+        "chapter": "6"
     },
     {
         "norwegian": "ei sjokoladekake",
-        "english": "a chocolate cake"
+        "english": "a chocolate cake",
+        "chapter": "6"
     },
     {
         "norwegian": "kjempegod",
-        "english": "very good"
+        "english": "very good",
+        "chapter": "6"
     },
     {
         "norwegian": "ja visst",
-        "english": "surely, certainly"
+        "english": "surely, certainly",
+        "chapter": "6"
     }
 ]

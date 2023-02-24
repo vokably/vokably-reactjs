@@ -1,474 +1,592 @@
 [
     {
         "norwegian": "ei skive",
-        "english": "a slice"
+        "english": "a slice",
+        "chapter": "5"
     },
     {
         "norwegian": "en kopp",
-        "english": "a cup"
+        "english": "a cup",
+        "chapter": "5"
     },
     {
         "norwegian": "søt",
-        "english": "sweet"
+        "english": "sweet",
+        "chapter": "5"
     },
     {
         "norwegian": "en katt",
-        "english": "a cat"
+        "english": "a cat",
+        "chapter": "5"
     },
     {
         "norwegian": "mett",
-        "english": "full"
+        "english": "full",
+        "chapter": "5"
     },
     {
         "norwegian": "en skinke",
-        "english": "a ham"
+        "english": "a ham",
+        "chapter": "5"
     },
     {
         "norwegian": "melk",
-        "english": "milk"
+        "english": "milk",
+        "chapter": "5"
     },
     {
         "norwegian": "å klappe",
-        "english": "to pet"
+        "english": "to pet",
+        "chapter": "5"
     },
     {
         "norwegian": "vår",
-        "english": "our"
+        "english": "our",
+        "chapter": "5"
     },
     {
         "norwegian": "ja da",
-        "english": "«Sure», «Not to worry»"
+        "english": "«Sure», «Not to worry»",
+        "chapter": "5"
     },
     {
         "norwegian": "ei brødskive",
-        "english": "a slice of bread"
+        "english": "a slice of bread",
+        "chapter": "5"
     },
     {
         "norwegian": "te",
-        "english": "tea"
+        "english": "tea",
+        "chapter": "5"
     },
     {
         "norwegian": "et glass",
-        "english": "a glass"
+        "english": "a glass",
+        "chapter": "5"
     },
     {
         "norwegian": "et brød",
-        "english": "a loaf of bread"
+        "english": "a loaf of bread",
+        "chapter": "5"
     },
     {
         "norwegian": "ute",
-        "english": "out, outside"
+        "english": "out, outside",
+        "chapter": "5"
     },
     {
         "norwegian": "gul",
-        "english": "yellow"
+        "english": "yellow",
+        "chapter": "5"
     },
     {
         "norwegian": "en ost",
-        "english": "a cheese"
+        "english": "a cheese",
+        "chapter": "5"
     },
     {
         "norwegian": "mat",
-        "english": "food"
+        "english": "food",
+        "chapter": "5"
     },
     {
         "norwegian": "om",
-        "english": "about"
+        "english": "about",
+        "chapter": "5"
     },
     {
         "norwegian": "ei sol",
-        "english": "a sun"
+        "english": "a sun",
+        "chapter": "5"
     },
     {
         "norwegian": "en terrasse",
-        "english": "a terrace"
+        "english": "a terrace",
+        "chapter": "5"
     },
     {
         "norwegian": "en himmel",
-        "english": "a sky"
+        "english": "a sky",
+        "chapter": "5"
     },
     {
         "norwegian": "veldig",
-        "english": "very"
+        "english": "very",
+        "chapter": "5"
     },
     {
         "norwegian": "ung",
-        "english": "young"
+        "english": "young",
+        "chapter": "5"
     },
     {
         "norwegian": "å glede seg",
-        "english": "to look forward to"
+        "english": "to look forward to",
+        "chapter": "5"
     },
     {
         "norwegian": "spansk",
-        "english": "Spanish"
+        "english": "Spanish",
+        "chapter": "5"
     },
     {
         "norwegian": "gjennom",
-        "english": "through"
+        "english": "through",
+        "chapter": "5"
     },
     {
         "norwegian": "én",
-        "english": "one"
+        "english": "one",
+        "chapter": "5"
     },
     {
         "norwegian": "engelsk",
-        "english": "English"
+        "english": "English",
+        "chapter": "5"
     },
     {
         "norwegian": "hvilke",
-        "english": "which"
+        "english": "which",
+        "chapter": "5"
     },
     {
         "norwegian": "å diskutere",
-        "english": "to discuss"
+        "english": "to discuss",
+        "chapter": "5"
     },
     {
         "norwegian": "vær",
-        "english": "weather"
+        "english": "weather",
+        "chapter": "5"
     },
     {
         "norwegian": "fersk",
-        "english": "fresh"
+        "english": "fresh",
+        "chapter": "5"
     },
     {
         "norwegian": "et lag",
-        "english": "a team"
+        "english": "a team",
+        "chapter": "5"
     },
     {
         "norwegian": "å skinne",
-        "english": "to shine"
+        "english": "to shine",
+        "chapter": "5"
     },
     {
         "norwegian": "et eple",
-        "english": "an apple"
+        "english": "an apple",
+        "chapter": "5"
     },
     {
         "norwegian": "å vinne",
-        "english": "to win"
+        "english": "to win",
+        "chapter": "5"
     },
     {
         "norwegian": "svensk",
-        "english": "Swedish"
+        "english": "Swedish",
+        "chapter": "5"
     },
     {
         "norwegian": "en fotballspiller",
-        "english": "a soccer player"
+        "english": "a soccer player",
+        "chapter": "5"
     },
     {
         "norwegian": "en etasje",
-        "english": "a storey, floor"
+        "english": "a storey, floor",
+        "chapter": "5"
     },
     {
         "norwegian": "nr",
-        "english": "no."
+        "english": "no.",
+        "chapter": "5"
     },
     {
         "norwegian": "et mål",
-        "english": "a goal"
+        "english": "a goal",
+        "chapter": "5"
     },
     {
         "norwegian": "noen",
-        "english": "some, somebody, any, anybody"
+        "english": "some, somebody, any, anybody",
+        "chapter": "5"
     },
     {
         "norwegian": "mange",
-        "english": "many"
+        "english": "many",
+        "chapter": "5"
     },
     {
         "norwegian": "et rundstykke",
-        "english": "a roll"
+        "english": "a roll",
+        "chapter": "5"
     },
     {
         "norwegian": "en spiller",
-        "english": "a player"
+        "english": "a player",
+        "chapter": "5"
     },
     {
         "norwegian": "klar",
-        "english": "bright, clear"
+        "english": "bright, clear",
+        "chapter": "5"
     },
     {
         "norwegian": "en kollega",
-        "english": "a colleague"
+        "english": "a colleague",
+        "chapter": "5"
     },
     {
         "norwegian": "dessverre",
-        "english": "unfortunately"
+        "english": "unfortunately",
+        "chapter": "5"
     },
     {
         "norwegian": "mot",
-        "english": "towards, against"
+        "english": "towards, against",
+        "chapter": "5"
     },
     {
         "norwegian": "mens",
-        "english": "while"
+        "english": "while",
+        "chapter": "5"
     },
     {
         "norwegian": "tolv",
-        "english": "twelve"
+        "english": "twelve",
+        "chapter": "5"
     },
     {
         "norwegian": "spesiell",
-        "english": "special"
+        "english": "special",
+        "chapter": "5"
     },
     {
         "norwegian": "et nummer",
-        "english": "a number"
+        "english": "a number",
+        "chapter": "5"
     },
     {
         "norwegian": "ei kantine",
-        "english": "a canteen"
+        "english": "a canteen",
+        "chapter": "5"
     },
     {
         "norwegian": "rød",
-        "english": "red"
+        "english": "red",
+        "chapter": "5"
     },
     {
         "norwegian": "en lunsj",
-        "english": "a lunch"
+        "english": "a lunch",
+        "chapter": "5"
     },
     {
         "norwegian": "dyr",
-        "english": "expensive"
+        "english": "expensive",
+        "chapter": "5"
     },
     {
         "norwegian": "selvfølgelig",
-        "english": "of course"
+        "english": "of course",
+        "chapter": "5"
     },
     {
         "norwegian": "flink",
-        "english": "good, clever"
+        "english": "good, clever",
+        "chapter": "5"
     },
     {
         "norwegian": "en verden",
-        "english": "a world"
+        "english": "a world",
+        "chapter": "5"
     },
     {
         "norwegian": "klokka er …",
-        "english": "the time is…"
+        "english": "the time is…",
+        "chapter": "5"
     },
     {
         "norwegian": "alltid",
-        "english": "always"
+        "english": "always",
+        "chapter": "5"
     },
     {
         "norwegian": "alle",
-        "english": "all"
+        "english": "all",
+        "chapter": "5"
     },
     {
         "norwegian": "et pålegg",
-        "english": "a spread"
+        "english": "a spread",
+        "chapter": "5"
     },
     {
         "norwegian": "kanskje",
-        "english": "perhaps, maybe"
+        "english": "perhaps, maybe",
+        "chapter": "5"
     },
     {
         "norwegian": "en grønnsak",
-        "english": "a vegetable"
+        "english": "a vegetable",
+        "chapter": "5"
     },
     {
         "norwegian": "en pose",
-        "english": "a bag"
+        "english": "a bag",
+        "chapter": "5"
     },
     {
         "norwegian": "en paprika",
-        "english": "a pepper"
+        "english": "a pepper",
+        "chapter": "5"
     },
     {
         "norwegian": "grov",
-        "english": "rough, coarse"
+        "english": "rough, coarse",
+        "chapter": "5"
     },
     {
         "norwegian": "et syltetøy",
-        "english": "a jam"
+        "english": "a jam",
+        "chapter": "5"
     },
     {
         "norwegian": "litt",
-        "english": "a little"
+        "english": "a little",
+        "chapter": "5"
     },
     {
         "norwegian": "ei gulrot",
-        "english": "a carrot"
+        "english": "a carrot",
+        "chapter": "5"
     },
     {
         "norwegian": "å fortsette",
-        "english": "to continue"
+        "english": "to continue",
+        "chapter": "5"
     },
     {
         "norwegian": "en middag",
-        "english": "a dinner"
+        "english": "a dinner",
+        "chapter": "5"
     },
     {
         "norwegian": "et kilo",
-        "english": "a kilogram"
+        "english": "a kilogram",
+        "chapter": "5"
     },
     {
         "norwegian": "å trenge",
-        "english": "to need"
+        "english": "to need",
+        "chapter": "5"
     },
     {
         "norwegian": "en potet",
-        "english": "a potato"
+        "english": "a potato",
+        "chapter": "5"
     },
     {
         "norwegian": "en sykepleier",
-        "english": "a nurse"
+        "english": "a nurse",
+        "chapter": "5"
     },
     {
         "norwegian": "en kylling",
-        "english": "a chicken"
+        "english": "a chicken",
+        "chapter": "5"
     },
     {
         "norwegian": "en laks",
-        "english": "a salmon"
+        "english": "a salmon",
+        "chapter": "5"
     },
     {
         "norwegian": "en fisk",
-        "english": "a fish"
+        "english": "a fish",
+        "chapter": "5"
     },
     {
         "norwegian": "ferdig",
-        "english": "finished, ready, also slang; exhausted"
+        "english": "finished, ready, also slang; exhausted",
+        "chapter": "5"
     },
     {
         "norwegian": "mer",
-        "english": "more"
+        "english": "more",
+        "chapter": "5"
     },
     {
         "norwegian": "en liter",
-        "english": "a litre"
+        "english": "a litre",
+        "chapter": "5"
     },
     {
         "norwegian": "å betale",
-        "english": "to pay"
+        "english": "to pay",
+        "chapter": "5"
     },
     {
         "norwegian": "ei kasse",
-        "english": "a box"
+        "english": "a box",
+        "chapter": "5"
     },
     {
         "norwegian": "atten",
-        "english": "eighteen"
+        "english": "eighteen",
+        "chapter": "5"
     },
     {
         "norwegian": "en loff",
-        "english": "a white bread"
+        "english": "a white bread",
+        "chapter": "5"
     },
     {
         "norwegian": "en frukt",
-        "english": "a fruit"
+        "english": "a fruit",
+        "chapter": "5"
     },
     {
         "norwegian": "å arbeide",
-        "english": "to work"
+        "english": "to work",
+        "chapter": "5"
     },
     {
         "norwegian": "ei krone",
-        "english": "a crown"
+        "english": "a crown",
+        "chapter": "5"
     },
     {
         "norwegian": "å handle",
-        "english": "to shop"
+        "english": "to shop",
+        "chapter": "5"
     },
     {
         "norwegian": "et kjøtt",
-        "english": "a meat"
+        "english": "a meat",
+        "chapter": "5"
     },
     {
         "norwegian": "en administrasjon",
-        "english": "an adminstration, management"
+        "english": "an adminstration, management",
+        "chapter": "5"
     },
     {
         "norwegian": "en salami",
-        "english": "a salami"
+        "english": "a salami",
+        "chapter": "5"
     },
     {
         "norwegian": "ei bestemor",
-        "english": "a grandmother"
+        "english": "a grandmother",
+        "chapter": "5"
     },
     {
         "norwegian": "å sette seg",
-        "english": "to sit down"
+        "english": "to sit down",
+        "chapter": "5"
     },
     {
         "norwegian": "lyst på (å ha lyst på noe)",
-        "english": "wanting something"
+        "english": "wanting something",
+        "chapter": "5"
     },
     {
         "norwegian": "en lyst",
-        "english": "a wish, desire, inclination"
+        "english": "a wish, desire, inclination",
+        "chapter": "5"
     },
     {
         "norwegian": "å ha lyst på",
-        "english": "to want"
+        "english": "to want",
+        "chapter": "5"
     },
     {
         "norwegian": "å skynde seg",
-        "english": "to hurry (up)"
+        "english": "to hurry (up)",
+        "chapter": "5"
     },
     {
         "norwegian": "seg",
-        "english": "himself, herself, itself, oneself, themselves"
+        "english": "himself, herself, itself, oneself, themselves",
+        "chapter": "5"
     },
     {
         "norwegian": "en banan",
-        "english": "a banana"
+        "english": "a banana",
+        "chapter": "5"
     },
     {
         "norwegian": "ny",
-        "english": "new"
+        "english": "new",
+        "chapter": "5"
     },
     {
         "norwegian": "å elske",
-        "english": "to love"
+        "english": "to love",
+        "chapter": "5"
     },
     {
         "norwegian": "å prate",
-        "english": "to talk"
+        "english": "to talk",
+        "chapter": "5"
     },
     {
         "norwegian": "å kose seg",
-        "english": "to have a good time, snuggle up"
+        "english": "to have a good time, snuggle up",
+        "chapter": "5"
     },
     {
         "norwegian": "nysgjerrig",
-        "english": "curious"
+        "english": "curious",
+        "chapter": "5"
     },
     {
         "norwegian": "en CD",
-        "english": "a CD"
+        "english": "a CD",
+        "chapter": "5"
     },
     {
         "norwegian": "å prøve",
-        "english": "to try"
+        "english": "to try",
+        "chapter": "5"
     },
     {
         "norwegian": "blå",
-        "english": "blue"
+        "english": "blue",
+        "chapter": "5"
     },
     {
         "norwegian": "ei venninne",
-        "english": "a (female) friend"
+        "english": "a (female) friend",
+        "chapter": "5"
     },
     {
         "norwegian": "sakte",
-        "english": "slowly"
+        "english": "slowly",
+        "chapter": "5"
     },
     {
         "norwegian": "oi",
-        "english": "excl.: «Oh!»"
+        "english": "excl.: «Oh!»",
+        "chapter": "5"
     },
     {
         "norwegian": "så fint!",
-        "english": "how nice!"
+        "english": "how nice!",
+        "chapter": "5"
     },
     {
         "norwegian": "å sette",
-        "english": "to put, place, set"
+        "english": "to put, place, set",
+        "chapter": "5"
     },
     {
         "norwegian": "en appelsin",
-        "english": "an orange"
+        "english": "an orange",
+        "chapter": "5"
     }
 ]

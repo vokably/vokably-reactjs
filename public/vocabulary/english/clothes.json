@@ -1,90 +1,112 @@
 [
     {
         "norwegian": "en bluse",
-        "english": "a blouse"
+        "english": "a blouse",
+        "chapter": "chothes"
     },
     {
         "norwegian": "ei bukse",
-        "english": "(a pair of) trousers"
+        "english": "(a pair of) trousers",
+        "chapter": "chothes"
     },
     {
         "norwegian": "en dress",
-        "english": "a suit"
+        "english": "a suit",
+        "chapter": "chothes"
     },
     {
         "norwegian": "en frakk",
-        "english": "a men's coat"
+        "english": "a men's coat",
+        "chapter": "chothes"
     },
     {
         "norwegian": "en genser",
-        "english": "a sweater"
+        "english": "a sweater",
+        "chapter": "chothes"
     },
     {
         "norwegian": "ei jakke",
-        "english": "a jacket"
+        "english": "a jacket",
+        "chapter": "chothes"
     },
     {
         "norwegian": "en kjole",
-        "english": "a dress"
+        "english": "a dress",
+        "chapter": "chothes"
     },
     {
         "norwegian": "ei kåpe",
-        "english": "a women's coat"
+        "english": "a women's coat",
+        "chapter": "chothes"
     },
     {
         "norwegian": "ei skjorte",
-        "english": "a shirt"
+        "english": "a shirt",
+        "chapter": "chothes"
     },
     {
         "norwegian": "en shorts",
-        "english": "(a pair of) shorts"
+        "english": "(a pair of) shorts",
+        "chapter": "chothes"
     },
     {
         "norwegian": "et skjørt",
-        "english": "a skirt"
+        "english": "a skirt",
+        "chapter": "chothes"
     },
     {
         "norwegian": "en hanske, hansker",
-        "english": "a glove, gloves"
+        "english": "a glove, gloves",
+        "chapter": "chothes"
     },
     {
         "norwegian": "en vott, votter",
-        "english": "a mitten, mittens"
+        "english": "a mitten, mittens",
+        "chapter": "chothes"
     },
     {
         "norwegian": "en hatt",
-        "english": "a hat"
+        "english": "a hat",
+        "chapter": "chothes"
     },
     {
         "norwegian": "ei lue",
-        "english": "a (winter) cap"
+        "english": "a (winter) cap",
+        "chapter": "chothes"
     },
     {
         "norwegian": "et slips",
-        "english": "a tie"
+        "english": "a tie",
+        "chapter": "chothes"
     },
     {
         "norwegian": "et skjerf",
-        "english": "a scarf"
+        "english": "a scarf",
+        "chapter": "chothes"
     },
     {
         "norwegian": "et skaut",
-        "english": "a head scarf"
+        "english": "a head scarf",
+        "chapter": "chothes"
     },
     {
         "norwegian": "ei veske",
-        "english": "a hand bag"
+        "english": "a hand bag",
+        "chapter": "chothes"
     },
     {
         "norwegian": "ei sko, sko",
-        "english": "a shoe, shoes"
+        "english": "a shoe, shoes",
+        "chapter": "chothes"
     },
     {
         "norwegian": "en sokk, sokker",
-        "english": "a sock, socks"
+        "english": "a sock, socks",
+        "chapter": "chothes"
     },
     {
         "norwegian": "en støvel, støvler",
-        "english": "a boot, boots"
+        "english": "a boot, boots",
+        "chapter": "chothes"
     }
 ]
