@@ -156,7 +156,7 @@ export default function Home() {
               Vocab
             </Text>
             <Spacer />
-            <Link href="/session">
+            <Link href="/">
               <Button colorScheme="red" variant="outline">
                 Finish
               </Button>

@@ -66,7 +66,7 @@ export default function Home(props: any) {
           method: 'GET',
           mode: 'same-origin',
           cache: 'default',
-          next: {revalidate: 60*15},
+          next: { revalidate: 60 * 15 },
           headers: {
             Content_Type: 'application/json',
           },
@@ -88,7 +88,7 @@ export default function Home(props: any) {
     const filteredWords = _allWords.filter((w: Word) => {
       return chapterToKeep.includes(w.chapter)
     })
-    
+
     // Add the words to the session
     setSession({
       ...session,
@@ -106,9 +106,16 @@ export default function Home(props: any) {
     onClose()
   }
 
+
+  const startTableSession = async () => {
+    await loadWords()
+    router.push("/table")
+    onClose()
+  }
+
   return (
     <Box maxW={['xs']} mx={'auto'}>
-      <VStack p={8} spacing={8}  mx='auto'>
+      <VStack p={8} spacing={8} mx='auto'>
         <Heading my={8}>Session</Heading>
 
         <Text fontSize={'1.2em'} align="justify">
@@ -156,15 +163,23 @@ export default function Home(props: any) {
                   <Text>
                     You will be training on {nbWords} words.
                   </Text>
-                </VStack>
 
-                <Button
-                  colorScheme={'green'}
-                  onClick={startSession}
-                  isLoading={isLoading}
-                >
-                  Start
-                </Button>
+                  <Button
+                    colorScheme={'green'}
+                    onClick={startSession}
+                    isLoading={isLoading}
+                  >
+                    Start
+                  </Button>
+
+                  <Button
+                    colorScheme={'Blue'}
+                    onClick={startTableSession}
+                    isLoading={isLoading}
+                  >
+                    Table
+                  </Button>
+                </VStack>
               </VStack>
             </DrawerBody>
 
@@ -204,13 +219,15 @@ export async function getStaticProps() {
   }
 
   // filter the data to get only the table names
-  const all_languages = data.records.map((r: any) => {return {
-    "tableName": r.fields['tableName'],
-    "displayName": r.fields['displayName'],
-    "nbWord": r.fields['nbWord'],
-    "order": r.fields['order'],
-    "table": r.fields['table'],
-  }})
+  const all_languages = data.records.map((r: any) => {
+    return {
+      "tableName": r.fields['tableName'],
+      "displayName": r.fields['displayName'],
+      "nbWord": r.fields['nbWord'],
+      "order": r.fields['order'],
+      "table": r.fields['table'],
+    }
+  })
 
   all_languages.sort((a: any, b: any) => (a.order > b.order) ? 1 : -1)
 
