@@ -1,6 +1,6 @@
 import * as React from 'react'
 import {
-  Container, Box, Text, Button, VStack, HStack, Tooltip, Tag, Flex, useToast, Wrap, Spacer, Heading,
+  Container, Box, Text, Button, VStack, IconButton, Tooltip, Tag, Flex, useToast, Wrap, Spacer, Heading,
   Drawer,
   DrawerBody,
   DrawerHeader,
@@ -10,6 +10,8 @@ import {
   useDisclosure,
 } from '@chakra-ui/react'
 import TableInfo from '@/type/tableInfo'
+import { MdBackupTable, MdPersonOutline } from 'react-icons/md'
+import { VscDebugStart } from 'react-icons/vsc'
 import { ChapterDisplay } from '../components/chapterDisplay'
 import { SessionContext, SetSessionContext, defaultSessionValue } from '../lib/contexts'
 import { useRouter } from 'next/router'
@@ -44,6 +46,14 @@ export default function Home(props: any) {
       })
       setNbWords(nbWords + ch.nbWord)
     }
+  }
+
+  const uniqueSessionChapter = (ch: TableInfo) => {
+    setSession({
+      ...session,
+      loadedChapters: [ch],
+    })
+    setNbWords(ch.nbWord)
   }
 
   const loadWords = async () => {
@@ -113,19 +123,45 @@ export default function Home(props: any) {
   }
 
   return (
-    <Box maxW={['xs']} mx={'auto'}>
-      <VStack p={8} spacing={8} mx='auto'>
-        <Heading my={8}>Session</Heading>
+    <Box mx={'auto'} bg={'#042A2B'} color='#fff'>
+      <VStack
+        p={8}
+        spacing={8}
+        mx='auto'
+        border='2px'
+        borderRadius={16}
+      >
+        
+        <Flex w='full' bg='#fff50'>
+          <Text>🇳🇴</Text>
+          <Spacer />
+          <Text> 123 words learnt</Text>
+          <Spacer />
+          <IconButton bg={'#042A2B'} borderRadius='full' aria-label="Table" icon={<MdPersonOutline size={24} />} size="sm" onClick={() => {}} />
+        </Flex>
 
-        <Text fontSize={'1.2em'} align="justify">
-          You are going to start a new session.
-
-          A session is a set of vocabulary words that you want to train on.
-          It can be a set of words from a chapter, or a set of words from a specific course.
-          During the session, you will have metrics on how well you know the words,
-          how many times you have seen them, and how many times you have answered them correctly,
-          and finally, how fast you are able to answer them.
-        </Text>
+        <VStack spacing={4} w='full'>
+          {all_languages.map((ch: TableInfo, index: any) => {
+            return (
+            <Box
+              key={index}
+              px={4}
+              py={4}
+              bg={'#AE8799'}
+              borderRadius={8}
+              boxShadow={'3px 3px 0px 2px rgba(0,0,0,1);'}
+              w='full'
+            >
+              <Flex w='full' h='full'>
+                <Text fontSize={'1.2em'} align="justify">{ch.displayName}</Text>
+                <Spacer />
+                <IconButton bg={'#AE8799'} aria-label="Table" icon={<MdBackupTable size={24} />} size="sm" onClick={() => {uniqueSessionChapter(ch); router.push(`/table?tableName=${ch.displayName}`)}} />
+                <IconButton bg={'#AE8799'} aria-label="Start" icon={<VscDebugStart size={24} />} size="sm" onClick={() => {uniqueSessionChapter(ch); router.push(`/cross?tableName=${ch.displayName}`)}} />
+              </Flex>
+            </Box>
+            )
+          })}
+        </VStack>
 
         <Button colorScheme={'green'} size={"lg"} onClick={() => {
           setSession(defaultSessionValue)

@@ -81,18 +81,15 @@
 
 html,
 body {
-  max-width: 100vw;
+  margin: 0 auto;
+  max-width: 412px;
   overflow-x: hidden;
+  background-color: #042A2B;
 }
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #042A2B;
 }
 
 a {
