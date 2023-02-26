@@ -129,12 +129,19 @@ export default function Home() {
         // make so that no words are focus
         descRef.current?.focus()
 
+        // If the word is not in the history, add it
+        let wordHistory = session.wordHistory
+        if (!session.wordHistory.includes(leftSelectedWord)) {
+          wordHistory = [...session.wordHistory, leftSelectedWord]
+        }
+
         // update the session
         setSession({
           ...session,
           nbGoodAnswers: nbGoodAnswers,
           nbBadAnswers: nbBadAnswers,
-          responseTime: [...session.responseTime, responseTime]
+          responseTime: [...session.responseTime, responseTime],
+          wordHistory: wordHistory
         })
       }
     }, 250)
@@ -395,6 +402,10 @@ const StatCard: React.FC = () => {
         <StatRow label='Average answer time:' val={
           nbt > 0 ? timeString(averageResponseTime) : '0s'
         } />
+        <StatRow label='Words seen: ' val={
+          session.wordHistory.length.toString() + ` / ${session.activeWords.length}`
+        } />
+
       </VStack>
 
     </Box>
