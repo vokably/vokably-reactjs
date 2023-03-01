@@ -1,0 +1,70 @@
+[
+    {
+        "a": "et apotek",
+        "b": "a pharmacy"
+    },
+    {
+        "a": "en minibank",
+        "b": "an ATM (machine)"
+    },
+    {
+        "a": "en blomsterforretning",
+        "b": "(a/the) florist's"
+    },
+    {
+        "a": "en bokhandel",
+        "b": "a book store"
+    },
+    {
+        "a": "en CD-butikk",
+        "b": "a music store"
+    },
+    {
+        "a": "en frisør",
+        "b": "a hair dresser"
+    },
+    {
+        "a": "en kafé",
+        "b": "a café"
+    },
+    {
+        "a": "en kiosk",
+        "b": "a newsagent / newsagent's"
+    },
+    {
+        "a": "en klesbutikk",
+        "b": "a clothing store"
+    },
+    {
+        "a": "en lekebutikk",
+        "b": "a toy store"
+    },
+    {
+        "a": "en matbutikk",
+        "b": "(a) grocery/grocery shop"
+    },
+    {
+        "a": "et parfymeri",
+        "b": "a perfume shop"
+    },
+    {
+        "a": "en restaurant",
+        "b": "a restaurant"
+    },
+    {
+        "a": "en skobutikk",
+        "b": "a shoe shop"
+    },
+    {
+        "a": "en sportsbutikk",
+        "b": "a sports store"
+    },
+    {
+        "a": "en veskebutikk",
+        "b": "a bag store"
+    },
+    {
+        "a": "et vinmonopol",
+        "b": "a wine monopoly "
+    }
+]

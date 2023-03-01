@@ -1,0 +1,442 @@
+[
+    {
+        "a": "gir (å gi)",
+        "b": "gives"
+    },
+    {
+        "a": "ingen",
+        "b": "no"
+    },
+    {
+        "a": "et minutt",
+        "b": "a minute"
+    },
+    {
+        "a": "sant (cf. sann)",
+        "b": "true"
+    },
+    {
+        "a": "ti",
+        "b": "ten"
+    },
+    {
+        "a": "å spille",
+        "b": "to play"
+    },
+    {
+        "a": "en klem",
+        "b": "a hug"
+    },
+    {
+        "a": "å begynne",
+        "b": "to begin"
+    },
+    {
+        "a": "gøy",
+        "b": "fun"
+    },
+    {
+        "a": "en is",
+        "b": "an ice cream, ice"
+    },
+    {
+        "a": "en kaffe",
+        "b": "a coffee"
+    },
+    {
+        "a": "hver",
+        "b": "every, each"
+    },
+    {
+        "a": "en fotball",
+        "b": "a football"
+    },
+    {
+        "a": "ham",
+        "b": "him"
+    },
+    {
+        "a": "en brus",
+        "b": "a (bottle of) soda pop"
+    },
+    {
+        "a": "sann",
+        "b": "true"
+    },
+    {
+        "a": "å drikke",
+        "b": "to drink"
+    },
+    {
+        "a": "en butikk",
+        "b": "a shop"
+    },
+    {
+        "a": "hos",
+        "b": "at"
+    },
+    {
+        "a": "å gi",
+        "b": "to give"
+    },
+    {
+        "a": "opp",
+        "b": "up"
+    },
+    {
+        "a": "å løfte",
+        "b": "to lift"
+    },
+    {
+        "a": "koselig",
+        "b": "cosy, nice"
+    },
+    {
+        "a": "hvilken",
+        "b": "which, what"
+    },
+    {
+        "a": "å takke",
+        "b": "to thank"
+    },
+    {
+        "a": "ei mor",
+        "b": "a mother"
+    },
+    {
+        "a": "siden",
+        "b": "since"
+    },
+    {
+        "a": "på vei",
+        "b": "on the way"
+    },
+    {
+        "a": "et lyskryss",
+        "b": "a traffic light"
+    },
+    {
+        "a": "en retning",
+        "b": "a direction"
+    },
+    {
+        "a": "en pakke",
+        "b": "a package"
+    },
+    {
+        "a": "tiende",
+        "b": "tenth"
+    },
+    {
+        "a": "ei matbu",
+        "b": "local general store"
+    },
+    {
+        "a": "straks",
+        "b": "immediately"
+    },
+    {
+        "a": "samme",
+        "b": "same"
+    },
+    {
+        "a": "å mene",
+        "b": "to think"
+    },
+    {
+        "a": "en gave",
+        "b": "a gift, present"
+    },
+    {
+        "a": "en hjelp",
+        "b": "a help"
+    },
+    {
+        "a": "et veikryss",
+        "b": "an intersection"
+    },
+    {
+        "a": "en tur",
+        "b": "a trip"
+    },
+    {
+        "a": "august",
+        "b": "August"
+    },
+    {
+        "a": "gjerne",
+        "b": "rather, would like"
+    },
+    {
+        "a": "å sende",
+        "b": "to send"
+    },
+    {
+        "a": "et postkontor",
+        "b": "a post office"
+    },
+    {
+        "a": "hvilket",
+        "b": "which"
+    },
+    {
+        "a": "et kryss",
+        "b": "a junction, crossroads"
+    },
+    {
+        "a": "en fødselsdag",
+        "b": "a birthday"
+    },
+    {
+        "a": "ved siden av",
+        "b": "beside"
+    },
+    {
+        "a": "å åpne",
+        "b": "to open"
+    },
+    {
+        "a": "en bensinstasjon",
+        "b": "a petrol station"
+    },
+    {
+        "a": "rett",
+        "b": "straight, directly"
+    },
+    {
+        "a": "en vei",
+        "b": "a road"
+    },
+    {
+        "a": "i nærheten",
+        "b": "near, nearby"
+    },
+    {
+        "a": "å få",
+        "b": "to get, receive"
+    },
+    {
+        "a": "en post (et postkontor)",
+        "b": "a post office"
+    },
+    {
+        "a": "henne",
+        "b": "her"
+    },
+    {
+        "a": "tusen",
+        "b": "thousand"
+    },
+    {
+        "a": "sein",
+        "b": "late"
+    },
+    {
+        "a": "kvart",
+        "b": "quarter"
+    },
+    {
+        "a": "sist",
+        "b": "last"
+    },
+    {
+        "a": "å vekke",
+        "b": "to awaken"
+    },
+    {
+        "a": "et nabolag",
+        "b": "a neighbourhood"
+    },
+    {
+        "a": "åtte",
+        "b": "eight"
+    },
+    {
+        "a": "å treffe",
+        "b": "to meet"
+    },
+    {
+        "a": "hans",
+        "b": "his"
+    },
+    {
+        "a": "fin",
+        "b": "fine"
+    },
+    {
+        "a": "et barn",
+        "b": "a child"
+    },
+    {
+        "a": "å dusje",
+        "b": "to take a shower"
+    },
+    {
+        "a": "en jobb",
+        "b": "a job"
+    },
+    {
+        "a": "over",
+        "b": "of, over"
+    },
+    {
+        "a": "allerede",
+        "b": "already"
+    },
+    {
+        "a": "en nærhet",
+        "b": "a vicinity, nearness"
+    },
+    {
+        "a": "klokka",
+        "b": "at ___ (o'clock)"
+    },
+    {
+        "a": "halv",
+        "b": "half"
+    },
+    {
+        "a": "et kontor",
+        "b": "an office"
+    },
+    {
+        "a": "nær",
+        "b": "near"
+    },
+    {
+        "a": "å lage",
+        "b": "to make"
+    },
+    {
+        "a": "et sykehus",
+        "b": "a hospital"
+    },
+    {
+        "a": "like i nærheten",
+        "b": "close, nearby"
+    },
+    {
+        "a": "sju",
+        "b": "seven"
+    },
+    {
+        "a": "en ungdomsskole",
+        "b": "a middle school"
+    },
+    {
+        "a": "først",
+        "b": "first"
+    },
+    {
+        "a": "høyre",
+        "b": "right"
+    },
+    {
+        "a": "ingenting",
+        "b": "nothing"
+    },
+    {
+        "a": "å lære",
+        "b": "to learn"
+    },
+    {
+        "a": "en kilometer",
+        "b": "a kilometre"
+    },
+    {
+        "a": "å tegne",
+        "b": "to draw"
+    },
+    {
+        "a": "cirka (ca.)",
+        "b": "ca"
+    },
+    {
+        "a": "et kart",
+        "b": "a map"
+    },
+    {
+        "a": "vel",
+        "b": "well"
+    },
+    {
+        "a": "foreldre (en forelder)",
+        "b": "parents"
+    },
+    {
+        "a": "å vise",
+        "b": "to show"
+    },
+    {
+        "a": "en meter",
+        "b": "a metre"
+    },
+    {
+        "a": "å lese",
+        "b": "to read"
+    },
+    {
+        "a": "kjær",
+        "b": "dear"
+    },
+    {
+        "a": "da",
+        "b": "then"
+    },
+    {
+        "a": "eller",
+        "b": "or"
+    },
+    {
+        "a": "niende",
+        "b": "ninth"
+    },
+    {
+        "a": "å legge",
+        "b": "to lay, put"
+    },
+    {
+        "a": "andre",
+        "b": "second, other"
+    },
+    {
+        "a": "hm",
+        "b": "hm (for hesitation/doubt)"
+    },
+    {
+        "a": "å forklare",
+        "b": "to explain"
+    },
+    {
+        "a": "en klasse",
+        "b": "a class"
+    },
+    {
+        "a": "fram",
+        "b": "ahead, on"
+    },
+    {
+        "a": "å forstå",
+        "b": "to understand"
+    },
+    {
+        "a": "hundre",
+        "b": "hundred"
+    },
+    {
+        "a": "en forelder",
+        "b": "a parent"
+    },
+    {
+        "a": "en onsdag",
+        "b": "a Wednesday"
+    },
+    {
+        "a": "ei lomme",
+        "b": "a pocket"
+    },
+    {
+        "a": "venstre",
+        "b": "left"
+    }
+]

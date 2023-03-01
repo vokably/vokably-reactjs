@@ -1,0 +1,602 @@
+[
+    {
+        "a": "en flyttebil",
+        "b": "a moving truck/lorry"
+    },
+    {
+        "a": "en venn",
+        "b": "a friend"
+    },
+    {
+        "a": "inn",
+        "b": "in, inside, into"
+    },
+    {
+        "a": "i dag",
+        "b": "today"
+    },
+    {
+        "a": "en skole",
+        "b": "a school"
+    },
+    {
+        "a": "å ligge",
+        "b": "to lie"
+    },
+    {
+        "a": "å gjøre",
+        "b": "to do, make"
+    },
+    {
+        "a": "morsom",
+        "b": "funny"
+    },
+    {
+        "a": "å bo",
+        "b": "to live"
+    },
+    {
+        "a": "våken",
+        "b": "awake"
+    },
+    {
+        "a": "en frokost",
+        "b": "a breakfast"
+    },
+    {
+        "a": "å le",
+        "b": "to laugh"
+    },
+    {
+        "a": "å smile",
+        "b": "to smile"
+    },
+    {
+        "a": "å tenke",
+        "b": "to think"
+    },
+    {
+        "a": "en madrass",
+        "b": "a mattress"
+    },
+    {
+        "a": "å si",
+        "b": "to say"
+    },
+    {
+        "a": "å jobbe",
+        "b": "to work"
+    },
+    {
+        "a": "et bord",
+        "b": "a table"
+    },
+    {
+        "a": "å måtte",
+        "b": "have to, must"
+    },
+    {
+        "a": "en morgen",
+        "b": "a morning"
+    },
+    {
+        "a": "å spise",
+        "b": "to eat"
+    },
+    {
+        "a": "hjemme",
+        "b": "at home"
+    },
+    {
+        "a": "noe (noen)",
+        "b": "something"
+    },
+    {
+        "a": "å finne",
+        "b": "to find"
+    },
+    {
+        "a": "en barnehage",
+        "b": "a kindergarten"
+    },
+    {
+        "a": "skal (å skulle)",
+        "b": "will, shall, is going to"
+    },
+    {
+        "a": "å skulle",
+        "b": "will, shall"
+    },
+    {
+        "a": "må (å måtte)",
+        "b": "must, has to"
+    },
+    {
+        "a": "å kjenne",
+        "b": "to feel, know"
+    },
+    {
+        "a": "å våkne",
+        "b": "to wake up"
+    },
+    {
+        "a": "en mandag",
+        "b": "a Monday"
+    },
+    {
+        "a": "rundt",
+        "b": "round, about"
+    },
+    {
+        "a": "min",
+        "b": "my, mine"
+    },
+    {
+        "a": "en formiddag",
+        "b": "a morning"
+    },
+    {
+        "a": "av",
+        "b": "off, of, by, from"
+    },
+    {
+        "a": "ett",
+        "b": "one"
+    },
+    {
+        "a": "å hjelpe",
+        "b": "to help"
+    },
+    {
+        "a": "et møbel",
+        "b": "a piece of furniture"
+    },
+    {
+        "a": "et flyttebyrå",
+        "b": "a moving company"
+    },
+    {
+        "a": "å møte",
+        "b": "to meet"
+    },
+    {
+        "a": "to",
+        "b": "two"
+    },
+    {
+        "a": "en familie",
+        "b": "a family"
+    },
+    {
+        "a": "utenfor",
+        "b": "outside"
+    },
+    {
+        "a": "riktig",
+        "b": "correct, right"
+    },
+    {
+        "a": "en stol",
+        "b": "a chair"
+    },
+    {
+        "a": "din",
+        "b": "your, yours (singular)"
+    },
+    {
+        "a": "meg",
+        "b": "me"
+    },
+    {
+        "a": "en sjåfør",
+        "b": "a driver"
+    },
+    {
+        "a": "å kalle",
+        "b": "to call"
+    },
+    {
+        "a": "et kvarter",
+        "b": "a quarter of an hour"
+    },
+    {
+        "a": "et hus",
+        "b": "a house, building"
+    },
+    {
+        "a": "en lastebil",
+        "b": "a truck"
+    },
+    {
+        "a": "en bil",
+        "b": "a car"
+    },
+    {
+        "a": "et nabohus",
+        "b": "a neighbouring house"
+    },
+    {
+        "a": "kan (å kunne)",
+        "b": "can, be able to"
+    },
+    {
+        "a": "å stoppe",
+        "b": "to stop"
+    },
+    {
+        "a": "å bære",
+        "b": "to carry"
+    },
+    {
+        "a": "ei adresse",
+        "b": "an adress"
+    },
+    {
+        "a": "fire",
+        "b": "four"
+    },
+    {
+        "a": "ut",
+        "b": "out"
+    },
+    {
+        "a": "å kunne",
+        "b": "(the infinitive of) can, be able to"
+    },
+    {
+        "a": "en nabo",
+        "b": "a neighbour"
+    },
+    {
+        "a": "dette",
+        "b": "this"
+    },
+    {
+        "a": "ei kone",
+        "b": "a wife"
+    },
+    {
+        "a": "etter",
+        "b": "after"
+    },
+    {
+        "a": "seks",
+        "b": "six"
+    },
+    {
+        "a": "der borte",
+        "b": "over there"
+    },
+    {
+        "a": "å hoppe",
+        "b": "to jump"
+    },
+    {
+        "a": "å løpe",
+        "b": "to run"
+    },
+    {
+        "a": "å ringe",
+        "b": "to ring, call"
+    },
+    {
+        "a": "ei stue",
+        "b": "a living room"
+    },
+    {
+        "a": "å vaske",
+        "b": "to wash, clean"
+    },
+    {
+        "a": "en sofa",
+        "b": "a sofa, couch"
+    },
+    {
+        "a": "en garasje",
+        "b": "a garage"
+    },
+    {
+        "a": "et kjøleskap",
+        "b": "a refrigerator"
+    },
+    {
+        "a": "en balkong",
+        "b": "a balcony"
+    },
+    {
+        "a": "å ville",
+        "b": "wants to, will"
+    },
+    {
+        "a": "ei mormor",
+        "b": "a (maternal) grandmother"
+    },
+    {
+        "a": "et soverom",
+        "b": "a bedroom"
+    },
+    {
+        "a": "stor",
+        "b": "big"
+    },
+    {
+        "a": "snart",
+        "b": "soon"
+    },
+    {
+        "a": "en komfyr",
+        "b": "a stove"
+    },
+    {
+        "a": "en plass",
+        "b": "a space"
+    },
+    {
+        "a": "en vaskemaskin",
+        "b": "a washing machine"
+    },
+    {
+        "a": "å spørre",
+        "b": "to ask"
+    },
+    {
+        "a": "et bad",
+        "b": "a bath"
+    },
+    {
+        "a": "tre",
+        "b": "three"
+    },
+    {
+        "a": "en gang",
+        "b": "a time"
+    },
+    {
+        "a": "grei",
+        "b": "all right"
+    },
+    {
+        "a": "en morfar",
+        "b": "a (maternal) grandfather"
+    },
+    {
+        "a": "en leilighet",
+        "b": "an apartment"
+    },
+    {
+        "a": "den",
+        "b": "it"
+    },
+    {
+        "a": "en telefon",
+        "b": "a telephone"
+    },
+    {
+        "a": "ei trapp",
+        "b": "a staircase, stairs"
+    },
+    {
+        "a": "en ettermiddag",
+        "b": "an afternoon"
+    },
+    {
+        "a": "der",
+        "b": "there"
+    },
+    {
+        "a": "en lenestol",
+        "b": "an armchair"
+    },
+    {
+        "a": "et spisebord",
+        "b": "a dining table"
+    },
+    {
+        "a": "å like",
+        "b": "to like"
+    },
+    {
+        "a": "dem",
+        "b": "them"
+    },
+    {
+        "a": "et hjørne",
+        "b": "corner"
+    },
+    {
+        "a": "å kjøpe",
+        "b": "to buy"
+    },
+    {
+        "a": "et besøk",
+        "b": "a visit"
+    },
+    {
+        "a": "vil (å ville)",
+        "b": "wants to, will"
+    },
+    {
+        "a": "et kjøkken",
+        "b": "a kitchen"
+    },
+    {
+        "a": "å besøke",
+        "b": "to visit"
+    },
+    {
+        "a": "en dusj",
+        "b": "a shower"
+    },
+    {
+        "a": "en benk",
+        "b": "a kitchen counter, bench"
+    },
+    {
+        "a": "en TV",
+        "b": "a TV"
+    },
+    {
+        "a": "borte",
+        "b": "away, off, over"
+    },
+    {
+        "a": "en oppvaskmaskin",
+        "b": "a dishwasher"
+    },
+    {
+        "a": "et salongbord",
+        "b": "a coffee table"
+    },
+    {
+        "a": "en tirsdag",
+        "b": "a Tuesday"
+    },
+    {
+        "a": "et skap",
+        "b": "a cupboard"
+    },
+    {
+        "a": "å ordne",
+        "b": "to fix, organise"
+    },
+    {
+        "a": "et skjørt",
+        "b": "a skirt"
+    },
+    {
+        "a": "å bli",
+        "b": "to become, will be, turn out"
+    },
+    {
+        "a": "mellom",
+        "b": "between"
+    },
+    {
+        "a": "et hår",
+        "b": "a hair"
+    },
+    {
+        "a": "å synge",
+        "b": "to sing"
+    },
+    {
+        "a": "et skrivebord",
+        "b": "a desk"
+    },
+    {
+        "a": "et bilde",
+        "b": "a picture"
+    },
+    {
+        "a": "å bytte",
+        "b": "to change, exchange"
+    },
+    {
+        "a": "en kommode",
+        "b": "a dresser"
+    },
+    {
+        "a": "en sminke",
+        "b": "a makeup"
+    },
+    {
+        "a": "ei jakke",
+        "b": "a jacket"
+    },
+    {
+        "a": "ei bukse",
+        "b": "a pair of trousers"
+    },
+    {
+        "a": "et vindu",
+        "b": "a window"
+    },
+    {
+        "a": "å høre",
+        "b": "to hear"
+    },
+    {
+        "a": "et speil",
+        "b": "a mirror"
+    },
+    {
+        "a": "en musikk",
+        "b": "music"
+    },
+    {
+        "a": "en vegg",
+        "b": "a wall"
+    },
+    {
+        "a": "ei hylle",
+        "b": "a shelf"
+    },
+    {
+        "a": "ved",
+        "b": "at, by, near, on, to"
+    },
+    {
+        "a": "et klesskap",
+        "b": "a closet"
+    },
+    {
+        "a": "å hente",
+        "b": "to fetch, pick up"
+    },
+    {
+        "a": "et kamera",
+        "b": "a camera"
+    },
+    {
+        "a": "et undertøy",
+        "b": "an underwear"
+    },
+    {
+        "a": "ei seng",
+        "b": "a bed"
+    },
+    {
+        "a": "så",
+        "b": "then"
+    },
+    {
+        "a": "en sko",
+        "b": "a shoe"
+    },
+    {
+        "a": "ei dør",
+        "b": "a door"
+    },
+    {
+        "a": "foran",
+        "b": "in front of"
+    },
+    {
+        "a": "for",
+        "b": "for, because"
+    },
+    {
+        "a": "kjempefint",
+        "b": "very nice, terrific"
+    },
+    {
+        "a": "ei bluse",
+        "b": "a blouse"
+    },
+    {
+        "a": "alene",
+        "b": "alone"
+    },
+    {
+        "a": "ei T-skjorte",
+        "b": "a T-shirt"
+    },
+    {
+        "a": "et rom",
+        "b": "a room"
+    },
+    {
+        "a": "en kveld",
+        "b": "an evening, night"
+    }
+]

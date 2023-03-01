@@ -1,0 +1,366 @@
+[
+    {
+        "a": "oppe",
+        "b": "up"
+    },
+    {
+        "a": "en søndag",
+        "b": "a Sunday"
+    },
+    {
+        "a": "under",
+        "b": "under, below"
+    },
+    {
+        "a": "deretter",
+        "b": "then, next"
+    },
+    {
+        "a": "bak",
+        "b": "behind"
+    },
+    {
+        "a": "en fjernkontroll",
+        "b": "a remote control"
+    },
+    {
+        "a": "stille",
+        "b": "quiet"
+    },
+    {
+        "a": "mye",
+        "b": "much, a lot, plenty"
+    },
+    {
+        "a": "heldigvis",
+        "b": "fortunately"
+    },
+    {
+        "a": "å skremme",
+        "b": "to scare"
+    },
+    {
+        "a": "i går",
+        "b": "yesterday"
+    },
+    {
+        "a": "spiste (å spise)",
+        "b": "ate"
+    },
+    {
+        "a": "å trykke",
+        "b": "to press"
+    },
+    {
+        "a": "en knapp",
+        "b": "a button"
+    },
+    {
+        "a": "en sjef",
+        "b": "a boss"
+    },
+    {
+        "a": "viktig",
+        "b": "important"
+    },
+    {
+        "a": "å regne ut",
+        "b": "to calculate"
+    },
+    {
+        "a": "en informasjon",
+        "b": "an information"
+    },
+    {
+        "a": "å fortelle",
+        "b": "to tell"
+    },
+    {
+        "a": "hadde (å ha)",
+        "b": "had"
+    },
+    {
+        "a": "å slå på",
+        "b": "to turn on"
+    },
+    {
+        "a": "en e-post",
+        "b": "an e-mail"
+    },
+    {
+        "a": "et møte",
+        "b": "a meeting"
+    },
+    {
+        "a": "en modell",
+        "b": "a model"
+    },
+    {
+        "a": "et firma",
+        "b": "a company"
+    },
+    {
+        "a": "kom (å komme)",
+        "b": "came"
+    },
+    {
+        "a": "å løse",
+        "b": "to solve"
+    },
+    {
+        "a": "et problem",
+        "b": "a problem"
+    },
+    {
+        "a": "et byggfirma",
+        "b": "a construction company"
+    },
+    {
+        "a": "nesten",
+        "b": "almost, nearly"
+    },
+    {
+        "a": "en perm",
+        "b": "a binder"
+    },
+    {
+        "a": "var (å være)",
+        "b": "was, were"
+    },
+    {
+        "a": "ei uke",
+        "b": "a week"
+    },
+    {
+        "a": "å skrive",
+        "b": "to write"
+    },
+    {
+        "a": "et prosjekt",
+        "b": "a project"
+    },
+    {
+        "a": "en PC",
+        "b": "a PC"
+    },
+    {
+        "a": "gikk (å gå)",
+        "b": "walked, went"
+    },
+    {
+        "a": "dro (å dra)",
+        "b": "left (to leave)"
+    },
+    {
+        "a": "en arbeidsdag",
+        "b": "a working day"
+    },
+    {
+        "a": "en ingeniør",
+        "b": "an engineer"
+    },
+    {
+        "a": "en dimensjon",
+        "b": "a dimension"
+    },
+    {
+        "a": "et bygg",
+        "b": "a building"
+    },
+    {
+        "a": "en rapport",
+        "b": "a report"
+    },
+    {
+        "a": "flott",
+        "b": "great, good"
+    },
+    {
+        "a": "et personale",
+        "b": "a staff"
+    },
+    {
+        "a": "å bygge",
+        "b": "to build"
+    },
+    {
+        "a": "en bestevenn",
+        "b": "a best friend"
+    },
+    {
+        "a": "alvorlig",
+        "b": "serious"
+    },
+    {
+        "a": "en ting",
+        "b": "a thing"
+    },
+    {
+        "a": "lykkelig",
+        "b": "happy"
+    },
+    {
+        "a": "for - siden",
+        "b": "ago"
+    },
+    {
+        "a": "spennende",
+        "b": "exciting"
+    },
+    {
+        "a": "dårlig",
+        "b": "bad, unwell, ill"
+    },
+    {
+        "a": "ei avis",
+        "b": "a newspaper"
+    },
+    {
+        "a": "en nyhet",
+        "b": "a news"
+    },
+    {
+        "a": "å virke",
+        "b": "to work, function"
+    },
+    {
+        "a": "i morges",
+        "b": "this morning"
+    },
+    {
+        "a": "fort",
+        "b": "fast"
+    },
+    {
+        "a": "bort",
+        "b": "away, off, over"
+    },
+    {
+        "a": "en begynnelse",
+        "b": "a beginning"
+    },
+    {
+        "a": "jo",
+        "b": "yes"
+    },
+    {
+        "a": "siden (cf. for - siden)",
+        "b": "ago"
+    },
+    {
+        "a": "å vite",
+        "b": "to know"
+    },
+    {
+        "a": "en kamerat",
+        "b": "a mate, friend"
+    },
+    {
+        "a": "sjenert",
+        "b": "shy"
+    },
+    {
+        "a": "en lego",
+        "b": "a Lego"
+    },
+    {
+        "a": "å leke",
+        "b": "to play"
+    },
+    {
+        "a": "en lærer",
+        "b": "a teacher"
+    },
+    {
+        "a": "snakket (å snakke)",
+        "b": "spoke"
+    },
+    {
+        "a": "et bråk",
+        "b": "a noise"
+    },
+    {
+        "a": "traff (å treffe)",
+        "b": "met"
+    },
+    {
+        "a": "sur",
+        "b": "sour, miserable, grumpy"
+    },
+    {
+        "a": "dessuten",
+        "b": "moreover, besides"
+    },
+    {
+        "a": "i morgen",
+        "b": "tomorrow"
+    },
+    {
+        "a": "kjekk",
+        "b": "nice, handsome"
+    },
+    {
+        "a": "å bruke",
+        "b": "to use"
+    },
+    {
+        "a": "nervøs",
+        "b": "nervous"
+    },
+    {
+        "a": "spurte (å spørre)",
+        "b": "asked"
+    },
+    {
+        "a": "rar",
+        "b": "strange, odd"
+    },
+    {
+        "a": "sint",
+        "b": "angry"
+    },
+    {
+        "a": "ganske",
+        "b": "quite"
+    },
+    {
+        "a": "første",
+        "b": "first"
+    },
+    {
+        "a": "hverandre",
+        "b": "each other"
+    },
+    {
+        "a": "hennes",
+        "b": "her, hers"
+    },
+    {
+        "a": "et fornavn",
+        "b": "a first name, given name"
+    },
+    {
+        "a": "nokså",
+        "b": "rather"
+    },
+    {
+        "a": "ei lekse",
+        "b": "a lesson, homework"
+    },
+    {
+        "a": "fornøyd",
+        "b": "satisfied, pleased"
+    },
+    {
+        "a": "dum",
+        "b": "stupid"
+    },
+    {
+        "a": "gjør (å gjøre)",
+        "b": "does, makes"
+    },
+    {
+        "a": "en elev",
+        "b": "a pupil, student"
+    }
+]

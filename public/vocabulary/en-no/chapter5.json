@@ -1,0 +1,474 @@
+[
+  {
+    "a": "ei skive",
+    "b": "a slice"
+  },
+  {
+    "a": "en kopp",
+    "b": "a cup"
+  },
+  {
+    "a": "søt",
+    "b": "sweet"
+  },
+  {
+    "a": "en katt",
+    "b": "a cat"
+  },
+  {
+    "a": "mett",
+    "b": "full"
+  },
+  {
+    "a": "en skinke",
+    "b": "a ham"
+  },
+  {
+    "a": "melk",
+    "b": "milk"
+  },
+  {
+    "a": "å klappe",
+    "b": "to pet"
+  },
+  {
+    "a": "vår",
+    "b": "our"
+  },
+  {
+    "a": "ja da",
+    "b": "«Sure», «Not to worry»"
+  },
+  {
+    "a": "ei brødskive",
+    "b": "a slice of bread"
+  },
+  {
+    "a": "te",
+    "b": "tea"
+  },
+  {
+    "a": "et glass",
+    "b": "a glass"
+  },
+  {
+    "a": "et brød",
+    "b": "a loaf of bread"
+  },
+  {
+    "a": "ute",
+    "b": "out, outside"
+  },
+  {
+    "a": "gul",
+    "b": "yellow"
+  },
+  {
+    "a": "en ost",
+    "b": "a cheese"
+  },
+  {
+    "a": "mat",
+    "b": "food"
+  },
+  {
+    "a": "om",
+    "b": "about"
+  },
+  {
+    "a": "ei sol",
+    "b": "a sun"
+  },
+  {
+    "a": "en terrasse",
+    "b": "a terrace"
+  },
+  {
+    "a": "en himmel",
+    "b": "a sky"
+  },
+  {
+    "a": "veldig",
+    "b": "very"
+  },
+  {
+    "a": "ung",
+    "b": "young"
+  },
+  {
+    "a": "å glede seg",
+    "b": "to look forward to"
+  },
+  {
+    "a": "spansk",
+    "b": "Spanish"
+  },
+  {
+    "a": "gjennom",
+    "b": "through"
+  },
+  {
+    "a": "én",
+    "b": "one"
+  },
+  {
+    "a": "engelsk",
+    "b": "b"
+  },
+  {
+    "a": "hvilke",
+    "b": "which"
+  },
+  {
+    "a": "å diskutere",
+    "b": "to discuss"
+  },
+  {
+    "a": "vær",
+    "b": "weather"
+  },
+  {
+    "a": "fersk",
+    "b": "fresh"
+  },
+  {
+    "a": "et lag",
+    "b": "a team"
+  },
+  {
+    "a": "å skinne",
+    "b": "to shine"
+  },
+  {
+    "a": "et eple",
+    "b": "an apple"
+  },
+  {
+    "a": "å vinne",
+    "b": "to win"
+  },
+  {
+    "a": "svensk",
+    "b": "Swedish"
+  },
+  {
+    "a": "en fotballspiller",
+    "b": "a soccer player"
+  },
+  {
+    "a": "en etasje",
+    "b": "a storey, floor"
+  },
+  {
+    "a": "nr",
+    "b": "no."
+  },
+  {
+    "a": "et mål",
+    "b": "a goal"
+  },
+  {
+    "a": "noen",
+    "b": "some, somebody, any, anybody"
+  },
+  {
+    "a": "mange",
+    "b": "many"
+  },
+  {
+    "a": "et rundstykke",
+    "b": "a roll"
+  },
+  {
+    "a": "en spiller",
+    "b": "a player"
+  },
+  {
+    "a": "klar",
+    "b": "bright, clear"
+  },
+  {
+    "a": "en kollega",
+    "b": "a colleague"
+  },
+  {
+    "a": "dessverre",
+    "b": "unfortunately"
+  },
+  {
+    "a": "mot",
+    "b": "towards, against"
+  },
+  {
+    "a": "mens",
+    "b": "while"
+  },
+  {
+    "a": "tolv",
+    "b": "twelve"
+  },
+  {
+    "a": "spesiell",
+    "b": "special"
+  },
+  {
+    "a": "et nummer",
+    "b": "a number"
+  },
+  {
+    "a": "ei kantine",
+    "b": "a canteen"
+  },
+  {
+    "a": "rød",
+    "b": "red"
+  },
+  {
+    "a": "en lunsj",
+    "b": "a lunch"
+  },
+  {
+    "a": "dyr",
+    "b": "expensive"
+  },
+  {
+    "a": "selvfølgelig",
+    "b": "of course"
+  },
+  {
+    "a": "flink",
+    "b": "good, clever"
+  },
+  {
+    "a": "en verden",
+    "b": "a world"
+  },
+  {
+    "a": "klokka er …",
+    "b": "the time is…"
+  },
+  {
+    "a": "alltid",
+    "b": "always"
+  },
+  {
+    "a": "alle",
+    "b": "all"
+  },
+  {
+    "a": "et pålegg",
+    "b": "a spread"
+  },
+  {
+    "a": "kanskje",
+    "b": "perhaps, maybe"
+  },
+  {
+    "a": "en grønnsak",
+    "b": "a vegetable"
+  },
+  {
+    "a": "en pose",
+    "b": "a bag"
+  },
+  {
+    "a": "en paprika",
+    "b": "a pepper"
+  },
+  {
+    "a": "grov",
+    "b": "rough, coarse"
+  },
+  {
+    "a": "et syltetøy",
+    "b": "a jam"
+  },
+  {
+    "a": "litt",
+    "b": "a little"
+  },
+  {
+    "a": "ei gulrot",
+    "b": "a carrot"
+  },
+  {
+    "a": "å fortsette",
+    "b": "to continue"
+  },
+  {
+    "a": "en middag",
+    "b": "a dinner"
+  },
+  {
+    "a": "et kilo",
+    "b": "a kilogram"
+  },
+  {
+    "a": "å trenge",
+    "b": "to need"
+  },
+  {
+    "a": "en potet",
+    "b": "a potato"
+  },
+  {
+    "a": "en sykepleier",
+    "b": "a nurse"
+  },
+  {
+    "a": "en kylling",
+    "b": "a chicken"
+  },
+  {
+    "a": "en laks",
+    "b": "a salmon"
+  },
+  {
+    "a": "en fisk",
+    "b": "a fish"
+  },
+  {
+    "a": "ferdig",
+    "b": "finished, ready, also slang; exhausted"
+  },
+  {
+    "a": "mer",
+    "b": "more"
+  },
+  {
+    "a": "en liter",
+    "b": "a litre"
+  },
+  {
+    "a": "å betale",
+    "b": "to pay"
+  },
+  {
+    "a": "ei kasse",
+    "b": "a box"
+  },
+  {
+    "a": "atten",
+    "b": "eighteen"
+  },
+  {
+    "a": "en loff",
+    "b": "a white bread"
+  },
+  {
+    "a": "en frukt",
+    "b": "a fruit"
+  },
+  {
+    "a": "å arbeide",
+    "b": "to work"
+  },
+  {
+    "a": "ei krone",
+    "b": "a crown"
+  },
+  {
+    "a": "å handle",
+    "b": "to shop"
+  },
+  {
+    "a": "et kjøtt",
+    "b": "a meat"
+  },
+  {
+    "a": "en administrasjon",
+    "b": "an adminstration, management"
+  },
+  {
+    "a": "en salami",
+    "b": "a salami"
+  },
+  {
+    "a": "ei bestemor",
+    "b": "a grandmother"
+  },
+  {
+    "a": "å sette seg",
+    "b": "to sit down"
+  },
+  {
+    "a": "lyst på (å ha lyst på noe)",
+    "b": "wanting something"
+  },
+  {
+    "a": "en lyst",
+    "b": "a wish, desire, inclination"
+  },
+  {
+    "a": "å ha lyst på",
+    "b": "to want"
+  },
+  {
+    "a": "å skynde seg",
+    "b": "to hurry (up)"
+  },
+  {
+    "a": "seg",
+    "b": "himself, herself, itself, oneself, themselves"
+  },
+  {
+    "a": "en banan",
+    "b": "a banana"
+  },
+  {
+    "a": "ny",
+    "b": "new"
+  },
+  {
+    "a": "å elske",
+    "b": "to love"
+  },
+  {
+    "a": "å prate",
+    "b": "to talk"
+  },
+  {
+    "a": "å kose seg",
+    "b": "to have a good time, snuggle up"
+  },
+  {
+    "a": "nysgjerrig",
+    "b": "curious"
+  },
+  {
+    "a": "en CD",
+    "b": "a CD"
+  },
+  {
+    "a": "å prøve",
+    "b": "to try"
+  },
+  {
+    "a": "blå",
+    "b": "blue"
+  },
+  {
+    "a": "ei venninne",
+    "b": "a (female) friend"
+  },
+  {
+    "a": "sakte",
+    "b": "slowly"
+  },
+  {
+    "a": "oi",
+    "b": "excl.: «Oh!»"
+  },
+  {
+    "a": "så fint!",
+    "b": "how nice!"
+  },
+  {
+    "a": "å sette",
+    "b": "to put, place, set"
+  },
+  {
+    "a": "en appelsin",
+    "b": "an orange"
+  }
+]

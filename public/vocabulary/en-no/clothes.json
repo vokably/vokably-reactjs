@@ -1,0 +1,90 @@
+[
+    {
+        "a": "en bluse",
+        "b": "a blouse"
+    },
+    {
+        "a": "ei bukse",
+        "b": "(a pair of) trousers"
+    },
+    {
+        "a": "en dress",
+        "b": "a suit"
+    },
+    {
+        "a": "en frakk",
+        "b": "a men's coat"
+    },
+    {
+        "a": "en genser",
+        "b": "a sweater"
+    },
+    {
+        "a": "ei jakke",
+        "b": "a jacket"
+    },
+    {
+        "a": "en kjole",
+        "b": "a dress"
+    },
+    {
+        "a": "ei kåpe",
+        "b": "a women's coat"
+    },
+    {
+        "a": "ei skjorte",
+        "b": "a shirt"
+    },
+    {
+        "a": "en shorts",
+        "b": "(a pair of) shorts"
+    },
+    {
+        "a": "et skjørt",
+        "b": "a skirt"
+    },
+    {
+        "a": "en hanske, hansker",
+        "b": "a glove, gloves"
+    },
+    {
+        "a": "en vott, votter",
+        "b": "a mitten, mittens"
+    },
+    {
+        "a": "en hatt",
+        "b": "a hat"
+    },
+    {
+        "a": "ei lue",
+        "b": "a (winter) cap"
+    },
+    {
+        "a": "et slips",
+        "b": "a tie"
+    },
+    {
+        "a": "et skjerf",
+        "b": "a scarf"
+    },
+    {
+        "a": "et skaut",
+        "b": "a head scarf"
+    },
+    {
+        "a": "ei veske",
+        "b": "a hand bag"
+    },
+    {
+        "a": "ei sko, sko",
+        "b": "a shoe, shoes"
+    },
+    {
+        "a": "en sokk, sokker",
+        "b": "a sock, socks"
+    },
+    {
+        "a": "en støvel, støvler",
+        "b": "a boot, boots"
+    }
+]

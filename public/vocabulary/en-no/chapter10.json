@@ -1,0 +1,602 @@
+[
+    {
+        "a": "en hals",
+        "b": "a throat, neck"
+    },
+    {
+        "a": "å hoste",
+        "b": "to cough"
+    },
+    {
+        "a": "en grad",
+        "b": "a degree"
+    },
+    {
+        "a": "å smitte",
+        "b": "to infect, contaminate"
+    },
+    {
+        "a": "oktober",
+        "b": "October"
+    },
+    {
+        "a": "et utslett",
+        "b": "a rash"
+    },
+    {
+        "a": "en skogstur",
+        "b": "a forest tour"
+    },
+    {
+        "a": "kvalm",
+        "b": "queasy"
+    },
+    {
+        "a": "bedre",
+        "b": "better"
+    },
+    {
+        "a": "å klemme",
+        "b": "to squeeze"
+    },
+    {
+        "a": "midt på",
+        "b": "in the middle of"
+    },
+    {
+        "a": "ei pyjamasjakke",
+        "b": "a pyjama jacket"
+    },
+    {
+        "a": "la (å legge)",
+        "b": "laid"
+    },
+    {
+        "a": "å stryke",
+        "b": "to stroke, caress"
+    },
+    {
+        "a": "en influensa",
+        "b": "an influenza, flu"
+    },
+    {
+        "a": "å regne",
+        "b": "to rain"
+    },
+    {
+        "a": "ei natt",
+        "b": "a night"
+    },
+    {
+        "a": "en mage",
+        "b": "a stomach"
+    },
+    {
+        "a": "å tro",
+        "b": "to believe"
+    },
+    {
+        "a": "forresten",
+        "b": "by the way, incidentally"
+    },
+    {
+        "a": "en ekspert",
+        "b": "an expert"
+    },
+    {
+        "a": "kaldere",
+        "b": "colder"
+    },
+    {
+        "a": "slapp",
+        "b": "peaky, in poor shape"
+    },
+    {
+        "a": "en side",
+        "b": "a side"
+    },
+    {
+        "a": "en temperatur",
+        "b": "a temperature"
+    },
+    {
+        "a": "å feile",
+        "b": "to ail (be wrong), fail"
+    },
+    {
+        "a": "å sovne",
+        "b": "to fall asleep"
+    },
+    {
+        "a": "tydelig",
+        "b": "clear, explicit"
+    },
+    {
+        "a": "en varmegrad",
+        "b": "one degree above zero"
+    },
+    {
+        "a": "kald",
+        "b": "cold"
+    },
+    {
+        "a": "ei panne",
+        "b": "a forehead"
+    },
+    {
+        "a": "å kaste opp",
+        "b": "to throw up, vomit"
+    },
+    {
+        "a": "et termometer",
+        "b": "a thermometer"
+    },
+    {
+        "a": "vondt i magen",
+        "b": "stomach ache"
+    },
+    {
+        "a": "varm",
+        "b": "warm, hot"
+    },
+    {
+        "a": "skummel",
+        "b": "creepy"
+    },
+    {
+        "a": "å gråte",
+        "b": "to cry, weep"
+    },
+    {
+        "a": "en rygg",
+        "b": "a back"
+    },
+    {
+        "a": "tror (å tro)",
+        "b": "believe"
+    },
+    {
+        "a": "å puste",
+        "b": "to breathe"
+    },
+    {
+        "a": "en feber",
+        "b": "a fever"
+    },
+    {
+        "a": "urolig",
+        "b": "restless"
+    },
+    {
+        "a": "stakkars",
+        "b": "poor"
+    },
+    {
+        "a": "å drømme",
+        "b": "to dream"
+    },
+    {
+        "a": "virkelig",
+        "b": "really"
+    },
+    {
+        "a": "videre",
+        "b": "on, onwards, further"
+    },
+    {
+        "a": "ei egenmelding",
+        "b": "a self-certification"
+    },
+    {
+        "a": "en vinter",
+        "b": "a winter"
+    },
+    {
+        "a": "en høst",
+        "b": "an autumn"
+    },
+    {
+        "a": "altså",
+        "b": "i.e."
+    },
+    {
+        "a": "innom",
+        "b": "by"
+    },
+    {
+        "a": "huff",
+        "b": "exclamation: Oh! Ugh!"
+    },
+    {
+        "a": "dårligst",
+        "b": "poorest, worst"
+    },
+    {
+        "a": "ei overtid",
+        "b": "an overtime"
+    },
+    {
+        "a": "en bærbar PC",
+        "b": "a laptop"
+    },
+    {
+        "a": "en far",
+        "b": "a father"
+    },
+    {
+        "a": "travel",
+        "b": "busy"
+    },
+    {
+        "a": "bærbar",
+        "b": "portable"
+    },
+    {
+        "a": "ellers",
+        "b": "otherwise, else"
+    },
+    {
+        "a": "et fall",
+        "b": "a case"
+    },
+    {
+        "a": "til sammen",
+        "b": "together, in all"
+    },
+    {
+        "a": "i alle fall",
+        "b": "in any case"
+    },
+    {
+        "a": "en ordning",
+        "b": "a arrangement, system"
+    },
+    {
+        "a": "å levere",
+        "b": "to deliver, supply"
+    },
+    {
+        "a": "en legeattest",
+        "b": "a medical certificate"
+    },
+    {
+        "a": "ei legeerklæring",
+        "b": "a medical certificate"
+    },
+    {
+        "a": "ei tåke",
+        "b": "a fog"
+    },
+    {
+        "a": "et C-vitamin",
+        "b": "a vitamin C"
+    },
+    {
+        "a": "å smake",
+        "b": "to taste"
+    },
+    {
+        "a": "hvis",
+        "b": "if"
+    },
+    {
+        "a": "ei helse",
+        "b": "a health"
+    },
+    {
+        "a": "enn",
+        "b": "than"
+    },
+    {
+        "a": "en periode",
+        "b": "a period"
+    },
+    {
+        "a": "en tegnefilm",
+        "b": "a cartoon"
+    },
+    {
+        "a": "normal",
+        "b": "normal"
+    },
+    {
+        "a": "hjemmefra",
+        "b": "from home"
+    },
+    {
+        "a": "super",
+        "b": "super"
+    },
+    {
+        "a": "en trankapsel",
+        "b": "a cod liver oil capsule"
+    },
+    {
+        "a": "ei tran",
+        "b": "a cod liver oil"
+    },
+    {
+        "a": "en fredag",
+        "b": "Friday"
+    },
+    {
+        "a": "ei bedring",
+        "b": "an improvement"
+    },
+    {
+        "a": "tok (å ta)",
+        "b": "took"
+    },
+    {
+        "a": "frisk",
+        "b": "well, healthy, sound"
+    },
+    {
+        "a": "en tablett",
+        "b": "a tablet, pill"
+    },
+    {
+        "a": "å svare",
+        "b": "to answer"
+    },
+    {
+        "a": "ei leppe",
+        "b": "a lip"
+    },
+    {
+        "a": "et hjerte",
+        "b": "a heart"
+    },
+    {
+        "a": "en tannlege",
+        "b": "a dentist"
+    },
+    {
+        "a": "smertestillende",
+        "b": "analgesic, painkilling"
+    },
+    {
+        "a": "å peke",
+        "b": "to point"
+    },
+    {
+        "a": "ei lungeredning",
+        "b": "a pulmonary rescue"
+    },
+    {
+        "a": "å trekke",
+        "b": "to draw, pull"
+    },
+    {
+        "a": "en hevelse",
+        "b": "a swelling"
+    },
+    {
+        "a": "å stanse",
+        "b": "to stop"
+    },
+    {
+        "a": "avansert",
+        "b": "advanced"
+    },
+    {
+        "a": "sine (cf. sin)",
+        "b": "his, hers, its, one's, theirs"
+    },
+    {
+        "a": "å skjønne",
+        "b": "to understand"
+    },
+    {
+        "a": "ei tann",
+        "b": "a tooth"
+    },
+    {
+        "a": "en resept",
+        "b": "a prescription"
+    },
+    {
+        "a": "en skranke",
+        "b": "a front desk, counter"
+    },
+    {
+        "a": "sin",
+        "b": "his, hers, its, one's, theirs"
+    },
+    {
+        "a": "en munn",
+        "b": "a mouth"
+    },
+    {
+        "a": "ei lunge",
+        "b": "a lung"
+    },
+    {
+        "a": "et medisinskap",
+        "b": "a medicine cabinet"
+    },
+    {
+        "a": "en rest",
+        "b": "a remainder, remnant, rest"
+    },
+    {
+        "a": "en tannlegetime",
+        "b": "a dentist appointment"
+    },
+    {
+        "a": "å risikere",
+        "b": "to risk"
+    },
+    {
+        "a": "å svikte",
+        "b": "to fail"
+    },
+    {
+        "a": "å vare",
+        "b": "to last"
+    },
+    {
+        "a": "en finger",
+        "b": "a finger"
+    },
+    {
+        "a": "sitt (cf. sin)",
+        "b": "his, hers, its, one's, theirs"
+    },
+    {
+        "a": "en muskel",
+        "b": "a muscle"
+    },
+    {
+        "a": "en taktikk",
+        "b": "a tactic"
+    },
+    {
+        "a": "sterkere",
+        "b": "stronger"
+    },
+    {
+        "a": "morsomst",
+        "b": "funniest"
+    },
+    {
+        "a": "kjempeflink",
+        "b": "very good, clever"
+    },
+    {
+        "a": "en sesong",
+        "b": "a season"
+    },
+    {
+        "a": "et hode",
+        "b": "a head"
+    },
+    {
+        "a": "et bein",
+        "b": "a bone"
+    },
+    {
+        "a": "størst",
+        "b": "greatest"
+    },
+    {
+        "a": "ei trening",
+        "b": "a training session, practice session, exercise"
+    },
+    {
+        "a": "et OL",
+        "b": "olympic games"
+    },
+    {
+        "a": "å representere",
+        "b": "to represent"
+    },
+    {
+        "a": "skadet",
+        "b": "hurt, damaged"
+    },
+    {
+        "a": "rask",
+        "b": "fast"
+    },
+    {
+        "a": "en mester",
+        "b": "a master"
+    },
+    {
+        "a": "en kropp",
+        "b": "a body"
+    },
+    {
+        "a": "høyt (cf. høy)",
+        "b": "loud, high, tall"
+    },
+    {
+        "a": "en form",
+        "b": "a shape, condition"
+    },
+    {
+        "a": "et landslag",
+        "b": "a national team"
+    },
+    {
+        "a": "en kamp",
+        "b": "a match"
+    },
+    {
+        "a": "et jentelag",
+        "b": "a girl team"
+    },
+    {
+        "a": "å slå seg",
+        "b": "to hurt oneself"
+    },
+    {
+        "a": "olympisk",
+        "b": "olympic"
+    },
+    {
+        "a": "lett",
+        "b": "easy"
+    },
+    {
+        "a": "en idrett",
+        "b": "a sport"
+    },
+    {
+        "a": "aktiv",
+        "b": "active"
+    },
+    {
+        "a": "en drøm",
+        "b": "a dream"
+    },
+    {
+        "a": "kul",
+        "b": "cool"
+    },
+    {
+        "a": "sterk",
+        "b": "strong"
+    },
+    {
+        "a": "en kondisjon",
+        "b": "a (physical) condition"
+    },
+    {
+        "a": "hardere",
+        "b": "harder"
+    },
+    {
+        "a": "en ball",
+        "b": "a ball"
+    },
+    {
+        "a": "en sport",
+        "b": "a sport"
+    },
+    {
+        "a": "aldri",
+        "b": "never"
+    },
+    {
+        "a": "en håndball",
+        "b": "a handball"
+    },
+    {
+        "a": "tøff",
+        "b": "tough"
+    },
+    {
+        "a": "ei helg",
+        "b": "a weekend"
+    },
+    {
+        "a": "en trener",
+        "b": "a coach"
+    },
+    {
+        "a": "en håndballspiller",
+        "b": "a handball player"
+    }
+]

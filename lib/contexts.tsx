@@ -1,11 +1,8 @@
 import { createContext, PropsWithChildren, useContext, useState } from "react";
-import Word from '../type/word';
-import TableInfo from "../type/tableInfo";
+import { Chapter, Word } from "@/lib/types";
 
 export type SessionContextType = {
-    loadedChapters: TableInfo[];
-    activeWords: Word[];
-    allWords: Word[];
+    selectedChapter: Chapter[];
     nbGoodAnswers: number;
     nbBadAnswers: number;
     wordHistory: Word[];
@@ -13,9 +10,7 @@ export type SessionContextType = {
 };
 
 export const defaultSessionValue: SessionContextType = {
-    loadedChapters: [],
-    activeWords: [],
-    allWords: [],
+    selectedChapter: [],
     nbGoodAnswers: 0,
     nbBadAnswers: 0,
     wordHistory: [],

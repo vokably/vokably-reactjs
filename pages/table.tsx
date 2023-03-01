@@ -14,7 +14,7 @@ import { useStateWithLocalStorage } from '../lib/hooks'
 import { SessionContext, SetSessionContext } from '../lib/contexts'
 import { AiOutlineArrowsAlt, AiOutlineShrink } from 'react-icons/ai'
 import { CgArrowsExchangeAlt } from 'react-icons/cg'
-import Word from '@/type/word'
+import {Chapter, Word} from '@/lib/types'
 
 export default function WordTable() {
   const toast = useToast();
@@ -28,11 +28,12 @@ export default function WordTable() {
   const [viewSize, setViewSize] = useStateWithLocalStorage<string>('viewSize', 'md');
   const [mirrorView, setMirrorView] = useStateWithLocalStorage<boolean>('mirrorView', false);
 
-  const nbPages = Math.ceil(session.activeWords.length / nbDisplay);
+  const allWords = session.selectedChapter.map((ch) => ch.words).flat();
+  const nbPages = Math.ceil(allWords.length / nbDisplay);
 
 
   React.useEffect(() => {
-    if (session.activeWords.length == 0) {
+    if (allWords.length == 0) {
       toast({
         title: "No words loaded",
         description: "Please select at least one chapter",
@@ -43,15 +44,14 @@ export default function WordTable() {
       router.push('/')
     }
 
-    setDisplayWords(session.activeWords.slice(page * nbDisplay, (page + 1) * nbDisplay))
-  }, [page, nbDisplay, session.allWords])
+    setDisplayWords(allWords.slice(page * nbDisplay, (page + 1) * nbDisplay))
+  }, [page, nbDisplay])
 
 
   const randomizePage = () => {
-    let allWords = session.activeWords
     allWords.sort(() => Math.random() - 0.5)
 
-    setDisplayWords(session.activeWords.slice(page * nbDisplay, (page + 1) * nbDisplay))
+    setDisplayWords(allWords.slice(page * nbDisplay, (page + 1) * nbDisplay))
   }
 
 
@@ -81,7 +81,10 @@ export default function WordTable() {
 
 
   return (
-    <>
+    <Box
+      bg={'primary.primary'}
+      color={'text.onPrimary'}
+    >
       <Accordion allowToggle>
         <AccordionItem>
           <h2>
@@ -95,10 +98,10 @@ export default function WordTable() {
           <AccordionPanel pb={4}>
             <Box p={4}>
               <Wrap>
-                {session.loadedChapters.map((ch, index) => {
+                {session.selectedChapter.map((ch: Chapter, index: number) => {
                   return (
                     <WrapItem key={index}>
-                      <Tag>{ch.displayName}</Tag>
+                      <Tag bg={'secondary.secondary'}>{ch.name}</Tag>
                     </WrapItem>
                   )
                 })
@@ -109,20 +112,20 @@ export default function WordTable() {
             <Box p={4}>
               <HStack spacing={8}>
                 <Text>Display size</Text>
-                <Button onClick={() => setNbDisplay(10)}>10</Button>
-                <Button onClick={() => setNbDisplay(25)}>25</Button>
-                <Button onClick={() => setNbDisplay(50)}>50</Button>
-                <Button onClick={() => setNbDisplay(100)}>100</Button>
+                <Button bg={'secondary.secondary'} onClick={() => setNbDisplay(10)}>10</Button>
+                <Button bg={'secondary.secondary'} onClick={() => setNbDisplay(25)}>25</Button>
+                <Button bg={'secondary.secondary'} onClick={() => setNbDisplay(50)}>50</Button>
+                <Button bg={'secondary.secondary'} onClick={() => setNbDisplay(100)}>100</Button>
               </HStack>
             </Box>
 
             <Box p={4}>
               <HStack spacing={8}>
                 <Text>View size</Text>
-                <Button onClick={decreaseViewSize}><AiOutlineShrink /></Button>
-                <Button onClick={increaseViewSize}><AiOutlineArrowsAlt /></Button>
-                <Button onClick={() => setMirrorView(!mirrorView)}><CgArrowsExchangeAlt /></Button>
-                <Button onClick={randomizePage}><RepeatIcon /></Button>
+                <Button bg={'secondary.secondary'} onClick={decreaseViewSize}><AiOutlineShrink /></Button>
+                <Button bg={'secondary.secondary'} onClick={increaseViewSize}><AiOutlineArrowsAlt /></Button>
+                <Button bg={'secondary.secondary'} onClick={() => setMirrorView(!mirrorView)}><CgArrowsExchangeAlt /></Button>
+                <Button bg={'secondary.secondary'} onClick={randomizePage}><RepeatIcon /></Button>
               </HStack>
             </Box>
           </AccordionPanel>
@@ -133,12 +136,12 @@ export default function WordTable() {
         <Table size={viewSize}>
           <Thead>
             <Tr>
-              <Th>A</Th>
-              <Th>B</Th>
+              <Th color={'text.onPrimary'} >A</Th>
+              <Th color={'text.onPrimary'} >B</Th>
               <Th>
                 {isHidden
-                  ? <IconButton aria-label="Show" icon={<ViewIcon />} onClick={() => setIsHidden(false)} />
-                  : <IconButton aria-label="Hide" icon={<ViewOffIcon />} onClick={() => setIsHidden(true)} />
+                  ? <IconButton bg={'secondary.secondary'} color={'text.onSecondary'} aria-label="Show" icon={<ViewIcon />} onClick={() => setIsHidden(false)} />
+                  : <IconButton bg={'secondary.secondary'} color={'text.onSecondary'} aria-label="Hide" icon={<ViewOffIcon />} onClick={() => setIsHidden(true)} />
                 }
               </Th>
             </Tr>
@@ -158,7 +161,7 @@ export default function WordTable() {
         </HStack>
 
       </Box>
-    </>
+    </Box>
   )
 }
 
@@ -179,14 +182,14 @@ const TableRow: React.FC<TableRowProps> = ({ word, hide, mirrorView }) => {
       {mirrorView
         ? (<Td>
           {(hide && isHidden) || (!hide && !isHidden)
-            ? <Text>-------------</Text>
+            ? <Text>{'----------'}</Text>
             : <Text>{word.b}</Text>
           }
         </Td>
         )
         : (<Td>
           {(hide && isHidden) || (!hide && !isHidden)
-            ? <Text>-------------</Text>
+            ? <Text>{'----------'}</Text>
             : <Text>{word.a}</Text>
           }
         </Td>
@@ -194,8 +197,8 @@ const TableRow: React.FC<TableRowProps> = ({ word, hide, mirrorView }) => {
       }
       <Td>
         {isHidden
-          ? <IconButton aria-label="Show" icon={<ViewIcon />} onClick={() => setIsHidden(false)} />
-          : <IconButton aria-label="Hide" icon={<ViewOffIcon />} onClick={() => setIsHidden(true)} />
+          ? <IconButton bg={'secondary.secondary'} color={'text.onSecondary'} aria-label="Show" icon={<ViewIcon />} onClick={() => setIsHidden(false)} />
+          : <IconButton bg={'secondary.secondary'} color={'text.onSecondary'} aria-label="Hide" icon={<ViewOffIcon />} onClick={() => setIsHidden(true)} />
         }
       </Td>
     </Tr>

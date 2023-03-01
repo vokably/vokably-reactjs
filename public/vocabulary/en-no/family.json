@@ -1,0 +1,106 @@
+[
+    {
+        "a": "en familie",
+        "b": "a family"
+    },
+    {
+        "a": "et barn ",
+        "b": "a child"
+    },
+    {
+        "a": "ei mor ",
+        "b": "a mother"
+    },
+    {
+        "a": "en far ",
+        "b": "a father"
+    },
+    {
+        "a": "foreldre ",
+        "b": "parents"
+    },
+    {
+        "a": "ei datter",
+        "b": "a daughter"
+    },
+    {
+        "a": "en sønn",
+        "b": "a son"
+    },
+    {
+        "a": "ei søster ",
+        "b": "a sister"
+    },
+    {
+        "a": "en bror ",
+        "b": "a brother"
+    },
+    {
+        "a": "søsken",
+        "b": "siblings"
+    },
+    {
+        "a": "et enebarn",
+        "b": "an only child"
+    },
+    {
+        "a": "ei tante ",
+        "b": "an aunt"
+    },
+    {
+        "a": "en onkel",
+        "b": "an uncle"
+    },
+    {
+        "a": "ei kusine",
+        "b": "a cousin (female)"
+    },
+    {
+        "a": "en fetter ",
+        "b": "a cousin (male)"
+    },
+    {
+        "a": "et søskenbarn ",
+        "b": "a cousin (m. or f.)"
+    },
+    {
+        "a": "en nevø ",
+        "b": "a nephew"
+    },
+    {
+        "a": "ei niese",
+        "b": "a niece"
+    },
+    {
+        "a": "ei bestemor",
+        "b": "a grandmother"
+    },
+    {
+        "a": "ei farmor ",
+        "b": "a paternal grandmother"
+    },
+    {
+        "a": "ei mormor",
+        "b": "a maternal grandmother"
+    },
+    {
+        "a": "en bestefar",
+        "b": "a grandfather"
+    },
+    {
+        "a": "en farfar ",
+        "b": "a paternal grandfather"
+    },
+    {
+        "a": "en morfar",
+        "b": "a maternal grandfather"
+    },
+    {
+        "a": "besteforeldre ",
+        "b": "grandparents"
+    },
+    {
+        "a": "et barnebarn",
+        "b": "a grandchild"
+    }
+]

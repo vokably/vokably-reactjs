@@ -1,0 +1,610 @@
+[
+    {
+        "a": "å få tak i",
+        "b": "to get hold of"
+    },
+    {
+        "a": "å organisere",
+        "b": "to organise"
+    },
+    {
+        "a": "innen",
+        "b": "by, within"
+    },
+    {
+        "a": "absolutt",
+        "b": "absolutely, absolute"
+    },
+    {
+        "a": "deres",
+        "b": "your (plural), yours, their, theirs"
+    },
+    {
+        "a": "fant (å finne)",
+        "b": "found"
+    },
+    {
+        "a": "sa (å si)",
+        "b": "said"
+    },
+    {
+        "a": "en støvel",
+        "b": "a boot"
+    },
+    {
+        "a": "å nikke",
+        "b": "to nod"
+    },
+    {
+        "a": "ditt",
+        "b": "your, yours (singular)"
+    },
+    {
+        "a": "dine",
+        "b": "your, yours (plural)"
+    },
+    {
+        "a": "en buss",
+        "b": "a bus"
+    },
+    {
+        "a": "et stress",
+        "b": "a stress"
+    },
+    {
+        "a": "en bussjåfør",
+        "b": "a bus driver"
+    },
+    {
+        "a": "ni",
+        "b": "nine"
+    },
+    {
+        "a": "en avdelingsleder",
+        "b": "a department manager"
+    },
+    {
+        "a": "et vikarbyrå",
+        "b": "an employment agency"
+    },
+    {
+        "a": "en vikar",
+        "b": "a substitute"
+    },
+    {
+        "a": "en kakao",
+        "b": "a cocoa"
+    },
+    {
+        "a": "å håpe",
+        "b": "to hope"
+    },
+    {
+        "a": "et arbeid",
+        "b": "a work"
+    },
+    {
+        "a": "et bagasjerom",
+        "b": "trunk (of a car)"
+    },
+    {
+        "a": "et sete",
+        "b": "a seat"
+    },
+    {
+        "a": "spent",
+        "b": "excited"
+    },
+    {
+        "a": "en matpakke",
+        "b": "a packed lunch"
+    },
+    {
+        "a": "en sekk",
+        "b": "a sack"
+    },
+    {
+        "a": "en termos",
+        "b": "a thermos flask"
+    },
+    {
+        "a": "en barnehagelærer",
+        "b": "a kindergarten teacher"
+    },
+    {
+        "a": "en joggesko",
+        "b": "a sneaker"
+    },
+    {
+        "a": "å kontakte",
+        "b": "to contact"
+    },
+    {
+        "a": "ennå",
+        "b": "yet, still"
+    },
+    {
+        "a": "god tur!",
+        "b": "have a nice trip!"
+    },
+    {
+        "a": "å fylle ut",
+        "b": "to fill in"
+    },
+    {
+        "a": "en fjelltur",
+        "b": "a mountain hike"
+    },
+    {
+        "a": "syk",
+        "b": "ill"
+    },
+    {
+        "a": "et regntøy",
+        "b": "a raincoat"
+    },
+    {
+        "a": "likevel",
+        "b": "after all"
+    },
+    {
+        "a": "å presentere",
+        "b": "to present, introduce"
+    },
+    {
+        "a": "et møterom",
+        "b": "a meeting room"
+    },
+    {
+        "a": "et hensyn",
+        "b": "a consideration"
+    },
+    {
+        "a": "et AS (aksjeselskap)",
+        "b": "a corporation (stock company)"
+    },
+    {
+        "a": "sikker",
+        "b": "sure"
+    },
+    {
+        "a": "en presentasjon",
+        "b": "a presentation"
+    },
+    {
+        "a": "å klare",
+        "b": "to manage"
+    },
+    {
+        "a": "et spørsmål",
+        "b": "a question"
+    },
+    {
+        "a": "en konsulenthjelp",
+        "b": "a consultant help"
+    },
+    {
+        "a": "å starte",
+        "b": "to start"
+    },
+    {
+        "a": "et prosjektdokument",
+        "b": "a project document"
+    },
+    {
+        "a": "å lure på",
+        "b": "to wonder"
+    },
+    {
+        "a": "sett (å se)",
+        "b": "seen"
+    },
+    {
+        "a": "ei planlegging",
+        "b": "a planning"
+    },
+    {
+        "a": "en avtale",
+        "b": "an agreement"
+    },
+    {
+        "a": "en kontakt",
+        "b": "a contact"
+    },
+    {
+        "a": "en prosjektleder",
+        "b": "a project manager"
+    },
+    {
+        "a": "et ord",
+        "b": "a word"
+    },
+    {
+        "a": "stolt",
+        "b": "proud"
+    },
+    {
+        "a": "et budsjett",
+        "b": "a budget"
+    },
+    {
+        "a": "et ansvar",
+        "b": "a responsibility"
+    },
+    {
+        "a": "ei gjennomføring",
+        "b": "an implementation"
+    },
+    {
+        "a": "en planleggingsperiode",
+        "b": "a planning period"
+    },
+    {
+        "a": "et forslag",
+        "b": "a suggestion, proposal"
+    },
+    {
+        "a": "selvsagt",
+        "b": "of course, naturally"
+    },
+    {
+        "a": "hvem",
+        "b": "who"
+    },
+    {
+        "a": "å gjelde",
+        "b": "to concern, to pertain to"
+    },
+    {
+        "a": "et byggeprosjekt",
+        "b": "a construction project"
+    },
+    {
+        "a": "å planlegge",
+        "b": "to plan, schedule"
+    },
+    {
+        "a": "et tall",
+        "b": "a figure, number"
+    },
+    {
+        "a": "et senter",
+        "b": "a centre"
+    },
+    {
+        "a": "både - og",
+        "b": "both - and"
+    },
+    {
+        "a": "slik",
+        "b": "so"
+    },
+    {
+        "a": "en tidsfrist",
+        "b": "a deadline"
+    },
+    {
+        "a": "som",
+        "b": "who/which, as"
+    },
+    {
+        "a": "en bygging",
+        "b": "a construction"
+    },
+    {
+        "a": "en kontrakt",
+        "b": "a contract"
+    },
+    {
+        "a": "et dokument",
+        "b": "a document"
+    },
+    {
+        "a": "vondt",
+        "b": "painful, sore"
+    },
+    {
+        "a": "et navn",
+        "b": "a name"
+    },
+    {
+        "a": "å overvåke",
+        "b": "to monitor, supervise"
+    },
+    {
+        "a": "å behandle",
+        "b": "to treat"
+    },
+    {
+        "a": "hel",
+        "b": "whole, entire"
+    },
+    {
+        "a": "sånn",
+        "b": "so, like that"
+    },
+    {
+        "a": "å pleie",
+        "b": "to take care of"
+    },
+    {
+        "a": "å snu",
+        "b": "to turn"
+    },
+    {
+        "a": "en analyse",
+        "b": "an analysis"
+    },
+    {
+        "a": "stressende",
+        "b": "stressful"
+    },
+    {
+        "a": "en veileder",
+        "b": "a supervisor, guide"
+    },
+    {
+        "a": "svimmel",
+        "b": "dizzy"
+    },
+    {
+        "a": "kronisk",
+        "b": "chronic"
+    },
+    {
+        "a": "bøyd",
+        "b": "bent"
+    },
+    {
+        "a": "akutt",
+        "b": "acute"
+    },
+    {
+        "a": "en blodprøve",
+        "b": "a blood sample"
+    },
+    {
+        "a": "kritisk",
+        "b": "critical"
+    },
+    {
+        "a": "hele (cf. hel)",
+        "b": "whole"
+    },
+    {
+        "a": "et plaster",
+        "b": "a plaster, band-aid"
+    },
+    {
+        "a": "bør (å burde)",
+        "b": "ought to (should)"
+    },
+    {
+        "a": "en journal",
+        "b": "a journal"
+    },
+    {
+        "a": "et laboratorium",
+        "b": "a laboratory"
+    },
+    {
+        "a": "en kontroll",
+        "b": "a control"
+    },
+    {
+        "a": "å holde",
+        "b": "to hold, keep"
+    },
+    {
+        "a": "å merke",
+        "b": "to mark, notice"
+    },
+    {
+        "a": "å burde",
+        "b": "ought to (should)"
+    },
+    {
+        "a": "øyeblikkelig",
+        "b": "immediately"
+    },
+    {
+        "a": "en bomull",
+        "b": "a cotton"
+    },
+    {
+        "a": "en datamaskin",
+        "b": "a computer"
+    },
+    {
+        "a": "en stund",
+        "b": "a moment, while"
+    },
+    {
+        "a": "ei tid",
+        "b": "a time"
+    },
+    {
+        "a": "ofte",
+        "b": "often"
+    },
+    {
+        "a": "redd",
+        "b": "scared"
+    },
+    {
+        "a": "ei utfordring",
+        "b": "a challenge"
+    },
+    {
+        "a": "en kommunikasjon",
+        "b": "a communication"
+    },
+    {
+        "a": "å føle",
+        "b": "to feel"
+    },
+    {
+        "a": "imens",
+        "b": "meanwhile"
+    },
+    {
+        "a": "en blodåre",
+        "b": "a vein"
+    },
+    {
+        "a": "et skjema",
+        "b": "a form"
+    },
+    {
+        "a": "å stikke",
+        "b": "to sting"
+    },
+    {
+        "a": "en pasient",
+        "b": "a patient"
+    },
+    {
+        "a": "vanligvis",
+        "b": "usually"
+    },
+    {
+        "a": "direkte",
+        "b": "direct, directly"
+    },
+    {
+        "a": "en sykdom",
+        "b": "a disease"
+    },
+    {
+        "a": "et blod",
+        "b": "a blood"
+    },
+    {
+        "a": "en undersøkelse",
+        "b": "a medical"
+    },
+    {
+        "a": "et læreryrke",
+        "b": "a teaching profession"
+    },
+    {
+        "a": "en servitør",
+        "b": "a waiter"
+    },
+    {
+        "a": "en frisør",
+        "b": "a hairdresser"
+    },
+    {
+        "a": "en fisker",
+        "b": "a fisherman"
+    },
+    {
+        "a": "å greie",
+        "b": "to manage"
+    },
+    {
+        "a": "ei utdanning",
+        "b": "an education"
+    },
+    {
+        "a": "å intervjue",
+        "b": "to interview"
+    },
+    {
+        "a": "et telefonnummer",
+        "b": "a phone number"
+    },
+    {
+        "a": "å hate",
+        "b": "to hate"
+    },
+    {
+        "a": "ei lønn",
+        "b": "a salary"
+    },
+    {
+        "a": "en bonde",
+        "b": "a farmer"
+    },
+    {
+        "a": "interessert",
+        "b": "interested"
+    },
+    {
+        "a": "en lege",
+        "b": "a doctor, GP"
+    },
+    {
+        "a": "et samfunn",
+        "b": "a society"
+    },
+    {
+        "a": "å samarbeide",
+        "b": "to cooperate"
+    },
+    {
+        "a": "engasjert",
+        "b": "involved, interested, engaged"
+    },
+    {
+        "a": "en kunnskap",
+        "b": "a knowledge"
+    },
+    {
+        "a": "en selger",
+        "b": "a salesman, sales assistant"
+    },
+    {
+        "a": "heller",
+        "b": "rather"
+    },
+    {
+        "a": "en baker",
+        "b": "a baker"
+    },
+    {
+        "a": "bønder",
+        "b": "farmers"
+    },
+    {
+        "a": "profesjonell",
+        "b": "professional"
+    },
+    {
+        "a": "å velge",
+        "b": "to select"
+    },
+    {
+        "a": "en journalist",
+        "b": "a journalist"
+    },
+    {
+        "a": "nyttig",
+        "b": "useful"
+    },
+    {
+        "a": "ei klasseavis",
+        "b": "a class newspaper"
+    },
+    {
+        "a": "en artikkel",
+        "b": "an article"
+    },
+    {
+        "a": "et yrke",
+        "b": "a profession"
+    },
+    {
+        "a": "ei popstjerne",
+        "b": "a pop star"
+    },
+    {
+        "a": "et arbeidsliv",
+        "b": "a working life"
+    },
+    {
+        "a": "en pilot",
+        "b": "a pilot"
+    }
+]

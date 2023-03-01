@@ -84,12 +84,11 @@ body {
   margin: 0 auto;
   max-width: 412px;
   overflow-x: hidden;
-  background-color: #042A2B;
+  /* background-color: #042A2B; */
 }
 
 body {
   color: rgb(var(--foreground-rgb));
-  background-color: #042A2B;
 }
 
 a {

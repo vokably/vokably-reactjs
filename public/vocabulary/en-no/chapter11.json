@@ -1,0 +1,502 @@
+[
+    {
+        "a": "en ring",
+        "b": "a ring"
+    },
+    {
+        "a": "hjelpsom",
+        "b": "helpful"
+    },
+    {
+        "a": "et ektepar",
+        "b": "a married couple"
+    },
+    {
+        "a": "å miste",
+        "b": "to lose"
+    },
+    {
+        "a": "å rydde",
+        "b": "to tidy"
+    },
+    {
+        "a": "en fest",
+        "b": "a party"
+    },
+    {
+        "a": "en slutt",
+        "b": "an end"
+    },
+    {
+        "a": "vunnet (å vinne)",
+        "b": "won"
+    },
+    {
+        "a": "ordentlig",
+        "b": "properly"
+    },
+    {
+        "a": "ei dokke",
+        "b": "a doll"
+    },
+    {
+        "a": "ei synd",
+        "b": "a pity"
+    },
+    {
+        "a": "lei seg",
+        "b": "upset, sorry"
+    },
+    {
+        "a": "et eventyrteater",
+        "b": "a fairy tale theatre"
+    },
+    {
+        "a": "tankefull",
+        "b": "pensive, thoughtful"
+    },
+    {
+        "a": "skitten",
+        "b": "dirty"
+    },
+    {
+        "a": "ryddig",
+        "b": "tidy"
+    },
+    {
+        "a": "å huske",
+        "b": "to remember"
+    },
+    {
+        "a": "lille (liten)",
+        "b": "small"
+    },
+    {
+        "a": "et folk",
+        "b": "a people"
+    },
+    {
+        "a": "et dokketeater",
+        "b": "a puppet theater"
+    },
+    {
+        "a": "å invitere",
+        "b": "to invite"
+    },
+    {
+        "a": "en teaterforestilling",
+        "b": "a (theatre) play"
+    },
+    {
+        "a": "en forestilling",
+        "b": "a show"
+    },
+    {
+        "a": "begeistret",
+        "b": "excited"
+    },
+    {
+        "a": "en skomaker",
+        "b": "a shoemaker"
+    },
+    {
+        "a": "mindre",
+        "b": "less"
+    },
+    {
+        "a": "rotete",
+        "b": "messy"
+    },
+    {
+        "a": "et eventyr",
+        "b": "a fairy tale"
+    },
+    {
+        "a": "ei ramme",
+        "b": "a frame"
+    },
+    {
+        "a": "visste (å vite)",
+        "b": "knew"
+    },
+    {
+        "a": "innover",
+        "b": "inward"
+    },
+    {
+        "a": "en ørret",
+        "b": "a trout"
+    },
+    {
+        "a": "et toalett",
+        "b": "a toilet"
+    },
+    {
+        "a": "et liv",
+        "b": "a life"
+    },
+    {
+        "a": "en nordmann",
+        "b": "a Norwegian"
+    },
+    {
+        "a": "en storby",
+        "b": "a city"
+    },
+    {
+        "a": "å slappe av",
+        "b": "to relax"
+    },
+    {
+        "a": "et fjell",
+        "b": "a mountain"
+    },
+    {
+        "a": "kjølig",
+        "b": "cool, chilly"
+    },
+    {
+        "a": "en hyttetur",
+        "b": "a trip to a cottage"
+    },
+    {
+        "a": "endelig",
+        "b": "finally"
+    },
+    {
+        "a": "til slutt",
+        "b": "finally, in the end, eventually"
+    },
+    {
+        "a": "gammeldags",
+        "b": "old fashioned"
+    },
+    {
+        "a": "et hull",
+        "b": "a hole"
+    },
+    {
+        "a": "bratt",
+        "b": "steep"
+    },
+    {
+        "a": "ei årstid",
+        "b": "a season"
+    },
+    {
+        "a": "si",
+        "b": "his, hers, its, one's, theirs"
+    },
+    {
+        "a": "en utedo",
+        "b": "an outhouse"
+    },
+    {
+        "a": "ei fiskestang",
+        "b": "a rod"
+    },
+    {
+        "a": "en sti",
+        "b": "a path"
+    },
+    {
+        "a": "å rusle",
+        "b": "to stroll"
+    },
+    {
+        "a": "en hyttetradisjon",
+        "b": "a cottage tradition"
+    },
+    {
+        "a": "en konge",
+        "b": "a king"
+    },
+    {
+        "a": "en strøm",
+        "b": "a power, electricity"
+    },
+    {
+        "a": "en fiskelykke",
+        "b": "a fishing luck"
+    },
+    {
+        "a": "en utsikt",
+        "b": "a view"
+    },
+    {
+        "a": "en natur",
+        "b": "a nature"
+    },
+    {
+        "a": "å stige på",
+        "b": "to enter"
+    },
+    {
+        "a": "en larm",
+        "b": "a noise"
+    },
+    {
+        "a": "et vann",
+        "b": "a lake"
+    },
+    {
+        "a": "sliten",
+        "b": "tired"
+    },
+    {
+        "a": "vakker",
+        "b": "beautiful"
+    },
+    {
+        "a": "en romantiker",
+        "b": "a romantic"
+    },
+    {
+        "a": "et dikt",
+        "b": "a poem"
+    },
+    {
+        "a": "nede",
+        "b": "down, downstairs"
+    },
+    {
+        "a": "en skjønnhet",
+        "b": "a beauty"
+    },
+    {
+        "a": "å lukte",
+        "b": "to smell"
+    },
+    {
+        "a": "ekte",
+        "b": "real, genuine"
+    },
+    {
+        "a": "bitte liten",
+        "b": "very small, tiny"
+    },
+    {
+        "a": "en ryggsekk",
+        "b": "a backpack"
+    },
+    {
+        "a": "en kultur",
+        "b": "a culture"
+    },
+    {
+        "a": "et teater",
+        "b": "a theatre"
+    },
+    {
+        "a": "en kunst",
+        "b": "an art"
+    },
+    {
+        "a": "en sang",
+        "b": "a song"
+    },
+    {
+        "a": "faktisk",
+        "b": "actually"
+    },
+    {
+        "a": "et bryllup",
+        "b": "a wedding"
+    },
+    {
+        "a": "i stedet",
+        "b": "instead"
+    },
+    {
+        "a": "en gitar",
+        "b": "a guitar"
+    },
+    {
+        "a": "å oppleve",
+        "b": "to experience, enjoy"
+    },
+    {
+        "a": "en bygning",
+        "b": "a building"
+    },
+    {
+        "a": "fantastisk",
+        "b": "fantastic"
+    },
+    {
+        "a": "et nasjonalgalleri",
+        "b": "a national gallery"
+    },
+    {
+        "a": "lenge siden",
+        "b": "long ago"
+    },
+    {
+        "a": "et galleri",
+        "b": "a gallery"
+    },
+    {
+        "a": "en tenåring",
+        "b": "a teenager"
+    },
+    {
+        "a": "en invitasjon",
+        "b": "an invitation"
+    },
+    {
+        "a": "en opera",
+        "b": "an opera"
+    },
+    {
+        "a": "en utstilling",
+        "b": "an exhibition"
+    },
+    {
+        "a": "en hovedstad",
+        "b": "a capital"
+    },
+    {
+        "a": "et maleri",
+        "b": "a painting"
+    },
+    {
+        "a": "et kor",
+        "b": "a chorus"
+    },
+    {
+        "a": "å ligne",
+        "b": "to resemble"
+    },
+    {
+        "a": "en billett",
+        "b": "a ticket"
+    },
+    {
+        "a": "en fan",
+        "b": "a fan"
+    },
+    {
+        "a": "samlet",
+        "b": "gathered"
+    },
+    {
+        "a": "et kaos",
+        "b": "a chaos"
+    },
+    {
+        "a": "et tak",
+        "b": "a roof"
+    },
+    {
+        "a": "en hyling",
+        "b": "a screaming"
+    },
+    {
+        "a": "å hyle",
+        "b": "to scream, yell"
+    },
+    {
+        "a": "totalt",
+        "b": "total"
+    },
+    {
+        "a": "en scene",
+        "b": "a scene"
+    },
+    {
+        "a": "ei tenåringsjente",
+        "b": "a teenage girl"
+    },
+    {
+        "a": "å skje",
+        "b": "to happen, occur"
+    },
+    {
+        "a": "å sjekke",
+        "b": "to check"
+    },
+    {
+        "a": "ikke sant?",
+        "b": "right?"
+    },
+    {
+        "a": "en lykke",
+        "b": "a happiness"
+    },
+    {
+        "a": "gjorde (å gjøre)",
+        "b": "did, made"
+    },
+    {
+        "a": "en flyplass",
+        "b": "an airport"
+    },
+    {
+        "a": "å overnatte",
+        "b": "to stay the night"
+    },
+    {
+        "a": "et show",
+        "b": "a show"
+    },
+    {
+        "a": "å skulke",
+        "b": "to shirk"
+    },
+    {
+        "a": "å love",
+        "b": "to promise"
+    },
+    {
+        "a": "all",
+        "b": "all"
+    },
+    {
+        "a": "midt i",
+        "b": "in the middle of"
+    },
+    {
+        "a": "en konsert",
+        "b": "a concert"
+    },
+    {
+        "a": "usikker",
+        "b": "uncertain"
+    },
+    {
+        "a": "en alder",
+        "b": "an age"
+    },
+    {
+        "a": "et politi",
+        "b": "a police"
+    },
+    {
+        "a": "kjempebra",
+        "b": "awesome"
+    },
+    {
+        "a": "i nærheten av",
+        "b": "near, close to"
+    },
+    {
+        "a": "en tåre",
+        "b": "a tear"
+    },
+    {
+        "a": "et rykte",
+        "b": "a rumour, reputation"
+    },
+    {
+        "a": "gratis",
+        "b": "free (of charge), gratis"
+    },
+    {
+        "a": "ei melding",
+        "b": "a message"
+    },
+    {
+        "a": "hjemover",
+        "b": "homewards"
+    }
+]

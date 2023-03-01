@@ -1,0 +1,542 @@
+[
+    {
+        "a": "en lørdag",
+        "b": "a Saturday"
+    },
+    {
+        "a": "en tomat",
+        "b": "a tomato"
+    },
+    {
+        "a": "snill",
+        "b": "kind"
+    },
+    {
+        "a": "en hud",
+        "b": "a skin"
+    },
+    {
+        "a": "en tallerken",
+        "b": "a plate"
+    },
+    {
+        "a": "å barbere seg",
+        "b": "to shave"
+    },
+    {
+        "a": "en jus (juice)",
+        "b": "a juice"
+    },
+    {
+        "a": "å tørke",
+        "b": "to dry"
+    },
+    {
+        "a": "vann",
+        "b": "water"
+    },
+    {
+        "a": "tidlig",
+        "b": "early"
+    },
+    {
+        "a": "å kle på seg",
+        "b": "to dress"
+    },
+    {
+        "a": "glad",
+        "b": "happy, glad"
+    },
+    {
+        "a": "en kniv",
+        "b": "a knife"
+    },
+    {
+        "a": "et grovbrød",
+        "b": "a brown bread"
+    },
+    {
+        "a": "denne",
+        "b": "this"
+    },
+    {
+        "a": "selv",
+        "b": "self"
+    },
+    {
+        "a": "et smør",
+        "b": "a butter"
+    },
+    {
+        "a": "et smil",
+        "b": "a smile"
+    },
+    {
+        "a": "kort",
+        "b": "short"
+    },
+    {
+        "a": "å skjære",
+        "b": "to cut"
+    },
+    {
+        "a": "hvit",
+        "b": "white"
+    },
+    {
+        "a": "å dekke",
+        "b": "to set, cover"
+    },
+    {
+        "a": "å koke",
+        "b": "to boil"
+    },
+    {
+        "a": "seg selv",
+        "b": "oneself"
+    },
+    {
+        "a": "seinere",
+        "b": "later"
+    },
+    {
+        "a": "å gjette",
+        "b": "to guess"
+    },
+    {
+        "a": "etterpå",
+        "b": "afterwards"
+    },
+    {
+        "a": "et kjøpesenter",
+        "b": "a shopping centre"
+    },
+    {
+        "a": "å tørke seg",
+        "b": "to dry oneself"
+    },
+    {
+        "a": "en by",
+        "b": "a city"
+    },
+    {
+        "a": "å sove",
+        "b": "to sleep"
+    },
+    {
+        "a": "ned",
+        "b": "down"
+    },
+    {
+        "a": "å pusse",
+        "b": "to brush"
+    },
+    {
+        "a": "disse",
+        "b": "these"
+    },
+    {
+        "a": "et sentrum",
+        "b": "a (town) centre"
+    },
+    {
+        "a": "brun",
+        "b": "brown"
+    },
+    {
+        "a": "å ha lyst til å …",
+        "b": "want to, would like to"
+    },
+    {
+        "a": "dit",
+        "b": "there, yonder"
+    },
+    {
+        "a": "ei gate",
+        "b": "a street"
+    },
+    {
+        "a": "forskjellig",
+        "b": "different, various"
+    },
+    {
+        "a": "et torg",
+        "b": "a (town) square"
+    },
+    {
+        "a": "et apotek",
+        "b": "a pharmacy"
+    },
+    {
+        "a": "kjempekoselig",
+        "b": "really cosy"
+    },
+    {
+        "a": "små (liten)",
+        "b": "small"
+    },
+    {
+        "a": "en bank",
+        "b": "a bank"
+    },
+    {
+        "a": "å parkere",
+        "b": "to park"
+    },
+    {
+        "a": "et salg",
+        "b": "a sale"
+    },
+    {
+        "a": "en barne-TV",
+        "b": "a children's TV"
+    },
+    {
+        "a": "ei gågate",
+        "b": "a pedestrian area"
+    },
+    {
+        "a": "lyst til (å ha lyst til å ...)",
+        "b": "wanting to do something"
+    },
+    {
+        "a": "liten",
+        "b": "small"
+    },
+    {
+        "a": "moderne",
+        "b": "modern"
+    },
+    {
+        "a": "å se på",
+        "b": "to watch"
+    },
+    {
+        "a": "ei kirke",
+        "b": "a church"
+    },
+    {
+        "a": "en parkeringsplass",
+        "b": "a parking lot"
+    },
+    {
+        "a": "lite (liten)",
+        "b": "small"
+    },
+    {
+        "a": "høy",
+        "b": "loud, high, tall"
+    },
+    {
+        "a": "lenge",
+        "b": "long"
+    },
+    {
+        "a": "plutselig",
+        "b": "suddenly"
+    },
+    {
+        "a": "å koste",
+        "b": "to cost"
+    },
+    {
+        "a": "en ekspeditør",
+        "b": "a shop assistent"
+    },
+    {
+        "a": "annen",
+        "b": "other"
+    },
+    {
+        "a": "elegant",
+        "b": "elegant"
+    },
+    {
+        "a": "svart",
+        "b": "black"
+    },
+    {
+        "a": "nydelig",
+        "b": "very nice, lovely"
+    },
+    {
+        "a": "billig",
+        "b": "inexpensive, cheap"
+    },
+    {
+        "a": "lav",
+        "b": "low"
+    },
+    {
+        "a": "en skobutikk",
+        "b": "a shoe store"
+    },
+    {
+        "a": "å passe",
+        "b": "to fit, suit"
+    },
+    {
+        "a": "et par",
+        "b": "a couple"
+    },
+    {
+        "a": "klær",
+        "b": "clothes"
+    },
+    {
+        "a": "tilbake",
+        "b": "back"
+    },
+    {
+        "a": "en femhundrelapp",
+        "b": "a five hundred note"
+    },
+    {
+        "a": "naturligvis",
+        "b": "naturally"
+    },
+    {
+        "a": "akkurat",
+        "b": "exactly, precisely"
+    },
+    {
+        "a": "interessant",
+        "b": "interesting"
+    },
+    {
+        "a": "ei kåpe",
+        "b": "a coat"
+    },
+    {
+        "a": "ei vinterjakke",
+        "b": "a winter jacket"
+    },
+    {
+        "a": "lys",
+        "b": "bright, light, blonde"
+    },
+    {
+        "a": "helt",
+        "b": "completely"
+    },
+    {
+        "a": "en prosent (%)",
+        "b": "a percent (%)"
+    },
+    {
+        "a": "å synes",
+        "b": "to think"
+    },
+    {
+        "a": "en sjiraff",
+        "b": "a giraffe"
+    },
+    {
+        "a": "en bokstav",
+        "b": "a letter"
+    },
+    {
+        "a": "en lekebutikk",
+        "b": "a toy store"
+    },
+    {
+        "a": "en rabatt",
+        "b": "a discount"
+    },
+    {
+        "a": "vet (å vite)",
+        "b": "to know"
+    },
+    {
+        "a": "å anbefale",
+        "b": "to recommend"
+    },
+    {
+        "a": "når",
+        "b": "when"
+    },
+    {
+        "a": "en kjole",
+        "b": "a dress"
+    },
+    {
+        "a": "et tilbud",
+        "b": "a offer, sale"
+    },
+    {
+        "a": "lita (liten)",
+        "b": "little, small"
+    },
+    {
+        "a": "et øyeblikk",
+        "b": "a moment"
+    },
+    {
+        "a": "ei lue",
+        "b": "a winter hat"
+    },
+    {
+        "a": "sikkert",
+        "b": "here: probably. Also: certainly"
+    },
+    {
+        "a": "en kvittering",
+        "b": "a receipt"
+    },
+    {
+        "a": "et eksempel",
+        "b": "an example"
+    },
+    {
+        "a": "vanlig",
+        "b": "usual, customary"
+    },
+    {
+        "a": "elleve",
+        "b": "eleven"
+    },
+    {
+        "a": "en pris",
+        "b": "a price"
+    },
+    {
+        "a": "å møtes",
+        "b": "to meet up"
+    },
+    {
+        "a": "inne",
+        "b": "in, inside"
+    },
+    {
+        "a": "grønn",
+        "b": "green"
+    },
+    {
+        "a": "lysebrun",
+        "b": "light brown"
+    },
+    {
+        "a": "en klesbutikk",
+        "b": "a clothing store"
+    },
+    {
+        "a": "penger",
+        "b": "money"
+    },
+    {
+        "a": "tørst",
+        "b": "thirsty"
+    },
+    {
+        "a": "ei eplekake",
+        "b": "an apple tart"
+    },
+    {
+        "a": "annet (cf. annen)",
+        "b": "other"
+    },
+    {
+        "a": "ei flaske",
+        "b": "a bottle"
+    },
+    {
+        "a": "lenger",
+        "b": "more, anymore"
+    },
+    {
+        "a": "syttito",
+        "b": "seventy-two"
+    },
+    {
+        "a": "hvorfor",
+        "b": "why"
+    },
+    {
+        "a": "et sted",
+        "b": "a place"
+    },
+    {
+        "a": "nok",
+        "b": "enough"
+    },
+    {
+        "a": "en tast",
+        "b": "a key"
+    },
+    {
+        "a": "et kort",
+        "b": "a card"
+    },
+    {
+        "a": "en idé",
+        "b": "an idea"
+    },
+    {
+        "a": "en disk",
+        "b": "a counter"
+    },
+    {
+        "a": "et stykke",
+        "b": "a piece"
+    },
+    {
+        "a": "for å",
+        "b": "(in order) to"
+    },
+    {
+        "a": "en tohundrelapp",
+        "b": "a two hundred note"
+    },
+    {
+        "a": "en kaffe latte",
+        "b": "a coffee latte"
+    },
+    {
+        "a": "ei kake",
+        "b": "a cake"
+    },
+    {
+        "a": "sulten",
+        "b": "hungry"
+    },
+    {
+        "a": "å bestille",
+        "b": "to order"
+    },
+    {
+        "a": "en cola",
+        "b": "a coke"
+    },
+    {
+        "a": "en kino",
+        "b": "a cinema"
+    },
+    {
+        "a": "et bibliotek",
+        "b": "a library"
+    },
+    {
+        "a": "takk skal du ha",
+        "b": "thank you"
+    },
+    {
+        "a": "et kakestykke",
+        "b": "a piece of cake"
+    },
+    {
+        "a": "en kode",
+        "b": "a code"
+    },
+    {
+        "a": "ei sjokoladekake",
+        "b": "a chocolate cake"
+    },
+    {
+        "a": "kjempegod",
+        "b": "very good"
+    },
+    {
+        "a": "ja visst",
+        "b": "surely, certainly"
+    }
+]
