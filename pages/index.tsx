@@ -12,22 +12,55 @@ import {
 import { MdBackupTable, MdPersonOutline } from 'react-icons/md'
 import { VscDebugStart } from 'react-icons/vsc'
 import { ChapterDisplay } from '../components/chapterDisplay'
-import { FlagNorway } from '../components/flags'
+import { FlagButton, FlagNorway } from '../components/flags'
 import { SessionContext, SetSessionContext, defaultSessionValue } from '../lib/contexts'
 import { useRouter } from 'next/router'
-import Airtable from 'airtable'
+import { getAllChapter } from '@/lib/utils'
 import { Chapter, Word} from '@/lib/types'
 
+
+const languages = new Map<string, string>([
+  ['en', "en-no-json-01"],
+  ['uk', "uk-no-json-01"]
+])
 
 export default function Home(props: any) {
   const session = React.useContext(SessionContext)
   const setSession = React.useContext(SetSessionContext)
   const router = useRouter()
+  const toast = useToast()
   const { isOpen, onOpen, onClose } = useDisclosure()
   const [nbWords, setNbWords] = React.useState<number>(0)
   const [isLoading, setIsLoading] = React.useState<boolean>(false)
+  const [allChapter, setAllChapter] = React.useState<Chapter[]>(props.allChapter)
 
-  const allChapter = props.allChapter
+  React.useEffect(() => {
+    setIsLoading(true)
+
+    // Add a to the url information about the current language
+    const _lang = router.query.lang as string || "en"
+    const _table = languages.get(_lang) || "en-no-json-01"
+
+    // fetch the new table of vocabulary
+    fetch(`/api/table?lang=${_lang}`)
+    .then((res) => {
+      if (res.status !== 200) {
+        console.error(`Error ${res.status}: ${res.statusText}`)
+        onChangeLanguage()
+      }
+
+      return res.json()
+    })
+    .then((data) => {
+      setSession({
+        ...session,
+        language: _lang,
+        airtable: _table,
+      })
+      setAllChapter(data)
+      setIsLoading(false)
+    })
+  }, [router.query.lang])
 
   const updateSessionChapter = (ch: Chapter) => {
     // If chapter already loaded, remove it from the list
@@ -67,6 +100,14 @@ export default function Home(props: any) {
     onClose()
   }
 
+  const onChangeLanguage = () => {
+    if (session.language === "en") {
+      router.push(`/?lang=uk`, undefined, { shallow: true })  // we want to refetch the data
+    } else {
+      router.push(`/?lang=en`, undefined, { shallow: true })  // we want to refetch the data
+    }
+  }
+
   
   return (
     <Box mx={'auto'} bg={'primary.primary'} color='text.onPrimary' maxH='100vh' overflowY={'auto'}>
@@ -78,7 +119,7 @@ export default function Home(props: any) {
 
         <Flex w='full' bg={'whiteAlpha.100'} px={8} py={4} borderBottom={'2px'} my={'auto'}>
           <Box>
-            <FlagNorway />
+            <FlagButton callback={onChangeLanguage}/>
           </Box>
           <Spacer />
           <Text> 123 words learnt</Text>
@@ -94,7 +135,8 @@ export default function Home(props: any) {
                 px={4}
                 py={4}
                 bg={'secondary.secondary'}
-                // borderRadius={8}
+                border={'2px'}
+                borderColor={'black'}
                 boxShadow={'6px 6px 0px 0px rgba(0,0,0,1);'}
                 w='full'
                 color={'text.onSecondary'}
@@ -109,6 +151,7 @@ export default function Home(props: any) {
                     icon={<MdBackupTable size={24} />}
                     size="sm"
                     onClick={() => { uniqueSessionChapter(ch); startTableSession() }}
+                    isLoading={isLoading}
                   />
                   <IconButton
                     bg={'secondary.secondary'}
@@ -116,6 +159,7 @@ export default function Home(props: any) {
                     icon={<VscDebugStart size={24} />}
                     size="sm"
                     onClick={() => { uniqueSessionChapter(ch); startSession() }}
+                    isLoading={isLoading}
                   />
                 </Flex>
               </Box>
@@ -185,44 +229,23 @@ export default function Home(props: any) {
 }
 
 
-export async function getStaticProps() {
-  const BASE_ID = process.env.AIRTABLE_BASE_ID as string
-  const ACCESS_TOKEN = process.env.AIRTABLE_ACCESS_TOKEN as string
+export async function getServerSideProps(context: any) {
+  // context.res.setHeader(
+  //   'Cache-Control',
+  //   'public, s-maxage=600'  // 10 minutes cache
+  // )
 
-  const tableName = 'en-no-json-01'
-  const base = new Airtable({ apiKey: ACCESS_TOKEN }).base(BASE_ID)
-  const records = await base(tableName).select().all();
+  let tableName = "en-no-json-01"
+  if (context.query.lang) {
+    console.log(context.query.lang)
+    tableName = context.query.lang === "en" ? "en-no-json-01" : "uk-no-json-01"
+  }
 
-  let chapters: Chapter[] = []
-  records.forEach((record) => {
-    let wordsJson: Word[] = []
-    console.log(`chapter : `, record.get('chapter'))
-    const rawVocabulary = JSON.parse(record.get('words') as string)
-    rawVocabulary.forEach((w: any) => {
-      wordsJson.push({
-        a: w.a,
-        b: w.b,
-        chapter: record.get('chapter') as string,
-        counter: 0,
-      })
-    })
-
-    const chapterInfo: Chapter = {
-      name: record.get('chapter') as string,
-      nbWord: record.get('nbWord') as number,
-      order: record.get('order') as number,
-      words: wordsJson,
-    }
-
-    chapters.push(chapterInfo)
-  });
-
-  // sort the words by order
-  chapters.sort((a, b) => (a.order > b.order) ? 1 : -1)
+  const allChapters = await getAllChapter(context.query.lang)
 
   return {
     props: {
-      allChapter: chapters,
+      allChapter: allChapters,
     }
   }
 }

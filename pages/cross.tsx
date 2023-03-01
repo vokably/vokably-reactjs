@@ -132,7 +132,7 @@ export default function Home() {
               Vocab
             </Text>
             <Spacer />
-            <Link href="/">
+            <Link href={`/?lang=${session.language}`}>
               <Button colorScheme="red" variant="outline">
                 Finish
               </Button>
