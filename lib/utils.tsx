@@ -1,9 +1,22 @@
 import { Chapter, Word } from '@/lib/types'
 import Airtable from 'airtable'
 
+function memoize<R, T extends (...args: any[]) => R>(f: T): T {
+  const memory = new Map<string, R>();
+
+  const g = (...args: any[]) => {
+      if (!memory.get(args.join())) {
+          memory.set(args.join(), f(...args));
+      }
+
+      return memory.get(args.join());
+  };
+
+  return g as T;
+}
+
 export const zip = (...rows: any[]) => [...rows[0]].map((_, c) => rows.map(row => row[c]))
 
-/* Randomize array in-place using Durstenfeld shuffle algorithm */
 export const shuffleArray = (array: any[]) => {
   for (var i = array.length - 1; i > 0; i--) {
     var j = Math.floor(Math.random() * (i + 1));
@@ -15,7 +28,7 @@ export const shuffleArray = (array: any[]) => {
 }
 
 
-export const getAllChapter = async (lang: string | undefined) => {
+const _getAllChapter = async (lang: string | undefined) => {
   const BASE_ID = process.env.AIRTABLE_BASE_ID as string
   const ACCESS_TOKEN = process.env.AIRTABLE_ACCESS_TOKEN as string
 
@@ -55,3 +68,5 @@ export const getAllChapter = async (lang: string | undefined) => {
 
   return chapters
 }
+
+export const getAllChapter = memoize(_getAllChapter)

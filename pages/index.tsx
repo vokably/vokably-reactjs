@@ -230,10 +230,10 @@ export default function Home(props: any) {
 
 
 export async function getServerSideProps(context: any) {
-  // context.res.setHeader(
-  //   'Cache-Control',
-  //   'public, s-maxage=600'  // 10 minutes cache
-  // )
+  context.res.setHeader(
+    'Cache-Control',
+    'public, s-maxage=600'  // 10 minutes cache
+  )
 
   let tableName = "en-no-json-01"
   if (context.query.lang) {
