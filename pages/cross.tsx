@@ -1,6 +1,8 @@
 import * as React from 'react'
-import { Container, Box, Text, Button, VStack, HStack, Tooltip, Tag, Flex, useColorModeValue, Wrap, Spacer,
-useColorMode, IconButton} from '@chakra-ui/react'
+import {
+  Container, Box, Text, Button, VStack, HStack, Tooltip, Tag, Flex, useColorModeValue, Wrap, Spacer,
+  useColorMode, IconButton
+} from '@chakra-ui/react'
 import { ViewIcon, ViewOffIcon } from '@chakra-ui/icons'
 import { SessionContext, SetSessionContext } from '../lib/contexts'
 import { zip, shuffleArray } from '@/lib/utils'
@@ -54,7 +56,8 @@ export default function Home() {
   }, [allWords, wordsLoaded, shuffleWords])
 
 
-  const [startTime, setStartTime] = React.useState<number>(0)
+  const [startTime, setStartTime] = React.useState<number>(-1)
+  const [isMirrored, setIsMirrored] = React.useState<boolean>(false)
   React.useEffect(() => {
     setTimeout(() => {
       // Can't update the context in two different useEffect, because they are not
@@ -70,9 +73,14 @@ export default function Home() {
       }
 
       if (leftSelectedWord.a && rightSelectedWord.b) {
-
-        const endTime = performance.now()
-        const responseTime = endTime - startTime
+        // compute the response time (exception if first time)
+        let responseTime = session.responseTime
+        if (startTime !== -1) {
+          const endTime = performance.now()
+          const duration = endTime - startTime
+          responseTime = [...session.responseTime, duration]
+          setStartTime(endTime)  // As soon as the user select the right word, we reset the start time
+        }
 
         // check if the words match
         if (leftSelectedWord.b === rightSelectedWord.b) {
@@ -105,6 +113,7 @@ export default function Home() {
 
         setLeftSelectedWord(nullWord)
         setRightSelectedWord(nullWord)
+        setIsMirrored(Math.random() > 0.5)
 
         // If the word is not in the history, add it
         let wordHistory = session.wordHistory
@@ -117,7 +126,7 @@ export default function Home() {
           ...session,
           nbGoodAnswers: nbGoodAnswers,
           nbBadAnswers: nbBadAnswers,
-          responseTime: [...session.responseTime, responseTime],
+          responseTime: responseTime,
           wordHistory: wordHistory
         })
       }
@@ -153,7 +162,7 @@ export default function Home() {
 
             <Spacer />
 
-            <IconButton 
+            <IconButton
               aria-label='Toggletheme'
               icon={useColorModeValue(<ViewIcon />, <ViewOffIcon />)}
               onClick={useColorMode().toggleColorMode}
@@ -166,26 +175,46 @@ export default function Home() {
           <VStack spacing={4}>
             {zip(wordPairs.left, wordPairs.right).map((pair, i) => {
               const [left, right] = pair
-              return (
-                <HStack key={i} w='full' spacing={6} justify='space-between'>
-                  <WordCard
-                    key={i}
-                    word={left}
-                    lang={'a'}
-                    selectedWord={leftSelectedWord}
-                    setSelectedWord={setLeftSelectedWord}
-                  />
-                  <WordCard
-                    key={i}
-                    word={right}
-                    lang={'b'}
-                    selectedWord={rightSelectedWord}
-                    setSelectedWord={setRightSelectedWord}
-                  />
-                </HStack>
-              )
+              if (isMirrored) {
+                return (
+                  <HStack key={i} w='full' spacing={6} justify='space-between'>
+                    <WordCard
+                      key={i}
+                      word={left}
+                      lang={'a'}
+                      selectedWord={leftSelectedWord}
+                      setSelectedWord={setLeftSelectedWord}
+                    />
+                    <WordCard
+                      key={i}
+                      word={right}
+                      lang={'b'}
+                      selectedWord={rightSelectedWord}
+                      setSelectedWord={setRightSelectedWord}
+                    />
+                  </HStack>
+                )
+              } else {
+                return (
+                  <HStack key={i} w='full' spacing={6} justify='space-between'>
+                    <WordCard
+                      key={i}
+                      word={right}
+                      lang={'b'}
+                      selectedWord={rightSelectedWord}
+                      setSelectedWord={setRightSelectedWord}
+                    />
+                    <WordCard
+                      key={i}
+                      word={left}
+                      lang={'a'}
+                      selectedWord={leftSelectedWord}
+                      setSelectedWord={setLeftSelectedWord}
+                    />
+                  </HStack>
+                )
+              }
             })}
-
           </VStack>
 
           <Box>
@@ -276,7 +305,7 @@ const WordCard: React.FC<WordCardProps> = (props) => {
       mx="auto"
       minW={'150px'}
       cursor="pointer"
-      border={(props.selectedWord.a === word.a) 
+      border={(props.selectedWord.a === word.a)
         ? '1px solid #909090'
         : '1px solid #000000ff'
       }
