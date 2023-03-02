@@ -1,6 +1,9 @@
 import { Chapter, Word } from '@/lib/types'
 import Airtable from 'airtable'
 
+export const bsL = '3px 3px 0px 0px rgba(0,0,0,1);'
+export const bsD = '3px 3px 0px 0px rgba(190,190,190,1);'
+
 function memoize<R, T extends (...args: any[]) => R>(f: T): T {
   const memory = new Map<string, R>();
 

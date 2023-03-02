@@ -1,6 +1,7 @@
 import React from 'react'
-import { Button } from '@chakra-ui/react'
+import { Button, useColorModeValue } from '@chakra-ui/react'
 import { SessionContext } from '@/lib/contexts'
+import { bsL, bsD } from '@/lib/utils'
 
 export const FlagNorway = () => {
   return (
@@ -58,7 +59,10 @@ export const FlagButton: React.FC<{ callback: () => void }> = ({ callback }) => 
   const session = React.useContext(SessionContext)
 
   return (
-    <Button onClick={callback} bg={'#00000000'}>
+    <Button onClick={callback}
+      boxShadow={useColorModeValue(bsL, bsD)}
+      borderColor={useColorModeValue('gray.200', 'gray.900')}
+    >
       {session.language === 'en' && <FlagEngland />}
       {session.language === 'uk' && <FlagUkraine />}
     </Button>

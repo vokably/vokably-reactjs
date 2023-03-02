@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Container, Box, Text, Button, VStack, HStack, Tooltip, Tag, Flex, useToast, Wrap, Spacer } from '@chakra-ui/react'
+import {Tag, useColorModeValue} from '@chakra-ui/react'
 import Head from 'next/head'
 
 
@@ -22,9 +22,13 @@ export const ChapterDisplay: React.FC<ChapterDisplayProps> = ({ ch, onClick }) =
 
   return (
     <Tag
+      m={2}
       size="lg"
-      colorScheme={(isLocalActive) ? 'green' : 'red'}
-      mr={2}
+      borderRadius={0}
+      borderWidth={1}
+      borderColor={'black'}
+      colorScheme={(isLocalActive) ? 'success' : 'error'}
+      boxShadow={'3px 3px 0px 0px rgba(0,0,0,1);'}
       _hover={{ cursor: 'pointer' }}
       onClick={() => {
         _onClick()

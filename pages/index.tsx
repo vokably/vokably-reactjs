@@ -1,6 +1,6 @@
 import * as React from 'react'
 import {
-  Container, Box, Text, Button, VStack, IconButton, Tooltip, Tag, Flex, useToast, Wrap, Spacer, Heading,
+  Box, Text, Button, VStack, IconButton, Tooltip, Tag, Flex, useToast, Wrap, Spacer, Heading,
   Drawer,
   DrawerBody,
   DrawerHeader,
@@ -8,14 +8,18 @@ import {
   DrawerContent,
   DrawerCloseButton,
   useDisclosure,
+  useColorMode,
+  useColorModeValue,
+  HStack
 } from '@chakra-ui/react'
+import { ViewIcon, ViewOffIcon } from '@chakra-ui/icons'
 import { MdBackupTable, MdPersonOutline } from 'react-icons/md'
 import { VscDebugStart } from 'react-icons/vsc'
 import { ChapterDisplay } from '../components/chapterDisplay'
 import { FlagButton, FlagNorway } from '../components/flags'
 import { SessionContext, SetSessionContext, defaultSessionValue } from '../lib/contexts'
 import { useRouter } from 'next/router'
-import { getAllChapter } from '@/lib/utils'
+import { getAllChapter, bsL, bsD} from '@/lib/utils'
 import { Chapter, Word} from '@/lib/types'
 
 
@@ -23,6 +27,7 @@ const languages = new Map<string, string>([
   ['en', "en-no-json-01"],
   ['uk', "uk-no-json-01"]
 ])
+
 
 export default function Home(props: any) {
   const session = React.useContext(SessionContext)
@@ -108,57 +113,86 @@ export default function Home(props: any) {
     }
   }
 
-  
+  const borderColor = useColorModeValue('black', 'white')
+  const bg = useColorModeValue('gray.50', 'gray.800')
+  const boxShadow = useColorModeValue(bsL, bsD)
+  const colorScheme = useColorModeValue('primary', 'secondary')
+
   return (
-    <Box mx={'auto'} bg={'primary.primary'} color='text.onPrimary' maxH='100vh' overflowY={'auto'}>
+    <Box
+      mx={'auto'}
+      bg={bg}
+      maxH='100vh'
+      overflowY={'auto'}
+    >
       <VStack
         spacing={8}
         mx='auto'
         border='2px'
       >
-
-        <Flex w='full' bg={'whiteAlpha.100'} px={8} py={4} borderBottom={'2px'} my={'auto'}>
+        <Flex
+          w='full'
+          px={8}
+          py={4}
+          borderBottom={'2px'}
+          my={'auto'}
+        >
           <Box>
             <FlagButton callback={onChangeLanguage}/>
           </Box>
           <Spacer />
-          <Text> 123 words learnt</Text>
+          {/* <Text> 123 words learnt</Text>
           <Spacer />
-          <IconButton bg={'primary.primary'} borderRadius='full' aria-label="Table" icon={<MdPersonOutline size={24} />} size="sm" onClick={() => { }} />
+          <IconButton bg={'primary'} borderRadius='full' aria-label="Table" icon={<MdPersonOutline size={24} />} size="sm" onClick={() => { }} /> */}
+
+          {/* Create a button that change the color theme from light to dark */}
+          <IconButton 
+            aria-label='Toggletheme'
+            icon={useColorModeValue(<ViewIcon />, <ViewOffIcon />)}
+            onClick={useColorMode().toggleColorMode}
+            boxShadow={boxShadow}
+            colorScheme={colorScheme}
+          />
         </Flex>
 
-        <VStack spacing={4} p={8} w='full'>
+        <VStack
+          spacing={4}
+          p={4}
+          w='full'
+        >
           {allChapter.map((ch: Chapter, index: any) => {
             return (
               <Box
-                key={index}
                 px={4}
                 py={4}
-                bg={'secondary.secondary'}
-                border={'2px'}
-                borderColor={'black'}
-                boxShadow={'6px 6px 0px 0px rgba(0,0,0,1);'}
                 w='full'
-                color={'text.onSecondary'}
+                key={index}
+                border={'1px'}
+                boxShadow={boxShadow}
               >
                 <Flex w='full' h='full'>
-                  <Text fontSize={'1.2em'} align="justify">{ch.name}</Text>
+                  <Text fontSize={'1.2em'} fontWeight={'bold'} fontStyle={'italic'} align="justify">{ch.name}</Text>
                   <Spacer />
                   <IconButton
-                    mr={2}
-                    bg={'secondary.secondary'}
+                    mx={2}
+                    size="sm"
                     aria-label="Table"
                     icon={<MdBackupTable size={24} />}
-                    size="sm"
                     onClick={() => { uniqueSessionChapter(ch); startTableSession() }}
+                    borderRadius={0}
+                    boxShadow={boxShadow}
+                    colorScheme={colorScheme}
                     isLoading={isLoading}
                   />
                   <IconButton
-                    bg={'secondary.secondary'}
+                    mx={2}
+                    size="sm"
                     aria-label="Start"
                     icon={<VscDebugStart size={24} />}
-                    size="sm"
                     onClick={() => { uniqueSessionChapter(ch); startSession() }}
+                    borderRadius={0}
+                    boxShadow={boxShadow}
+                    colorScheme={colorScheme}
                     isLoading={isLoading}
                   />
                 </Flex>
@@ -169,11 +203,17 @@ export default function Home(props: any) {
 
 
         <Box w='full' bg={'whiteAlpha.100'} px={8} py={4} borderTop={'2px'} my={'auto'}>
-          <Button w='full' colorScheme={'green'} size={"lg"} onClick={() => {
-            setSession(defaultSessionValue)
-            onOpen()
-          }}>
-            Vocabulary selection
+          <Button
+            w='full'
+            size={"lg"}
+            colorScheme={colorScheme}
+            boxShadow={boxShadow}
+            borderRadius={0}
+            onClick={() => {
+              setSession(defaultSessionValue)
+              onOpen()
+            }}>
+            Select multiple chapters
           </Button>
         </Box>
       </VStack>
@@ -186,7 +226,7 @@ export default function Home(props: any) {
 
             <DrawerBody>
               <VStack>
-                <Wrap>
+                <Wrap p={4}>
                   {allChapter.map((ch: Chapter, index: any) => {
                     return (
                       <ChapterDisplay
@@ -205,19 +245,33 @@ export default function Home(props: any) {
                   You will be training on {nbWords} words.
                 </Text>
 
-                <Button
-                  colorScheme={'green'}
-                  onClick={startSession}
-                  isLoading={isLoading}
-                >
-                  Start
-                </Button>
+                <HStack spacing={4}>
+                  <Button
+                    onClick={startSession}
+                    isLoading={isLoading}
+                    colorScheme={'blue'}
+                    borderColor={useColorModeValue('black', 'white')}
+                    borderWidth={1}
+                    borderRadius={0}
+                    boxShadow={boxShadow}
+                  >
+                    Start
+                  </Button>
 
-                <Button
-                  colorScheme={'blue'}
-                  onClick={startTableSession}
-                  isLoading={isLoading}
-                >Table</Button>
+                  <Spacer />
+
+                  <Button
+                    onClick={startTableSession}
+                    isLoading={isLoading}
+                    colorScheme={'blue'}
+                    borderColor={useColorModeValue('black', 'white')}
+                    borderWidth={1}
+                    borderRadius={0}
+                    boxShadow={boxShadow}
+                  >
+                    Table
+                  </Button>
+                </HStack>
               </VStack>
             </DrawerBody>
 

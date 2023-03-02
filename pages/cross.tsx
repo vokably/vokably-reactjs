@@ -1,9 +1,11 @@
 import * as React from 'react'
-import { Container, Box, Text, Button, VStack, HStack, Tooltip, Tag, Flex, useToast, Wrap, Spacer } from '@chakra-ui/react'
-import { useStateWithLocalStorage } from '../lib/hooks'
+import { Container, Box, Text, Button, VStack, HStack, Tooltip, Tag, Flex, useColorModeValue, Wrap, Spacer,
+useColorMode, IconButton} from '@chakra-ui/react'
+import { ViewIcon, ViewOffIcon } from '@chakra-ui/icons'
 import { SessionContext, SetSessionContext } from '../lib/contexts'
 import { zip, shuffleArray } from '@/lib/utils'
 import { Word, nullWord } from '@/lib/types'
+import { bsL, bsD } from '@/lib/utils'
 import Link from 'next/link'
 
 
@@ -24,6 +26,12 @@ export default function Home() {
 
   const [leftSelectedWord, setLeftSelectedWord] = React.useState<Word>(nullWord)
   const [rightSelectedWord, setRightSelectedWord] = React.useState<Word>(nullWord)
+
+  const color = useColorModeValue('gray.800', 'gray.50')
+  const borderColor = useColorModeValue('black', 'white')
+  const bg = useColorModeValue('gray.50', 'gray.800')
+  const boxShadow = useColorModeValue(bsL, bsD)
+  const colorScheme = useColorModeValue('primary', 'secondary')
 
 
   React.useEffect(() => {
@@ -118,25 +126,41 @@ export default function Home() {
 
   return (
     // build the left and right columns
-    <Box bg={'gray.700'} height='100vh'>
+    <Box
+      bg={bg}
+      color={color}
+      height='100vh'
+    >
       <Container maxW={['xl']} mx='auto' p={8}>
 
-        <VStack id="global-2-column" w='full'>
+        <VStack id="global-2-column" w='full' my={'auto'}>
           <Flex w='full' pb={4}>
             <Text
-              color='white'
               my='auto'
               fontWeight={'bold'}
               fontSize={'1.5em'}
             >
               Vocab
             </Text>
+
             <Spacer />
+
             <Link href={`/?lang=${session.language}`}>
               <Button colorScheme="red" variant="outline">
                 Finish
               </Button>
             </Link>
+
+            <Spacer />
+
+            <IconButton 
+              aria-label='Toggletheme'
+              icon={useColorModeValue(<ViewIcon />, <ViewOffIcon />)}
+              onClick={useColorMode().toggleColorMode}
+              boxShadow={boxShadow}
+              colorScheme={colorScheme}
+            />
+
           </Flex>
 
           <VStack spacing={4}>
@@ -164,9 +188,9 @@ export default function Home() {
 
           </VStack>
 
-          {/* <Box ref={descRef}>
+          <Box>
             {leftSelectedWord.a && <Reveal leftSelectedWord={leftSelectedWord} />}
-          </Box> */}
+          </Box>
         </VStack>
 
         <StatCard />
@@ -202,11 +226,11 @@ const Reveal: React.FC<{ leftSelectedWord: Word }> = ({ leftSelectedWord }) => {
 
   return (
     <Button
-      my={'auto'}
-      fontSize={24}
+      my={4}
+      fontSize={20}
       fontWeight="bold"
       colorScheme={'blue'}
-      borderRadius={8} p={4}
+      borderRadius={0} p={4}
       isLoading={isLoading}
     >
       {val}
@@ -225,6 +249,13 @@ interface WordCardProps {
 
 const WordCard: React.FC<WordCardProps> = (props) => {
   const { word, lang } = props
+  const color = useColorModeValue('gray.800', 'gray.50')
+  const borderColor = useColorModeValue('black', 'white')
+  const bg = useColorModeValue('gray.50', 'gray.800')
+  const bgPop = useColorModeValue('gray.100', 'gray.700')
+  const hoverBg = useColorModeValue('success.400', 'success.600')
+  const boxShadow = useColorModeValue(bsL, bsD)
+  const colorScheme = useColorModeValue('primary', 'secondary')
 
   const toggleSelectedWord = () => {
     if (props.selectedWord.a === word.a) {
@@ -236,23 +267,25 @@ const WordCard: React.FC<WordCardProps> = (props) => {
 
   return (
     <Box
-
       _hover={{
-        bg: 'secondary.secondary',
+        bg: hoverBg,
         border: '1px solid #fff'
       }}
-      bg={(props.selectedWord.a === word.a) ? 'primary.700' : 'primary'}
+      bg={(props.selectedWord.a === word.a) ? hoverBg : bgPop}
       p={4}
       mx="auto"
       minW={'150px'}
       cursor="pointer"
-      border={(props.selectedWord.a === word.a) ? '1px solid #fff' : '1px solid #000000ff'}
-      boxShadow={'6px 6px 0px 0px rgba(0,0,0,1);'}
+      border={(props.selectedWord.a === word.a) 
+        ? '1px solid #909090'
+        : '1px solid #000000ff'
+      }
+      boxShadow={boxShadow}
       transition="all 0.2s ease-in-out"
       onClick={toggleSelectedWord}
       transform={props.selectedWord.a === word.a ? 'scale(1.1)' : 'scale(1)'}
     >
-      <Text color='gray.100'>{
+      <Text fontWeight={'medium'} >{
         lang === 'a' ? word.a : word.b
       }</Text>
     </Box>
@@ -291,14 +324,20 @@ const StatCard: React.FC = () => {
     return `${s}.${ms__}s`
   }
 
+  const color = useColorModeValue('gray.800', 'gray.50')
+  const borderColor = useColorModeValue('black', 'white')
+  const bg = useColorModeValue('gray.50', 'gray.800')
+  const boxShadow = useColorModeValue(bsL, bsD)
+  const colorScheme = useColorModeValue('primary', 'secondary')
+
   return (
     <Box
       m={8}
       p={4}
       shadow="md"
-      color='white'
       border={'1px solid #000000ff'}
-      boxShadow={'6px 6px 0px 0px rgba(0,0,0,1);'}
+      bg={useColorModeValue('gray.100', 'gray.700')}
+      boxShadow={boxShadow}
     >
       <VStack>
         <StatRow label='Nb Good answer:' val={nbga.toString()} />
