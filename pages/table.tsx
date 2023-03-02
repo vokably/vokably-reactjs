@@ -80,13 +80,13 @@ export default function WordTable() {
   }
 
   const borderColor = useColorModeValue('black', 'white')
-  const bg = useColorModeValue('gray.50', 'gray.800')
+  const bg = useColorModeValue('#EFEFEF', 'gray.800')
   const boxShadow = useColorModeValue(bsL, bsD)
   const colorScheme = useColorModeValue('primary', 'secondary')
 
   return (
     <Box
-      bg={useColorModeValue('gray.100', 'gray.800')}
+      bg={bg}
     >
       <Accordion allowToggle>
         <AccordionItem>

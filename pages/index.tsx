@@ -113,8 +113,7 @@ export default function Home(props: any) {
     }
   }
 
-  const borderColor = useColorModeValue('black', 'white')
-  const bg = useColorModeValue('gray.50', 'gray.800')
+  const bg = useColorModeValue('#EFEFEF', 'gray.800')
   const boxShadow = useColorModeValue(bsL, bsD)
   const colorScheme = useColorModeValue('primary', 'secondary')
 

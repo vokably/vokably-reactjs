@@ -29,7 +29,7 @@ export default function Home() {
 
   const color = useColorModeValue('gray.800', 'gray.50')
   const borderColor = useColorModeValue('black', 'white')
-  const bg = useColorModeValue('gray.50', 'gray.800')
+  const bg = useColorModeValue('#EFEFEF', 'gray.800')
   const boxShadow = useColorModeValue(bsL, bsD)
   const colorScheme = useColorModeValue('primary', 'secondary')
 
@@ -205,6 +205,8 @@ const Reveal: React.FC<{ leftSelectedWord: Word }> = ({ leftSelectedWord }) => {
   const [timer, setTimer] = React.useState<any>(null)
   const [isLoading, setIsLoading] = React.useState<boolean>(false)
 
+  const boxShadow = useColorModeValue(bsL, bsD)
+
   React.useEffect(() => {
     if (timer !== null)
       clearTimeout(timer)
@@ -231,6 +233,7 @@ const Reveal: React.FC<{ leftSelectedWord: Word }> = ({ leftSelectedWord }) => {
       fontWeight="bold"
       colorScheme={'blue'}
       borderRadius={0} p={4}
+      boxShadow={boxShadow}
       isLoading={isLoading}
     >
       {val}
@@ -249,11 +252,8 @@ interface WordCardProps {
 
 const WordCard: React.FC<WordCardProps> = (props) => {
   const { word, lang } = props
-  const color = useColorModeValue('gray.800', 'gray.50')
-  const borderColor = useColorModeValue('black', 'white')
-  const bg = useColorModeValue('gray.50', 'gray.800')
-  const bgPop = useColorModeValue('gray.100', 'gray.700')
-  const hoverBg = useColorModeValue('success.400', 'success.600')
+  const bgPop = useColorModeValue('#EFEFEF', 'gray.800')
+  const hoverBg = useColorModeValue('success.200', 'success.700')
   const boxShadow = useColorModeValue(bsL, bsD)
   const colorScheme = useColorModeValue('primary', 'secondary')
 
@@ -324,11 +324,8 @@ const StatCard: React.FC = () => {
     return `${s}.${ms__}s`
   }
 
-  const color = useColorModeValue('gray.800', 'gray.50')
-  const borderColor = useColorModeValue('black', 'white')
-  const bg = useColorModeValue('gray.50', 'gray.800')
+  const bg = useColorModeValue('#EFEFEF', 'gray.800')
   const boxShadow = useColorModeValue(bsL, bsD)
-  const colorScheme = useColorModeValue('primary', 'secondary')
 
   return (
     <Box
@@ -336,7 +333,7 @@ const StatCard: React.FC = () => {
       p={4}
       shadow="md"
       border={'1px solid #000000ff'}
-      bg={useColorModeValue('gray.100', 'gray.700')}
+      bg={bg}
       boxShadow={boxShadow}
     >
       <VStack>

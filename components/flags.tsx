@@ -58,9 +58,13 @@ export const FlagEngland = () => {
 export const FlagButton: React.FC<{ callback: () => void }> = ({ callback }) => {
   const session = React.useContext(SessionContext)
 
+  const bg = useColorModeValue('#EFEFEF', 'gray.800')
+  const boxShadow = useColorModeValue(bsL, bsD)
+
   return (
     <Button onClick={callback}
-      boxShadow={useColorModeValue(bsL, bsD)}
+      bg={bg}
+      boxShadow={boxShadow}
       borderColor={useColorModeValue('gray.200', 'gray.900')}
     >
       {session.language === 'en' && <FlagEngland />}
