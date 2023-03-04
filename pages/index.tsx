@@ -8,17 +8,14 @@ import {
   DrawerContent,
   DrawerCloseButton,
   useDisclosure,
-  useColorMode,
   useColorModeValue,
   HStack
 } from '@chakra-ui/react'
-import { ViewIcon, ViewOffIcon, AtSignIcon } from '@chakra-ui/icons'
 import Header from '@/components/header'
 import cookies from 'js-cookie'
 import { MdBackupTable, MdPersonOutline } from 'react-icons/md'
 import { VscDebugStart } from 'react-icons/vsc'
 import { ChapterDisplay } from '../components/chapterDisplay'
-import { FlagButton, FlagNorway } from '../components/flags'
 import { SessionContext, SetSessionContext, defaultSessionValue } from '../lib/contexts'
 import { useRouter } from 'next/router'
 import { getAllChapter, bsL, bsD} from '@/lib/utils'
@@ -37,7 +34,6 @@ export default function Home(props: any) {
   const setSession = React.useContext(SetSessionContext)
   const router = useRouter()
   const toast = useToast()
-  const { user, logout } = useUser()
   const { isOpen, onOpen, onClose } = useDisclosure()
   const [nbWords, setNbWords] = React.useState<number>(0)
   const [isLoading, setIsLoading] = React.useState<boolean>(false)
