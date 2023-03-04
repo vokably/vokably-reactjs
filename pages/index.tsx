@@ -1,6 +1,6 @@
 import * as React from 'react'
 import {
-  Box, Text, Button, VStack, IconButton, Tooltip, Tag, Flex, useToast, Wrap, Spacer, Heading,
+  Box, Text, Button, VStack, IconButton, Link, Tag, Flex, useToast, Wrap, Spacer, Heading,
   Drawer,
   DrawerBody,
   DrawerHeader,
@@ -12,7 +12,9 @@ import {
   useColorModeValue,
   HStack
 } from '@chakra-ui/react'
-import { ViewIcon, ViewOffIcon } from '@chakra-ui/icons'
+import { ViewIcon, ViewOffIcon, AtSignIcon } from '@chakra-ui/icons'
+import Header from '@/components/header'
+import cookies from 'js-cookie'
 import { MdBackupTable, MdPersonOutline } from 'react-icons/md'
 import { VscDebugStart } from 'react-icons/vsc'
 import { ChapterDisplay } from '../components/chapterDisplay'
@@ -21,6 +23,7 @@ import { SessionContext, SetSessionContext, defaultSessionValue } from '../lib/c
 import { useRouter } from 'next/router'
 import { getAllChapter, bsL, bsD} from '@/lib/utils'
 import { Chapter, Word} from '@/lib/types'
+import { useUser } from '@/lib/firebase/useUser'
 
 
 const languages = new Map<string, string>([
@@ -34,10 +37,20 @@ export default function Home(props: any) {
   const setSession = React.useContext(SetSessionContext)
   const router = useRouter()
   const toast = useToast()
+  const { user, logout } = useUser()
   const { isOpen, onOpen, onClose } = useDisclosure()
   const [nbWords, setNbWords] = React.useState<number>(0)
   const [isLoading, setIsLoading] = React.useState<boolean>(false)
   const [allChapter, setAllChapter] = React.useState<Chapter[]>(props.allChapter)
+
+  React.useEffect(() => {
+    // Check if the user is logged in
+    // by checking if the cookie is set
+    const _user = cookies.get('auth')
+    if (_user === undefined) {
+      router.push('/signin')
+    }
+  }, [])
 
   React.useEffect(() => {
     setIsLoading(true)
@@ -51,7 +64,7 @@ export default function Home(props: any) {
     .then((res) => {
       if (res.status !== 200) {
         console.error(`Error ${res.status}: ${res.statusText}`)
-        onChangeLanguage()
+        // onChangeLanguage()
       }
 
       return res.json()
@@ -105,14 +118,6 @@ export default function Home(props: any) {
     onClose()
   }
 
-  const onChangeLanguage = () => {
-    if (session.language === "en") {
-      router.push(`/?lang=uk`, undefined, { shallow: true })  // we want to refetch the data
-    } else {
-      router.push(`/?lang=en`, undefined, { shallow: true })  // we want to refetch the data
-    }
-  }
-
   const bg = useColorModeValue('#EFEFEF', 'gray.800')
   const boxShadow = useColorModeValue(bsL, bsD)
   const colorScheme = useColorModeValue('primary', 'secondary')
@@ -129,30 +134,7 @@ export default function Home(props: any) {
         mx='auto'
         border='2px'
       >
-        <Flex
-          w='full'
-          px={8}
-          py={4}
-          borderBottom={'2px'}
-          my={'auto'}
-        >
-          <Box>
-            <FlagButton callback={onChangeLanguage}/>
-          </Box>
-          <Spacer />
-          {/* <Text> 123 words learnt</Text>
-          <Spacer />
-          <IconButton bg={'primary'} borderRadius='full' aria-label="Table" icon={<MdPersonOutline size={24} />} size="sm" onClick={() => { }} /> */}
-
-          {/* Create a button that change the color theme from light to dark */}
-          <IconButton 
-            aria-label='Toggletheme'
-            icon={useColorModeValue(<ViewIcon />, <ViewOffIcon />)}
-            onClick={useColorMode().toggleColorMode}
-            boxShadow={boxShadow}
-            colorScheme={colorScheme}
-          />
-        </Flex>
+        <Header />
 
         <VStack
           spacing={4}
