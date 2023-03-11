@@ -1,7 +1,6 @@
 import { db } from '@/lib/firebase/initFirebase'
 import { doc, setDoc, Timestamp, GeoPoint } from "firebase/firestore"
 import { useUser } from '@/lib/firebase/useUser'
-import Button from 'react-bootstrap/Button'
 
 const WriteToCloudFirestore = () => {
     const { user } = useUser()

@@ -15,12 +15,12 @@ import Header from '@/components/header'
 import cookies from 'js-cookie'
 import { MdBackupTable, MdPersonOutline } from 'react-icons/md'
 import { VscDebugStart } from 'react-icons/vsc'
-import { ChapterDisplay } from '../components/chapterDisplay'
-import { SessionContext, SetSessionContext, defaultSessionValue } from '../lib/contexts'
+import { ChapterDisplay } from '@/components/chapterDisplay'
+import { SessionContext, SetSessionContext, defaultSessionValue } from '@/lib/contexts'
+import { SetLearningSessionContext, defaultLearningSession} from '@/lib/contexts'
 import { useRouter } from 'next/router'
 import { getAllChapter, bsL, bsD} from '@/lib/utils'
 import { Chapter, Word} from '@/lib/types'
-import { useUser } from '@/lib/firebase/useUser'
 
 
 const languages = new Map<string, string>([
@@ -32,6 +32,7 @@ const languages = new Map<string, string>([
 export default function Home(props: any) {
   const session = React.useContext(SessionContext)
   const setSession = React.useContext(SetSessionContext)
+  const setLearningSession = React.useContext(SetLearningSessionContext)
   const router = useRouter()
   const toast = useToast()
   const { isOpen, onOpen, onClose } = useDisclosure()
@@ -105,6 +106,12 @@ export default function Home(props: any) {
 
 
   const startSession = async () => {
+    setLearningSession({
+      ...defaultLearningSession,
+      startDate: new Date(),
+      loadedChapter: session.selectedChapter,
+      nbUniqueWord: nbWords,
+    })
     router.push("/cross")
     onClose()
   }
@@ -130,6 +137,15 @@ export default function Home(props: any) {
         mx='auto'
         border='2px'
       >
+        <Box
+          bg={useColorModeValue('yellow.400', 'yellow.600')}
+          w='full'
+          fontWeight={'bold'}
+          fontSize={'1.2em'}
+          p={4}
+        >
+          This is Work in Progress
+        </Box>
         <Header />
 
         <VStack

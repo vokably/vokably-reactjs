@@ -56,7 +56,7 @@ const Header: FC = () => {
       />
       <Spacer />
 
-      <Link href="/signin">
+      <Link href="/">
         <IconButton
           aria-label='Start session'
           icon={<AtSignIcon />}
