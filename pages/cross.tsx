@@ -4,11 +4,14 @@ import {
   useColorMode, IconButton
 } from '@chakra-ui/react'
 import { ViewIcon, ViewOffIcon } from '@chakra-ui/icons'
-import { SessionContext, SetSessionContext } from '../lib/contexts'
+import { SessionContext, SetSessionContext } from '@/lib/contexts'
+import { LearningSessionContext, SetLearningSessionContext } from '@/lib/contexts'
 import { zip, shuffleArray } from '@/lib/utils'
 import { Word, nullWord } from '@/lib/types'
 import { bsL, bsD } from '@/lib/utils'
-import Link from 'next/link'
+import saveLearningSession from '@/lib/firebase/firestore/writeLearningSession';
+import { Router, useRouter } from 'next/router'
+import { useUser } from '@/lib/firebase/useUser'
 
 
 interface WordPairs {
@@ -20,7 +23,12 @@ interface WordPairs {
 export default function Home() {
   const session = React.useContext(SessionContext)
   const setSession = React.useContext(SetSessionContext)
+  const learningSession = React.useContext(LearningSessionContext)
+  const setLearningSession = React.useContext(SetLearningSessionContext)
+  const { user, logout } = useUser()
+  const router = useRouter()
 
+  const [isSaving, setIsSaving] = React.useState<boolean>(false)
   const [allWords, setAllWords] = React.useState<Word[]>([])
   const [wordsLoaded, setWordsLoaded] = React.useState<boolean>(false)
   const [wordPairs, setWordPairs] = React.useState<WordPairs>({ left: [], right: [] })
@@ -30,11 +38,9 @@ export default function Home() {
   const [rightSelectedWord, setRightSelectedWord] = React.useState<Word>(nullWord)
 
   const color = useColorModeValue('gray.800', 'gray.50')
-  const borderColor = useColorModeValue('black', 'white')
   const bg = useColorModeValue('#EFEFEF', 'gray.800')
   const boxShadow = useColorModeValue(bsL, bsD)
   const colorScheme = useColorModeValue('primary', 'secondary')
-
 
   React.useEffect(() => {
     if (!wordsLoaded) {
@@ -68,11 +74,14 @@ export default function Home() {
       if (leftSelectedWord.a && rightSelectedWord.b) {
         // compute the response time (exception if first time)
         let responseTime = session.responseTime
+        let duration = 0
         if (startTime !== -1) {
           const endTime = performance.now()
-          const duration = endTime - startTime
+          duration = endTime - startTime
           responseTime = [...session.responseTime, duration]
           setStartTime(endTime)  // As soon as the user select the right word, we reset the start time
+        } else {
+          setStartTime(performance.now())
         }
 
         // check if the words match
@@ -122,9 +131,39 @@ export default function Home() {
           responseTime: responseTime,
           wordHistory: wordHistory
         })
+
+        // update the learning session
+        const answer = {
+          word: {a: leftSelectedWord, b: rightSelectedWord},
+          isCorrect: leftSelectedWord.a === rightSelectedWord.a,
+          responseTime: duration
+        }
+
+        setLearningSession({
+          ...learningSession,
+          answers: [...learningSession.answers, answer]
+        })
       }
     }, 250)
   }, [leftSelectedWord, rightSelectedWord])
+
+
+  const finishSession = async () => {
+    setIsSaving(true)
+
+    setLearningSession({
+      ...learningSession,
+      endDate: new Date(),
+    })
+
+    if (user !== undefined) {
+      await saveLearningSession(user, learningSession)
+    }
+
+    setIsSaving(false)
+
+    router.push(`/?lang=${session.language}`)
+  }
 
   return (
     // build the left and right columns
@@ -147,11 +186,14 @@ export default function Home() {
 
             <Spacer />
 
-            <Link href={`/?lang=${session.language}`}>
-              <Button colorScheme="red" variant="outline">
-                Finish
-              </Button>
-            </Link>
+            <Button
+              colorScheme="red"
+              variant="outline"
+              onClick={finishSession}
+              isLoading={isSaving}
+            >
+              Finish
+            </Button>
 
             <Spacer />
 
@@ -172,14 +214,12 @@ export default function Home() {
                 return (
                   <HStack key={i} w='full' spacing={6} justify='space-between'>
                     <WordCard
-                      key={i}
                       word={left}
                       lang={'a'}
                       selectedWord={leftSelectedWord}
                       setSelectedWord={setLeftSelectedWord}
                     />
                     <WordCard
-                      key={i}
                       word={right}
                       lang={'b'}
                       selectedWord={rightSelectedWord}
@@ -191,14 +231,12 @@ export default function Home() {
                 return (
                   <HStack key={i} w='full' spacing={6} justify='space-between'>
                     <WordCard
-                      key={i}
                       word={right}
                       lang={'b'}
                       selectedWord={rightSelectedWord}
                       setSelectedWord={setRightSelectedWord}
                     />
                     <WordCard
-                      key={i}
                       word={left}
                       lang={'a'}
                       selectedWord={leftSelectedWord}
@@ -277,7 +315,6 @@ const WordCard: React.FC<WordCardProps> = (props) => {
   const bgPop = useColorModeValue('#EFEFEF', 'gray.800')
   const hoverBg = useColorModeValue('success.200', 'success.700')
   const boxShadow = useColorModeValue(bsL, bsD)
-  const colorScheme = useColorModeValue('primary', 'secondary')
 
   const toggleSelectedWord = () => {
     if (props.selectedWord.a === word.a) {

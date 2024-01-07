@@ -1,4 +1,5 @@
-import { useEffect, useState, useRef } from 'react';
+import { useEffect, useContext, useState, useRef } from 'react';
+import { LearningSessionContext, SetLearningSessionContext } from './contexts';
 
 export function useStateWithLocalStorage<T>(key: string, initialValue: T): [T, React.Dispatch<React.SetStateAction<T>>] {
   const initialCall = useRef(true);
@@ -25,4 +26,12 @@ export function useStateWithLocalStorage<T>(key: string, initialValue: T): [T, R
   }, [value, key]);
 
   return [value, setValue];
+}
+
+
+export const useLearningSession = () => {
+  const learningSession = useContext(LearningSessionContext);
+  const setLearningSession = useContext(SetLearningSessionContext);
+
+  return [learningSession, setLearningSession];
 }

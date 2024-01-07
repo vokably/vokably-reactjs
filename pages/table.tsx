@@ -21,6 +21,7 @@ import { bsL, bsD } from '@/lib/utils'
 export default function WordTable() {
   const toast = useToast();
   const session = React.useContext(SessionContext);
+  const setSession = React.useContext(SetSessionContext);
   const router = useRouter();
 
   const [page, setPage] = useStateWithLocalStorage<number>('page', 0);
@@ -179,6 +180,26 @@ export default function WordTable() {
             {displayWords.map((w, index) => <TableRow key={index} word={w} hide={isHidden} mirrorView={mirrorView} />)}
           </Tbody>
         </Table>
+      </Box>
+
+      <Box px={8}>
+        <Button mx={'auto'} w='full' colorScheme={'secondary'}
+          onClick={() => {
+            // Remove words that are not in the displayed page from the session
+            const newSelectedChapter = session.selectedChapter
+            newSelectedChapter[0].words = displayWords
+            setSession({
+              ...session,
+              selectedChapter: newSelectedChapter
+            })
+
+            // Go to the training page
+            router.push('/cross')
+
+          }}
+        >
+          Train on that page
+        </Button>
       </Box>
 
       <Box p={8}>

@@ -1,38 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Vokably.com
 
-## Getting Started
+Vokably is a "basic" Vocabulary training app that I develop on my free time.
 
-First, run the development server:
+It is originaly design for english speaker to learn norwegian
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+I then upgrade it for ukrainian speaker to learn norwegian
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# TODO
+I believe it is important to track the ideas I have to improve the app. Ultimately I would like people to be able to track their improvement. Meaning that they can:
+- Check the number of word they have learnt since they start using the app
+- Check total number of word they have seen
+- Make custom learning session to train on the words they make most mistake
+- Check their global average answer time or for specific session
+- Have grade / badge depending on their advancement on the vocabulary list
+- Track the time they spend on the app
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+However to be able to da that, I will need to add two very important features:
+- An user login system to store user statistics somewhere else than in the localStorage
+- An user dashboard screen
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Ultimately, I would like to also have an Mobile App, Hence I am thinking to use the Firebase Baas (Backend As A Service)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## TODO
+- [ ] Implement the learning session on local storage first
+    - [ ] React Context to current store learning session information
+    - [ ] Basic screen to visualize independant and global learning session
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- [ ] Implement the backend
+    - [ ] Implement a sign in / sign up page (Firebase Authentification)
+    - [ ] Add learning session cloud storage (Cloud Firestore)
+    - [ ] Implement the user Dashboard to monitor user statistics
+    - [ ] Implement landing page for the web version
 
-## Learn More
+## Exercice
+There is only two mode so far:
+1. `cross`: A classic exercice inspired from Duolinguo, were you are presented with two column of 5 words and you need to match them together.
+2. `table`: A basic table to display each word and their translation. The user can hide / display the translation in order to practice by himself.
 
-To learn more about Next.js, take a look at the following resources:
+## Statistics
+> :warning: This is my own personnal asumption, and could be completly wrong. Once I have more data, I will definitly consolidate those theories
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. I consider a word being learn when I have succesfully translate (in `cross`) 5 times the same words. If I make a mistake, the counter is reset to 0 and the word is "unlearnt"
+2. The response time is also something important. By response time I mean the time taken to match to words together
+    - \> 5 seconds: The word is not learn (I used the help)
+    - \> 2 seconds < 5: The word is learn but not usable in conversation (need to think of the translation)
+    - < 2 seconds: The word is learn and totally usable in conversation
+    - < 1 second: The word is completely learnt and the translation is like a reflex (fluent level)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
