@@ -64,13 +64,6 @@ export default function Home() {
       // thread safe, so we need to do it in one useEffect
       let nbGoodAnswers = session.nbGoodAnswers
       let nbBadAnswers = session.nbBadAnswers
-      const _a = leftSelectedWord
-      const _b = rightSelectedWord
-
-      // The user have just selected the left word
-      if ((_a.b && !_b.b) || (_a.b && _b.b)) {
-        setStartTime(performance.now())
-      }
 
       if (leftSelectedWord.a && rightSelectedWord.b) {
         // compute the response time (exception if first time)
